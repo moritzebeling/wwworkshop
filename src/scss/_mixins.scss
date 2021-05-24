@@ -30,6 +30,22 @@ $mono: 'Space Mono', monospace;
 	font-family: $mono;
 }
 
+@mixin bold {
+	font-weight: 600;
+}
+
+@mixin italic {
+	font-style: italic;
+}
+
+/* borders */
+
+$border-width: 2px;
+@mixin border ( $color: currentColor ) {
+	padding-bottom: 0.5rem;
+	border-bottom: $border-width solid $color;
+}
+
 /* typography */
 
 @mixin large {
@@ -44,12 +60,17 @@ $mono: 'Space Mono', monospace;
 
 @mixin normal {
 	font-size: 1rem;
-	line-height: 1.4;
+	line-height: 1.5;
 }
 
 @mixin small {
 	font-size: 0.8rem;
 	line-height: 1.4;
+}
+
+@mixin uppercase {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
 }
 
 /* ui */

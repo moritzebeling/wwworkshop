@@ -27,7 +27,6 @@
 
 	<aside class="blue text-white">
 		<div class="sidebar">
-			<h3>Table of contents</h3>
 			<nav>
 			{#each posts as post}
 				<a aria-current="{$page.path === post.path ? 'page' : ''}" sveltekit:prefetch href={post.path}>{post.title}</a>
@@ -58,6 +57,9 @@
 		.sidebar {
 			position: sticky;
 			top: 4.5rem;
+		}
+		h3 {
+			@include border;
 		}
 	}
 	nav a {

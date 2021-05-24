@@ -7,16 +7,20 @@
     }
 
     h1, h2, h3, h4, h5, h6, strong {
-        font-weight: 700;
+        @include bold;
     }
 
     h1, h2, h3, p, pre, ul, ol {
         margin: 0.5rem 0;
     }
 
+    ul, ol, blockquote, iframe, figure, pre {
+        margin: 1rem 0;
+    }
+
     ol, ul {
         li {
-            margin: 0.5rem 0;
+            margin: 0.25rem 0;
         }
     }
 
@@ -29,13 +33,12 @@
     }
 
     h1, h2, h3 {
-        padding-bottom: 0.5rem;
-        border-bottom: 2px solid $grey;
+        @include border( $grey );
     }
 
     hr {
         background-color: $grey;
-        height: 2px;
+        height: $border-width;
         border-radius: 3px;
         margin: 3rem 0;
     }
@@ -69,16 +72,30 @@
     blockquote {
         background-color: $yellow;
         padding: 0.001rem 0.8rem;
-        border-radius: 0.3em;
+        border-radius: 0.5em;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .grid {
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: 50% 50%;
         margin: 1rem 0;
+        > div {
+            background-color: #fff;
+            padding: 0.4rem 0.8rem 0.5em;
+            border-radius: 0.5rem;
+        }
     }
 
 }
 
 pre,
 code {
-    background-color: $grey;
-    border-radius: 0.3em;
+    background-color: rgba(0,0,0,0.05);
     font-feature-settings: "liga" 0;
 }
 
@@ -86,16 +103,19 @@ code {
     padding: 0 0.4em 0.1em;
     margin: 0 0.1em 0 0;
     font-size: 0.9em;
+    border-radius: 0.3em;
 }
 
 pre {
     padding: 0.4rem 0.8rem 0.5em;
     overflow-x: auto;
     font-size: 0.9em;
+    border-radius: 0.5em;
     code {
         background-color: transparent;
         padding: 0;
         margin: 0;
         font-size: inherit;
+        border-radius: unset;
     }
 }

@@ -32,8 +32,7 @@
 
 	h1 {
 		margin: 0 0.3em;
-		text-transform: uppercase;
-		letter-spacing: 0.05em;
+		@include uppercase;
 	}
 
 	a {

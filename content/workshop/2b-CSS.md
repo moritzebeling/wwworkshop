@@ -1,13 +1,14 @@
 ---
-title: CSS
+title: What is CSS?
 ---
 
-# CSS Cascading Style Sheets
+# What is CSS?
 
-CSS is a method to assign styles to structured content like HTML. This allows you to seperate the appeareance from the actual content.
-More on [Wikipedia](https://en.wikipedia.org/wiki/CSS)
+**Cascading Style Sheets** is a technology to assign styles to structured content like HTML. This allows you to seperate the appeareance from the actual content.
 
-## 🛷 Basics
+- [Wikipedia](https://en.wikipedia.org/wiki/CSS)
+
+## Syntax
 
 ```css
 selector {
@@ -16,20 +17,21 @@ selector {
 }
 ```
 
-### Selectors
-The most important selectors are:
+## Selectors
+The most important **selectors** are:
 - `*` select all
-- `tagname` select elements by tag name
+- `tag` select elements by tag name
 - `.class` select elements by class name
-- `#id` select element**s** by id
+- `#id` select elements by id
 - `:pseudo` select elements that are in a special state like `:hover`, or pseudo children like `:before`
 - `[attr]` select elements that have a given attribute
+
+And then there are **combinators**:
 - `parent descendant` select elements inside some other elements
 - `parent > child` select elements that are direct children of given parent elements
 - `element1 + element2` select elements that directly follow some other elements
 - `element1 ~ element2` select elements that eventually follow some other elements
-- `element1, element2` combine multiple selectors
-- `element:lang(de)` select elements that have a `lang="de"` attribute
+- `element1, element2` apply the same rules to all those elements
 
 Learn more:
 - [Full list of CSS Selectors](https://www.w3schools.com/cssref/css_selectors.asp)
@@ -76,14 +78,16 @@ Learn more:
 
 ### Colors
 You can define colors in a few different ways, eg:
-- `blue` there are 140 [default colors](https://www.w3schools.com/cssref/css_colors.asp) with names like `azure`, `mintcream` and `springgreen`
+- `blue` there are 140 [default colors](https://www.w3schools.com/cssref/css_colors.asp)
 - `currentColor` current or inherited text color
-- `#00f` 4-bit hex (`0` = `0`, `9` = `127`, `f` = `255`)
 - `#0000ff` 8-bit hex (`00` = `0`, `99` = `127`, `ff` = `255`)
-- `rgb( 0, 0, 255)`
-- `rgba( 0, 0, 255, 0.5)` with opacity between `0` and `1`
-- `hsl( 240, 100%, 50%)` (hue, saturation, lightness)
-- `cmyk( 100, 100, 0, 0)`
+
+<div class="grid">
+    <div class="blue flex-spread">Blue <span class="mono">#0079ff</span></div>
+    <div class="green flex-spread">Green <span class="mono">#00d098</span></div>
+    <div class="violet flex-spread">Violet <span class="mono">#ab48ff</span></div>
+    <div class="yellow flex-spread">Yellow <span class="mono">#ffe47a</span></div>
+</div>
 
 Read more:
 - [w3schools](https://www.w3schools.com/colors/default.asp)
