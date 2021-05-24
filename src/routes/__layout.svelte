@@ -1,6 +1,7 @@
 <script>
 	import Header from '$lib/Header/index.svelte';
 	import '../scss/global.scss';
+	import 'highlight.js/styles/github.css';
 </script>
 
 <svelte:head>

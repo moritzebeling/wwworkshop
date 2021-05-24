@@ -13,6 +13,10 @@
     "eslint": "^7.22.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-svelte3": "^3.2.0",
+    "glob": "^7.1.7",
+    "gray-matter": "^4.0.3",
+    "marked": "^2.0.5",
+    "mz": "^2.7.0",
     "node-sass": "^6.0.0",
     "prettier": "~2.2.1",
     "prettier-plugin-svelte": "^2.2.0",
@@ -24,9 +28,6 @@
   "dependencies": {
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1",
-    "glob": "^7.1.7",
-    "gray-matter": "^4.0.3",
-    "marked": "^2.0.5",
-    "mz": "^2.7.0"
+    "highlight.js": "^10.7.2"
   }
 }

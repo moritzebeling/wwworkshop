@@ -66,12 +66,20 @@
         list-style-position: inside;
     }
 
+    blockquote {
+        background-color: $yellow;
+        padding: 0.001rem 0.8rem;
+        border-radius: 0.3em;
+        margin: 1rem 0;
+    }
+
 }
 
 pre,
 code {
     background-color: $grey;
     border-radius: 0.3em;
+    font-feature-settings: "liga" 0;
 }
 
 code {
@@ -81,7 +89,7 @@ code {
 }
 
 pre {
-    padding: 0.4rem 0.7rem 0.5em;
+    padding: 0.4rem 0.8rem 0.5em;
     overflow-x: auto;
     font-size: 0.9em;
     code {
