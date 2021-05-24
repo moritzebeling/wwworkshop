@@ -1,0 +1,93 @@
+@import 'mixins';
+
+.markdown {
+
+    h1 {
+        @include large;
+    }
+
+    h1, h2, h3, h4, h5, h6, strong {
+        font-weight: 700;
+    }
+
+    h1, h2, h3, p, pre, ul, ol {
+        margin: 0.5rem 0;
+    }
+
+    ol, ul {
+        li {
+            margin: 0.5rem 0;
+        }
+    }
+
+    h1, h2 {
+        margin-top: 2rem;
+    }
+
+    h3, h4, h5 {
+        margin-top: 1rem;
+    }
+
+    h1, h2, h3 {
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid $grey;
+    }
+
+    hr {
+        background-color: $grey;
+        height: 2px;
+        border-radius: 3px;
+        margin: 3rem 0;
+    }
+
+    > *:first-child {
+        margin-top: 0;
+    }
+
+    a {
+        text-decoration: underline;
+        color: $blue;
+        @include transition;
+        &:hover {
+            color: $violet;
+        }
+    }
+
+    ol {
+        list-style: decimal;
+    }
+    ul {
+        list-style: disc;
+        li {
+            padding-left: 0.1em;
+        }
+    }
+    ol, ul {
+        list-style-position: inside;
+    }
+
+}
+
+pre,
+code {
+    background-color: $grey;
+    border-radius: 0.3em;
+}
+
+code {
+    padding: 0 0.4em 0.1em;
+    margin: 0 0.1em 0 0;
+    font-size: 0.9em;
+}
+
+pre {
+    padding: 0.4rem 0.7rem 0.5em;
+    overflow-x: auto;
+    font-size: 0.9em;
+    code {
+        background-color: transparent;
+        padding: 0;
+        margin: 0;
+        font-size: inherit;
+    }
+}

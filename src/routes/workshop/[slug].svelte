@@ -31,10 +31,10 @@
 	<title>{page.title}</title>
 </svelte:head>
 
-<section>
+<section class="markdown">
 	{@html page.content}
 </section>
 
-<style>
+<style lang="scss">
 
 </style>

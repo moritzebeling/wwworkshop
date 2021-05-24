@@ -25,7 +25,7 @@
 
 <div class="wrapper">
 
-	<aside>
+	<aside class="blue text-white">
 		<h3>Table of contents</h3>
 		<nav>
 		{#each posts as post}
@@ -40,20 +40,36 @@
 
 </div>
 
-<style>
+<style lang="scss">
 
 	.wrapper {
 		display: grid;
-		grid-template-columns: 2fr 1fr;
-		gap: 4rem;
-		padding: 4rem;
+		grid-template-columns: 70% 30%;
+
+	}
+	article {
+		padding: 3rem;
 	}
 	aside {
+		padding: 3rem 1.5rem;
 		order: 2;
+		font-weight: 700;
 	}
 	nav a {
 		display: block;
 		margin: 0.5rem 0;
+		&[aria-current=page]{
+			color: $yellow;
+			&:before {
+				content: '';
+				display: inline-block;
+				width: 0.7em;
+				height: 0.7em;
+				margin-right: 0.3em;
+				border-radius: 100%;
+				background-color: currentColor;
+			}
+		}
 	}
 
 

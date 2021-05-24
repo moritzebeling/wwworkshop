@@ -1,0 +1,72 @@
+/* colors */
+
+$white: #f0f0f0;
+$black: #222222;
+$grey: #dddddd;
+$blue: #0079ff;
+$green: #00d098;
+$violet: #ab48ff;
+$yellow: #ffe47a;
+
+$colors: (
+	"white": $white,
+	"black": $black,
+	"grey": $grey,
+	"blue": $blue,
+	"green": $green,
+	"violet": $violet,
+	"yellow": $yellow,
+);
+
+/* fonts */
+
+@mixin regular {
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+@mixin mono {
+	font-family: 'Space Mono', monospace;
+}
+
+/* typography */
+
+@mixin large {
+	font-size: 2rem;
+	line-height: 1.2;
+}
+
+@mixin medium {
+	font-size: 1.5rem;
+	line-height: 1.4;
+}
+
+@mixin normal {
+	font-size: 1rem;
+	line-height: 1.4;
+}
+
+@mixin small {
+	font-size: 0.8rem;
+	line-height: 1.4;
+}
+
+/* ui */
+
+@mixin button {
+	border-radius: 2rem;
+	padding: 0.2em 0.7em;
+	@include transition();
+	&[aria-current=page],
+	&:hover {
+		background-color: $yellow;
+		color: $green;
+	}
+}
+
+/* effects */
+
+@mixin transition( $property: color background-color, $duration: 300ms ) {
+	transition-property: $property;
+	transition-duration: $duration;
+	transition-timing-function: ease;
+}

@@ -14,7 +14,7 @@
 
 </main>
 
-<style>
+<style lang="scss">
 	main {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(400px, auto));

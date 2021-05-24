@@ -51,7 +51,7 @@ p a {
 ul, ol {
 	width: 100%;
 }
-ul, ol, li {
+ul, ol {
 	list-style: none;
 }
 
@@ -155,41 +155,4 @@ table {
 }
 :focus {
   outline: 0;
-}
-
-
-
-
-
-
-
-
-
-:root {
-	--color-white: #f0f0f0;
-	--color-black: #222222;
-	--color-blue: #0079ff;
-	--color-green: #00d098;
-	--color-violet: #ab48ff;
-	--color-yellow: #ffe47a;
-}
-
-html {
-	font-family: 'Space Grotesk', sans-serif;
-	font-size: 16px;
-	background-color: var(--color-white);
-}
-
-.mono, pre, code {
-	font-family: 'Space Mono', monospace;
-}
-
-a.button {
-	border-radius: 2rem;
-	padding: 0.4em 0.6em;
-	transition: background-color 300ms ease;
-}
-a.button:hover,
-a.button[aria-current=page] {
-	background-color: var(--color-blue);
 }

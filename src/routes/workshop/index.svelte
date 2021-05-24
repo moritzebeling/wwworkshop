@@ -33,12 +33,5 @@
 
 <h1>Welcome</h1>
 
-<style>
-	main {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(400px, auto));
-	}
-	section {
-		border: 1px solid #000;
-	}
+<style lang="scss">
 </style>
