@@ -10,6 +10,14 @@ body {
 	color: $black;
 	@include normal;
 }
+#svelte {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	> main {
+		flex: 1;
+	}
+}
 
 ::selection {
 	background: $violet;

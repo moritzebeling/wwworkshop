@@ -10,10 +10,13 @@
     color: $value;
   }
 }
-@each $color, $value in $colors {
-  :root {
-    --color-#{$color}: $value;
+
+:root {
+  @each $color, $value in $colors {
+    --color-#{$color}: #{$value};
   }
+  --font-regular: #{$regular};
+  --font-mono: #{$mono};
 }
 
 .mono, pre, code {

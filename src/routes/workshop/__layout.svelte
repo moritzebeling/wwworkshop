@@ -23,37 +23,42 @@
 	export let posts;
 </script>
 
-<div class="wrapper">
+<main>
 
 	<aside class="blue text-white">
-		<h3>Table of contents</h3>
-		<nav>
-		{#each posts as post}
-			<a aria-current="{$page.path === post.path ? 'page' : ''}" sveltekit:prefetch href={post.path}>{post.title}</a>
-		{/each}
-		</nav>
+		<div class="sidebar">
+			<h3>Table of contents</h3>
+			<nav>
+			{#each posts as post}
+				<a aria-current="{$page.path === post.path ? 'page' : ''}" sveltekit:prefetch href={post.path}>{post.title}</a>
+			{/each}
+			</nav>
+		</div>
 	</aside>
 
 	<article>
 		<slot />
 	</article>
 
-</div>
+</main>
 
 <style lang="scss">
 
-	.wrapper {
+	main {
 		display: grid;
 		grid-template-columns: 70% 30%;
-
 	}
 	article {
 		padding: 3rem;
 	}
 	aside {
-		padding: 3rem 1.5rem;
+		padding: 1.5rem;
 		order: 2;
 		font-weight: 700;
+		.sidebar {
+			position: sticky;
+			top: 4.5rem;
+		}
 	}
 	nav a {
 		display: block;

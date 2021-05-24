@@ -6,12 +6,12 @@
 	<title>Home</title>
 </svelte:head>
 
-<section>
-	<h1>Home page</h1>
-</section>
+<main>
+	<h1>Hello world</h1>
+</main>
 
 <style lang="scss">
-	section {
+	main {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

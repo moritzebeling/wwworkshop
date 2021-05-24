@@ -2,14 +2,27 @@
 	export const prerender = true;
 </script>
 
+<script>
+
+	let colors = [
+		'blue', 'violet', 'green', 'yellow',
+		'blue', 'violet', 'green', 'yellow',
+		'blue', 'violet', 'green', 'yellow',
+		'blue', 'violet', 'green', 'yellow',
+		'blue', 'violet', 'green', 'yellow',
+		'blue', 'violet', 'green', 'yellow',
+	];
+
+</script>
+
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
 
 <main>
 
-	{#each (new Array(16)) as item}
-		<section>aaa</section>
+	{#each colors as color}
+		<section class="{color}"></section>
 	{/each}
 
 </main>
@@ -20,6 +33,6 @@
 		grid-template-columns: repeat(auto-fit, minmax(400px, auto));
 	}
 	section {
-		border: 1px solid #000;
+		height: 500px;
 	}
 </style>

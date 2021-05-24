@@ -2,7 +2,7 @@
 
 $white: #f0f0f0;
 $black: #222222;
-$grey: #dddddd;
+$grey: #e1e1e1;
 $blue: #0079ff;
 $green: #00d098;
 $violet: #ab48ff;
@@ -20,12 +20,14 @@ $colors: (
 
 /* fonts */
 
+$regular: 'Space Grotesk', sans-serif;
 @mixin regular {
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: $regular;
 }
 
+$mono: 'Space Mono', monospace;
 @mixin mono {
-	font-family: 'Space Mono', monospace;
+	font-family: $mono;
 }
 
 /* typography */

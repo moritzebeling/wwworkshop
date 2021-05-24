@@ -10,9 +10,7 @@
 
 <Header />
 
-<main>
-	<slot />
-</main>
+<slot />
 
 <footer class="violet text-yellow">
 	<p>© 2021</p>
@@ -20,6 +18,6 @@
 
 <style lang="scss">
 	footer {
-		padding: 1rem;
+		padding: 1rem 1.5rem;
 	}
 </style>
