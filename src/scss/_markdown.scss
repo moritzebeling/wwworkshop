@@ -91,6 +91,18 @@
         }
     }
 
+    table {
+        text-align: center;
+        border-spacing: 10px;
+        td {
+            border: 2px solid $white;
+            background-color: #fff;
+            border-radius: 0.5rem;
+            line-height: 1.1;
+            padding: 0.3rem 0.6em;
+        }
+    }
+
 }
 
 pre,

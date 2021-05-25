@@ -231,7 +231,7 @@ And of course
         url('/path/to/webfont.woff') format('woff');
 }
 ```
-- [More on Webfonts](Website-Typography.md)
+- [More on Webfonts](https://github.com/Klasse-Digitale-Grafik/tutorials/blob/main/Website-Typography.md)
 
 ## 🚨 Browser support and default values
 Not all rules and features are supported by all browsers. Some rules are even interpreted differently across browsers. Especially for new or fancy features, you should check for browser support:
@@ -279,7 +279,7 @@ There are several tools, that can help you to make your CSS work easier. Preproc
 - [SASS & SCSS](https://sass-lang.com)
 - [PostCSS](https://postcss.org)
 
-[SASS & SCSS Tutorial](SCSS.md)
+[SASS & SCSS Tutorial](https://github.com/Klasse-Digitale-Grafik/tutorials/blob/main/SCSS.md)
 
 ## 🧩 Frameworks
 When you don’t want to handle every edge case yourself, a CSS framework can help. This is especially helpful for grid systems, forms and user interfaces:
