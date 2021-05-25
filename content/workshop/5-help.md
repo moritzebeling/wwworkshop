@@ -26,7 +26,7 @@ But often, even small blog entries discuss common problems, that can be really h
 
 ## Read the code
 
-The first thing to do when you run into errors (e.g. after copying some code from the internet) is the read the code. Word by word, line by line. Often you quickly realize that you misspelled something or that the syntax is incorrect.
+The first thing to do when you run into errors (e.g. after copying some code from the internet) is to read the code. Word by word, line by line. Often you quickly realize that you misspelled something or that the syntax is incorrect.
 
 > Being able to read the code at all requires writing readable code in the first place. When naming things, try to pick descriptive names. It’s a good practice to imagining being a stranger looking at your code for the first time. Can you quickly understand it?
 

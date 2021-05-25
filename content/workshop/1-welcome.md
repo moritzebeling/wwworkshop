@@ -9,6 +9,9 @@ title: Welcome
 - Modern web browser like Chrome, Safari or Firefox
 - Install [Discord](https://discord.com) and create an account
 
+## Concept
+(To do)
+
 ## Timetable
 
 <table>
@@ -35,3 +38,6 @@ title: Welcome
         <td>Assignment 2</td>
     </tr>
 </table>
+
+## Links
+(To do)
