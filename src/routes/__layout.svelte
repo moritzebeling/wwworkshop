@@ -14,12 +14,11 @@
 <slot />
 
 <footer class="violet text-yellow">
-	<p>© 2021</p>
+	<p><a href="https://github.com/moritzebeling/wwworkshop" external target="_blank">GitHub</a></p>
 </footer>
 
 <style lang="scss">
 	footer {
 		padding: 1rem 1.5rem;
-		@include uppercase;
 	}
 </style>

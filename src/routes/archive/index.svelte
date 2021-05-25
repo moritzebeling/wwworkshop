@@ -4,9 +4,9 @@
 
 <script>
 
+	import Erists from '../../examples/er-ists.svelte';
+
 	let colors = [
-		'blue', 'violet', 'green', 'yellow',
-		'blue', 'violet', 'green', 'yellow',
 		'blue', 'violet', 'green', 'yellow',
 		'blue', 'violet', 'green', 'yellow',
 		'blue', 'violet', 'green', 'yellow',
@@ -22,7 +22,9 @@
 <main>
 
 	{#each colors as color}
-		<section class="{color}"></section>
+		<section>
+			<Erists background="{color}" />
+		</section>
 	{/each}
 
 </main>
@@ -33,6 +35,9 @@
 		grid-template-columns: repeat(auto-fit, minmax(400px, auto));
 	}
 	section {
-		height: 500px;
+		&:before {
+			content: '';
+			padding-top: 100%;
+		}
 	}
 </style>

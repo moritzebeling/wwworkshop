@@ -17,16 +17,15 @@ async function getCollection( pattern ){
 function readCollection( fileslist ){
   return Promise.all(
     fileslist.map(async file => {
-      const content = (await fs.readFile(file)).toString();
-      // return frontmatter dataset together with slug
-      return {...grayMatter(content).data, path: `/workshop/${path.parse(file).name}`};
+      /* HACK */
+      return file.replace(/^(content\/)/,"");
     }),
   );
 }
 
 export async function get() {
 
-	const files = await getCollection('workshop/*.md');
+	const files = await getCollection('archive/**/index.html');
   let contents = await readCollection( files );
 
 	return {

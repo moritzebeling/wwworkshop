@@ -2,7 +2,6 @@
 	import { page } from '$app/stores';
 
 	let pages = [
-		['/','Home'],
 		['/workshop','Workshop'],
 		['/archive','Archive'],
 	];
