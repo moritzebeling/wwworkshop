@@ -49,7 +49,7 @@ function readCollection( fileslist ){
 
 export async function get() {
 
-	const files = await getCollection('archive/**/index.html');
+	const files = await getCollection('examples/**/index.html');
   let contents = await readCollection( files );
 
 	return {

@@ -2,14 +2,14 @@
 	import { page } from '$app/stores';
 
 	let pages = [
-		['/workshop/1-welcome','Manual'],
-		['/archive','Archive'],
+		['/manual','Manual'],
+		['/examples','Examples'],
 	];
 
 </script>
 
 <header>
-	<h1><a sveltekit:prefetch href='/archive'>wwworkshop</a></h1>
+	<h1><a sveltekit:prefetch href='/'>wwworkshop</a></h1>
 	<nav>
 	{#each pages as [path, title]}
 		<a aria-current="{$page.path === path ? 'page' : ''}" sveltekit:prefetch href={path}>{title}</a>

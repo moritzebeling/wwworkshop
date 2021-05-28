@@ -25,7 +25,7 @@ export async function get( {params} ) {
 
   const { slug } = params;
 
-  const post = getPost(`workshop/${slug}`);
+  const post = getPost(`manual/${slug}`);
 
   const renderer = new marked.Renderer();
 

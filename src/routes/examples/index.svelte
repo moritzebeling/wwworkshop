@@ -6,7 +6,7 @@
 	export const prerender = true;
 
 	export async function load({ page, fetch, session, context }) {
-		const url = `/archive.json`;
+		const url = `/examples.json`;
 		const res = await fetch(url);
 		if (res.ok) {
 			return {

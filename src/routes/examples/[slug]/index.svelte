@@ -5,7 +5,7 @@
 	export const prerender = true;
 
 	export async function load({ page, fetch, session, context }) {
-		const url = `/archive/${page.params.slug}.json`;
+		const url = `/examples/${page.params.slug}.json`;
 		const res = await fetch(url);
 		if (res.ok) {
 			return {

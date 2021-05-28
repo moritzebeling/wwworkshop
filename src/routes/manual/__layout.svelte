@@ -6,7 +6,7 @@
 	export const prerender = true;
 
 	export async function load({ page, fetch, session, context }) {
-		const url = `/workshop.json`;
+		const url = `/manual.json`;
 		const res = await fetch(url);
 		if (res.ok) {
 			return {

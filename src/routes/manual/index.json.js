@@ -19,14 +19,14 @@ function readCollection( fileslist ){
     fileslist.map(async file => {
       const content = (await fs.readFile(file)).toString();
       // return frontmatter dataset together with slug
-      return {...grayMatter(content).data, path: `/workshop/${path.parse(file).name}`};
+      return {...grayMatter(content).data, path: `/manual/${path.parse(file).name}`};
     }),
   );
 }
 
 export async function get() {
 
-	const files = await getCollection('workshop/*.md');
+	const files = await getCollection('manual/*.md');
   let contents = await readCollection( files );
 
 	return {

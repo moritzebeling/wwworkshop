@@ -16,7 +16,7 @@ function getFile( fileName ){
 };
 
 function getMarkdown( slug ){
-  const md = getFile( `/archive/${slug}/index.md` );
+  const md = getFile( `/examples/${slug}/index.md` );
 
   const renderer = new marked.Renderer();
   const { data, content } = grayMatter(md);
@@ -31,8 +31,8 @@ export async function get( request ) {
 
   const {slug} = request.params;
 
-  const html = getFile( `/archive/${slug}/index.html` );
-  const css = getFile( `/archive/${slug}/index.css` );
+  const html = getFile( `/examples/${slug}/index.html` );
+  const css = getFile( `/examples/${slug}/index.css` );
   const { data, text } = getMarkdown( slug );
 
   if( html ){
@@ -41,7 +41,7 @@ export async function get( request ) {
         ...data,
         html: hljs.highlight('html', html).value,
         css: hljs.highlight('css', css).value,
-        iframe: `/archive/${slug}/index.html`,
+        iframe: `/examples/${slug}/index.html`,
         content: text
       }
     };
