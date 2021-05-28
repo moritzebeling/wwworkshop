@@ -103,31 +103,39 @@
         }
     }
 
+    pre,
+    code {
+        background-color: rgba(0,0,0,0.05);
+    }
+
+    code {
+        padding: 0 0.4em 0.1em;
+        margin: 0 0.1em 0 0;
+        font-size: 0.9em;
+        border-radius: 0.3em;
+    }
+
+    pre {
+        padding: 0.4rem 0.8rem 0.5em;
+        border-radius: 0.5em;
+        code {
+            background-color: transparent;
+            padding: 0;
+            margin: 0;
+            font-size: inherit;
+            border-radius: unset;
+        }
+    }
+
 }
 
 pre,
 code {
-    background-color: rgba(0,0,0,0.05);
     font-feature-settings: "liga" 0;
-}
-
-code {
-    padding: 0 0.4em 0.1em;
-    margin: 0 0.1em 0 0;
-    font-size: 0.9em;
-    border-radius: 0.3em;
+    font-variant-ligatures: none;
 }
 
 pre {
-    padding: 0.4rem 0.8rem 0.5em;
     overflow-x: auto;
     font-size: 0.9em;
-    border-radius: 0.5em;
-    code {
-        background-color: transparent;
-        padding: 0;
-        margin: 0;
-        font-size: inherit;
-        border-radius: unset;
-    }
 }
