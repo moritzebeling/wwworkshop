@@ -39,7 +39,7 @@
     hr {
         background-color: $grey;
         height: $border-width;
-        border-radius: 3px;
+        border-radius: $border-width;
         margin: 3rem 0;
     }
 
@@ -72,7 +72,7 @@
     blockquote {
         background-color: $yellow;
         padding: 0.001rem 0.8rem;
-        border-radius: 0.5em;
+        @include boxRadius;
     }
 
     iframe {
@@ -86,8 +86,8 @@
         margin: 1rem 0;
         > div {
             background-color: #fff;
-            padding: 0.4rem 0.8rem 0.5em;
-            border-radius: 0.5rem;
+            @include boxPadding;
+            @include boxRadius;
         }
     }
 
@@ -97,7 +97,7 @@
         td {
             border: 2px solid $white;
             background-color: #fff;
-            border-radius: 0.5rem;
+            @include boxRadius;
             line-height: 1.1;
             padding: 0.3rem 0.6em;
         }
@@ -116,8 +116,8 @@
     }
 
     pre {
-        padding: 0.4rem 0.8rem 0.5em;
-        border-radius: 0.5em;
+        @include boxPadding;
+        @include boxRadius;
         code {
             background-color: transparent;
             padding: 0;

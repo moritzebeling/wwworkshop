@@ -38,6 +38,15 @@ $mono: 'Space Mono', monospace;
 	font-style: italic;
 }
 
+/* spacing */
+
+@mixin boxPadding(){
+	padding: 0.4rem 0.8rem 0.5em;
+}
+@mixin boxRadius(){
+	border-radius: 0.5em;
+}
+
 /* borders */
 
 $border-width: 2px;

@@ -8,11 +8,11 @@
 
 </script>
 
-<header class="green text-yellow">
+<header class="violet">
 	<h1><a sveltekit:prefetch href='/archive'>wwworkshop</a></h1>
 	<nav>
 	{#each pages as [path, title]}
-		<a class="button" aria-current="{$page.path === path ? 'page' : ''}" sveltekit:prefetch href={path}>{title}</a>
+		<a aria-current="{$page.path === path ? 'page' : ''}" sveltekit:prefetch href={path}>{title}</a>
 	{/each}
 	</nav>
 </header>
@@ -20,22 +20,24 @@
 <style lang="scss">
 
 	header {
-		padding: 0.3em 1rem;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		position: sticky;
 		top: 0;
 		z-index: 100;
+		nav {
+			display: flex;
+		}
 	}
 
 	h1 {
-		margin: 0 0.3em;
 		@include uppercase;
 	}
 
 	a {
-		margin: 0.3em;
+		@include boxPadding;
+		display: block;
 		color: var(--color-white);
 	}
 

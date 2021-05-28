@@ -2,6 +2,7 @@ import path from "path";
 import fs from "fs";
 import grayMatter from "gray-matter";
 import marked from "marked";
+import hljs from "highlight.js";
 
 function getFile( fileName ){
   try {
@@ -38,8 +39,8 @@ export async function get( request ) {
     return {
       body: {
         ...data,
-        html: html,
-        css: css,
+        html: hljs.highlight('html', html).value,
+        css: hljs.highlight('css', css).value,
         content: text
       }
     };

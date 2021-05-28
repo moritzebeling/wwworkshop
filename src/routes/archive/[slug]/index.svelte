@@ -34,16 +34,19 @@
 
 <main>
 	<aside>
-		<div class="editor">
+		<section class="description">
+			{@html page.content}
+		</section>
+		<section class="editor">
 			<pre>
-				{page.html}
+				{@html page.html}
 			</pre>
-		</div>
-		<div class="editor">
+		</section>
+		<section class="editor">
 			<pre>
-				{page.css}
+				{@html page.css}
 			</pre>
-		</div>
+		</section>
 	</aside>
 	<iframe src="{path}/index.html" title="iFrame Title"></iframe>
 </main>
@@ -52,7 +55,8 @@
 
 	main {
 		flex: 1;
-		background-color: $black;
+		background-color: #111;
+		color: $white;
 		display: grid;
 		grid-template-columns: 50% 50%;
 		align-items: stretch;
@@ -62,14 +66,11 @@
 		width: 100%;
 	}
 
-	aside {
-	}
-	.editor {
-		@include mono;
-		color: $white;
-		pre {
-			margin: 1rem;
-		}
+	section {
+		margin: 0.5rem;
+		@include boxPadding;
+		@include boxRadius;
+		background-color: $black;
 	}
 
 </style>

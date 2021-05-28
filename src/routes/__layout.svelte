@@ -13,12 +13,16 @@
 
 <slot />
 
-<footer class="violet text-yellow">
+<footer class="violet">
 	<p><a href="https://github.com/moritzebeling/wwworkshop" external target="_blank">GitHub</a></p>
 </footer>
 
 <style lang="scss">
 	footer {
-		padding: 1rem 1.5rem;
+		display: flex;
+	}
+	a {
+		display: block;
+		@include boxPadding;
 	}
 </style>
