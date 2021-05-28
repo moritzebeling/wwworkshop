@@ -5,12 +5,12 @@
 	export const prerender = true;
 
 	export async function load({ page, fetch, session, context }) {
-		const url = `/manual.json`;
+		const url = `/manual/0_index.json`;
 		const res = await fetch(url);
 		if (res.ok) {
 			return {
 				props: {
-					pages: await res.json()
+					page: await res.json()
 				}
 			};
 		}
@@ -24,14 +24,17 @@
 </script>
 
 <script>
-	export let pages;
+	export let page;
 </script>
 
 <svelte:head>
-	<title>Workshop</title>
+	<title>{page.title}</title>
 </svelte:head>
 
-<h1>Welcome</h1>
+<section class="markdown">
+	{@html page.content}
+</section>
 
 <style lang="scss">
+
 </style>

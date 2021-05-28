@@ -1,21 +1,10 @@
 <script context="module">
-	export const prerender = true;
-</script>
 
-<svelte:head>
-	<title>Home</title>
-</svelte:head>
-
-<main>
-	<h1>Hello world</h1>
-</main>
-
-<style lang="scss">
-	main {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
+	export async function load() {
+		return {
+			status: 302,
+			redirect: "/examples",
+		}
 	}
-</style>
+
+</script>

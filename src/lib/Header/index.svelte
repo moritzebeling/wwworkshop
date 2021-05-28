@@ -2,8 +2,8 @@
 	import { page } from '$app/stores';
 
 	let pages = [
-		['/manual','Manual'],
 		['/examples','Examples'],
+		['/manual','Manual'],
 	];
 
 </script>
