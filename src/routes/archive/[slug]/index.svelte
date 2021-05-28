@@ -32,48 +32,63 @@
 
 <main>
 	<aside>
+		{#if page.content}
 		<section class="description">
-			<h2>{page.title}</h2>
 			{@html page.content}
 		</section>
+		{/if}
 		<section class="editor">
 			<pre class="dark">
 				{@html page.html}
 			</pre>
 		</section>
+		{#if page.css}
 		<section class="editor">
 			<pre class="dark">
 				{@html page.css}
 			</pre>
 		</section>
+		{/if}
 	</aside>
-	<iframe src="{page.iframe}" title="{page.title}"></iframe>
+	<div class="preview">
+		<iframe src="{page.iframe}" title="{page.title}"></iframe>
+	</div>
 </main>
 
 <style lang="scss">
 
 	main {
+		overflow: hidden;
 		flex: 1;
-		background-color: #111;
+		max-height: 100%;
 		color: $white;
 		display: grid;
-		grid-template-columns: 50% 50%;
+		grid-template-columns: 1fr 1fr;
 		align-items: stretch;
+		padding: 0.5rem;
+		padding-top: 0;
+		gap: 0.5rem;
+	}
+
+	aside {
+		max-height: 100%;
+		overflow-y: auto;
 	}
 
 	iframe {
 		width: 100%;
+		height: 100%;
+		box-sizing: border-box;
+		@include boxRadius;
 	}
 
 	section {
 		@include boxPadding;
-		margin: 0.5rem 0;
-	}
-
-	.editor {
-		margin: 0.5rem;
 		@include boxRadius;
-		background-color: $black;
+		background-color: $dark;
+		+ section {
+			margin-top: 0.5rem;
+		}
 	}
 
 </style>

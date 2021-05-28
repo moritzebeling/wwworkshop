@@ -47,9 +47,14 @@
 	main {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+		padding: 0.5rem;
+		padding-top: 0;
+		gap: 0.5rem;
 	}
 	section {
 		position: relative;
+		@include boxRadius;
+		overflow: hidden;
 		&:before {
 			content: '';
 			display: block;
@@ -78,6 +83,9 @@
 		}
 		&:hover .info {
 			opacity: 1;
+		}
+		h3 {
+			padding: 0.2em 0.7em;
 		}
 		.button {
 			background-color: $black;

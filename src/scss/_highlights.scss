@@ -10,7 +10,9 @@
 */
 
 $white: #f0f0f0;
-$black: #222222;
+$black: #111;
+$dark: #222222;
+$mid: #999;
 $grey: #e1e1e1;
 $blue: #0079ff;
 $green: #00d098;
@@ -111,7 +113,7 @@ pre {
 .hljs-code,
 .hljs-formula {
     /* prettylights-syntax-comment */
-    color: #999;
+    color: $mid;
 }
 
 .hljs-tag,

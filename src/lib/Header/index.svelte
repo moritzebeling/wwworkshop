@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 
 	let pages = [
-		['/workshop/1-welcome','Workshop'],
+		['/workshop/1-welcome','Manual'],
 		['/archive','Archive'],
 	];
 
@@ -26,21 +26,16 @@
 		position: sticky;
 		top: 0;
 		z-index: 100;
-		background-color: $black;
-		color: $white;
+		padding: 0.5rem 0;
+		background-color: var(--background);
 		nav {
 			display: flex;
 		}
 	}
 
-	h1 {
-		@include uppercase;
-	}
-
 	a {
 		@include boxPadding;
 		display: block;
-		color: var(--color-white);
 	}
 
 </style>

@@ -19,14 +19,23 @@
 
 </script>
 
+<svelte:head>
+	<style>
+		:root {
+			--background: #e1e1e1;
+			--color: #111;
+		}
+	</style>
+</svelte:head>
+
 <script>
 	export let posts;
 </script>
 
 <main>
 
-	<aside class="blue text-white">
-		<div class="sidebar">
+	<aside>
+		<div class="sidebar blue text-white">
 			<nav>
 			{#each posts as post}
 				<a aria-current="{$page.path === post.path ? 'page' : ''}" sveltekit:prefetch href={post.path}>{post.title}</a>
@@ -45,18 +54,25 @@
 
 	main {
 		display: grid;
-		grid-template-columns: 70% 30%;
+		grid-template-columns: 75% 1fr;
+		padding: 0.5rem;
+		padding-top: 0;
+		gap: 0.5rem;
+		// align-items: flex-start;
 	}
 	article {
+		background-color: $white;
 		padding: 3rem;
+		@include boxRadius;
 	}
 	aside {
-		padding: 1.5rem;
 		order: 2;
-		font-weight: 700;
 		.sidebar {
+			padding: 1.5rem;
+			@include boxRadius;
+			font-weight: 700;
 			position: sticky;
-			top: 4.5rem;
+			top: var(--header-height);
 		}
 		h3 {
 			@include border;
@@ -64,7 +80,9 @@
 	}
 	nav a {
 		display: block;
-		margin: 0.5rem 0;
+		+ a {
+			margin-top: 0.5rem;
+		}
 		&[aria-current=page]{
 			color: $yellow;
 			&:before {
