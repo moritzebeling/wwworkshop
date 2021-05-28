@@ -66,7 +66,7 @@
 		.info {
 			opacity: 0;
 			font-size: 0.8em;
-			position: sticky;
+			position: absolute;
 			z-index: 10;
 			bottom: 0;
 			width: 100%;

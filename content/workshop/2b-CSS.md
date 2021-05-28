@@ -192,7 +192,7 @@ means that you first define all the rules required for the layout on a mobile de
 ## 🎨 CSS Variables
 With CSS variables you can make your design more modular and changable:
 ```css
-::root {
+:root {
     /* define */
     --signature-color: #00f;
 }

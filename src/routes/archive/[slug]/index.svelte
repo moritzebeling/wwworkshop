@@ -37,12 +37,12 @@
 			{@html page.content}
 		</section>
 		<section class="editor">
-			<pre>
+			<pre class="dark">
 				{@html page.html}
 			</pre>
 		</section>
 		<section class="editor">
-			<pre>
+			<pre class="dark">
 				{@html page.css}
 			</pre>
 		</section>
