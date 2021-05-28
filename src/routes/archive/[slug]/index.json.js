@@ -41,6 +41,7 @@ export async function get( request ) {
         ...data,
         html: hljs.highlight('html', html).value,
         css: hljs.highlight('css', css).value,
+        iframe: `/archive/${slug}/index.html`,
         content: text
       }
     };

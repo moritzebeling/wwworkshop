@@ -13,13 +13,15 @@
 
 <slot />
 
-<footer class="violet">
+<footer>
 	<p><a href="https://github.com/moritzebeling/wwworkshop" external target="_blank">GitHub</a></p>
 </footer>
 
 <style lang="scss">
 	footer {
 		display: flex;
+		background-color: $black;
+		color: $white;
 	}
 	a {
 		display: block;

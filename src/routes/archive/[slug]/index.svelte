@@ -11,7 +11,6 @@
 			return {
 				props: {
 					page: await res.json(),
-					path: page.path
 				}
 			};
 		}
@@ -24,7 +23,6 @@
 </script>
 
 <script>
-	export let path;
 	export let page;
 </script>
 
@@ -48,7 +46,7 @@
 			</pre>
 		</section>
 	</aside>
-	<iframe src="{path}/index.html" title="iFrame Title"></iframe>
+	<iframe src="{page.iframe}" title="iFrame Title"></iframe>
 </main>
 
 <style lang="scss">
