@@ -8,7 +8,7 @@
 
 </script>
 
-<header class="violet">
+<header>
 	<h1><a sveltekit:prefetch href='/archive'>wwworkshop</a></h1>
 	<nav>
 	{#each pages as [path, title]}
@@ -26,6 +26,8 @@
 		position: sticky;
 		top: 0;
 		z-index: 100;
+		background-color: $black;
+		color: $white;
 		nav {
 			display: flex;
 		}

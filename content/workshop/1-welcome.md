@@ -19,7 +19,7 @@ title: Welcome
         <th>31.5.</th>
         <th>1.6.</th>
         <th>2.6.</th>
-        <th width="80px">3.6.</th>
+        <th>3.6.</th>
         <th>4.6.</th>
     </tr>
     <tr>

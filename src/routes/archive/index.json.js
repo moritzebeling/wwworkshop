@@ -14,11 +14,35 @@ async function getCollection( pattern ){
   );
 }
 
+function getFile( fileName ){
+  try {
+    return fs.readFileSync(
+      path.resolve( `content${fileName}` ),
+      "utf-8"
+    );
+  } catch ( error ){
+    return '';
+  }
+};
+
+function getMarkdown( fileName ){
+  const md = getFile( fileName );
+  const { data } = grayMatter(md);
+  data.title = data.title || 'New sketch';
+  return data;
+}
+
 function readCollection( fileslist ){
   return Promise.all(
     fileslist.map(async file => {
-      /* HACK */
-      return file.replace(/^(content\/)/,"");
+      file = file.replace(/^(content)/,"");
+      const id = path.dirname( file );
+      const data = getMarkdown(`${id}/index.md`);
+      return {
+        ...data,
+        path: id,
+        iframe: `${id}/index.html`,
+      };
     }),
   );
 }

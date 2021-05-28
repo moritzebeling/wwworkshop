@@ -33,7 +33,11 @@
 
 	{#each items as item}
 		<section>
-			<iframe src="{item}" title="New sketch"></iframe>
+			<div class="info">
+				<h3>{item.title}</h3>
+				<a class="button" sveltekit:prefetch href={item.path}>Details</a>
+			</div>
+			<iframe src="{item.iframe}" title="New sketch"></iframe>
 		</section>
 	{/each}
 
@@ -57,6 +61,28 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
+		}
+
+		.info {
+			opacity: 0;
+			font-size: 0.8em;
+			position: sticky;
+			z-index: 10;
+			bottom: 0;
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0.5rem;
+			@include transition( opacity );
+		}
+		&:hover .info {
+			opacity: 1;
+		}
+		.button {
+			background-color: $black;
+			color: $white;
+			border-radius: 2em;
 		}
 	}
 </style>

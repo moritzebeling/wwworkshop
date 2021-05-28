@@ -5,7 +5,7 @@
 	export const prerender = true;
 
 	export async function load({ page, fetch, session, context }) {
-		const url = `${page.params.slug}.json`;
+		const url = `/archive/${page.params.slug}.json`;
 		const res = await fetch(url);
 		if (res.ok) {
 			return {
@@ -33,6 +33,7 @@
 <main>
 	<aside>
 		<section class="description">
+			<h2>{page.title}</h2>
 			{@html page.content}
 		</section>
 		<section class="editor">
@@ -46,7 +47,7 @@
 			</pre>
 		</section>
 	</aside>
-	<iframe src="{page.iframe}" title="iFrame Title"></iframe>
+	<iframe src="{page.iframe}" title="{page.title}"></iframe>
 </main>
 
 <style lang="scss">
@@ -65,8 +66,12 @@
 	}
 
 	section {
-		margin: 0.5rem;
 		@include boxPadding;
+		margin: 0.5rem 0;
+	}
+
+	.editor {
+		margin: 0.5rem;
 		@include boxRadius;
 		background-color: $black;
 	}
