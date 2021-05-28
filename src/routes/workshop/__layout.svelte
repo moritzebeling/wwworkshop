@@ -21,9 +21,9 @@
 
 <svelte:head>
 	<style>
-		:root {
-			--background: #e1e1e1;
-			--color: #111;
+		#svelte {
+			height: unset;
+			min-height: 100vh;
 		}
 	</style>
 </svelte:head>
@@ -58,10 +58,10 @@
 		padding: 0.5rem;
 		padding-top: 0;
 		gap: 0.5rem;
-		// align-items: flex-start;
 	}
 	article {
 		background-color: $white;
+		color: $black;
 		padding: 3rem;
 		@include boxRadius;
 	}
