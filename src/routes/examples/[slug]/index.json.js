@@ -4,6 +4,18 @@ import grayMatter from "gray-matter";
 import marked from "marked";
 import hljs from "highlight.js";
 
+marked.setOptions({
+  breaks: true,
+  smartypants: true,
+  highlight: function (code, lang, _callback) {
+    if (hljs.getLanguage(lang)) {
+      return hljs.highlight(lang, code).value
+    } else {
+      return hljs.highlightAuto(code).value
+    }
+  },
+});
+
 function getFile( fileName ){
   try {
     return fs.readFileSync(

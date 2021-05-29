@@ -2,10 +2,14 @@ import path from "path";
 import fs from "fs";
 
 function getFile( fileName ){
-  return fs.readFileSync(
-    path.resolve( `content${fileName}` ),
-    "utf-8"
-  );
+  try {
+    return fs.readFileSync(
+      path.resolve( `content${fileName}` ),
+      "utf-8"
+    );
+  } catch ( error ){
+    return '';
+  }
 };
 
 export async function get( request ) {

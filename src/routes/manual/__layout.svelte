@@ -41,7 +41,7 @@
 <main>
 
 	<aside>
-		<div class="sidebar blue text-white">
+		<div class="sidebar green text-white">
 			<nav>
 			{#each posts as post}
 				<a aria-current="{$page.path === post.path ? 'page' : ''}" sveltekit:prefetch href={post.path}>{post.title}</a>

@@ -24,6 +24,7 @@ export async function get( request ) {
   <head>
     <meta charset="utf-8">
     <title>Title</title>
+    <style>html{ background: white }</style>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>${html}</body>
