@@ -127,6 +127,20 @@
         }
     }
 
+    iframe {
+        @include boxRadius;
+        width: 100%;
+    }
+
+    iframe + blockquote {
+        color: $midgrey;
+        font-size: 0.8em;
+        background: transparent;
+        margin-top: -0.5rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
 }
 
 pre,
@@ -137,5 +151,5 @@ code {
 
 pre {
     overflow-x: auto;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }

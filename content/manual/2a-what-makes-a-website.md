@@ -4,30 +4,29 @@ title: What makes a Website?
 
 # What makes a Website?
 
-A website is basically a collection of files that can be interpreted by a browser and displayed as a website. There are 3 fundamental technologies to make this happen: HTML, CSS and JS.
+A website is basically a collection of files that can be interpreted and rendered by a browser. There are 3 fundamental technologies to make this happen: HTML, CSS and JS.
 
-## 📑 HTML
-The most basic configuration of a website consits of just on single file: `index.html`. HTML stands for **Hypertext Markup Language**. It is basically a text document that contains structured content, meaning that HTML is used to define the various sections of a document, like paragraphs, a headline or invisible metadata, so that the browser can identify and differentiate them.
+## 📑 HTML Hypertext Markup Language
+The most basic configuration of a website consits of just on single file: `index.html`. It is basically a text document that contains structured content, meaning that HTML is used to define the various sections of a document, like paragraphs, a headline or invisible metadata, so that the browser can identify and differentiate them.
 
-To make a website more rich, you can add more HTML files to represent multiple pages on your website and also images, webfonts, CSS and JS.
-
-Let’s look at some text without HTML:
+First, let’s look at some text without HTML:
 
 <iframe height="360" src="/examples/er-ists-1/embed"></iframe>
 
-The source code is on the left, the rendered website on the right. You can see, that the headline and all the linebreaks are not shown. Therefore we need HTML:
+> The source code is on the left, the rendered output on the right.
 
-<iframe height="460" src="/examples/er-ists-2/embed"></iframe>
+You can see, that the headline and all the linebreaks are not shown. Therefore we need HTML to structure the text:
 
-We now told the browser, what the **h**eadline and the **p**aragraphy are and where to but line breaks.
+<iframe height="420" src="/examples/er-ists-2/embed"></iframe>
 
-## 🎨 CSS
-The second fundamental web technology is **Cascading Style Sheets**. It is also a text-like document that you can use to instruct the browser on how the different sections of the HTML document should appear.
-So HTML brings the structured content and CSS knows how this structure should look like in terms of layout, color or typography.
+Now the browser knows, what the headline and the paragraphs are and where to put line breaks.
+
+## 🎨 CSS Cascading Style Sheets
+To define the visual style of the website, we can use CSS. It lets you notate instructions on how the browser should present the different sections of the HTML.
 
 <iframe height="460" src="/examples/er-ists-3/embed?html=false"></iframe>
 
-Above you have a comparison of some unstructured text as input on the left, and on the right the output as the browser would render that.
+So HTML brings the structured content and CSS knows how this structure should look like in terms of layout, color or typography.
 
 ## 💫 JS
 The third fundamental web technology is **JavaScript**, which is a programming language that runs inside the browser once a visitor has opened a website. It can be used to change and manipulate both HTML and CSS as well as adding interactivity or time based events.
