@@ -8,15 +8,25 @@
 	export async function load({ page, fetch, session, context }) {
 		const url = `/manual.json`;
 		const res = await fetch(url);
+		console.log( page );
 		if (res.ok) {
 			return {
 				props: {
+					slug: page.params.slug,
+					key: page.path,
 					posts: await res.json()
 				}
 			};
 		}
 	}
 
+</script>
+
+<script>
+	import PageTransition from "$lib/Components/PageTransition.svelte";
+	export let key;
+	export let slug;
+	export let posts;
 </script>
 
 <svelte:head>
@@ -27,10 +37,6 @@
 		}
 	</style>
 </svelte:head>
-
-<script>
-	export let posts;
-</script>
 
 <main>
 
@@ -44,9 +50,16 @@
 		</div>
 	</aside>
 
-	<article>
-		<slot />
-	</article>
+	<div class="wrapper">
+		<PageTransition refresh={key}>
+			<article>
+				<slot />
+			</article>
+			<footer>
+				<a href="https://github.com/moritzebeling/wwworkshop/blob/main/content/manual/{slug}.md" target="_blank" rel="nofollow noreferrer external">Edit this page on GitHub</a>
+			</footer>
+		</PageTransition>
+	</div>
 
 </main>
 
@@ -64,6 +77,10 @@
 		color: $black;
 		padding: 3rem;
 		@include boxRadius;
+	}
+	footer {
+		margin: 1rem 0.5rem;
+		color: $midgrey;
 	}
 	aside {
 		order: 2;
