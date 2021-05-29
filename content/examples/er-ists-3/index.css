@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+html {
+    background-color: #00d098;
+    color: #ffe47a;
+    text-align: center;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 20px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    line-height: 1;
+}
+h1, p, footer {
+    margin: 0.5rem;
+}
+h4 {
+    margin: 0;
+}
+.year {
+    font-size: 0.8em;
+}
