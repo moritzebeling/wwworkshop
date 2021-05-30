@@ -1,0 +1,12 @@
+html {
+    background-color: blue;
+    color: red;
+    text-align: center;
+}
+h1 {
+    color: yellow;
+    font-size: 32px;
+    font-family: Arial;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
