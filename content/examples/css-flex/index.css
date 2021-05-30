@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  font-size: 2rem;
+}
+div {
+  flex: 1 1 25%;
+  height: 25vw;
+  border-radius: 100%;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  flex-basis: 50%;
+  height: 50vw;
+}

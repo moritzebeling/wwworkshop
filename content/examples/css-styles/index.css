@@ -1,0 +1,10 @@
+h1 {
+    font-family: sans-serif;
+    color: red;
+    background-color: blue;
+    display: inline-block;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 10px springgreen;
+  }

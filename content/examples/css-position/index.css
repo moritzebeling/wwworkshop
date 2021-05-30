@@ -1,0 +1,37 @@
+div {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  width: 50vw;
+  background-color: lightgrey;
+}
+.relative {
+  position: relative;
+  background-color: aqua;
+  height: 150vh;
+}
+.absolute {
+  position: absolute;
+  background-color: blue;
+}
+.fixed {
+  position: fixed;
+  background-color: red;
+}
+.left {
+  left: 1rem;
+}
+.right {
+  right: 1rem;
+  text-align: right;
+}
+.top {
+  top: 2rem;
+}
+.bottom {
+  bottom: 2rem;
+}
+.free {
+  top: 10rem;
+  background-color: yellow;
+}

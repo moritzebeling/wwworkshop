@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blue;
+  height: 100vh;
+}
+main {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  align-items: stretch;
+}
+div {
+  background-color: yellow;
+  border-radius: 2rem;
+}
+.w2 {
+  grid-column-end: span 2;
+}
+.h2 {
+  grid-row-end: span 2;
+}

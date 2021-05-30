@@ -1,0 +1,22 @@
+html {
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+section {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: yellow;
+  border: 1rem solid blue;
+}
+div, span {
+  background-color: red;
+}
+.box {
+  height: 100px;
+  width: 100px;
+}
+.borderbox {
+  box-sizing: border-box;
+}

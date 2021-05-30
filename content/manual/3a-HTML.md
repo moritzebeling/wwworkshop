@@ -112,18 +112,27 @@ Define a **link** pointing to another website:
 <a href="https://google.com" target="_blank" external>Read more</a>
 ```
 
+## Resolving problems
+It is very usual to regularly run into errors when writing HTML, so don’t worry. These are common reasons:
+- Unclosed elements
+- Badly nested elements like `<p>Lorem <em>ipsum</p></em>`
+- Incorrect tag syntax like `<p class="centered>Text</p>`
+
+Find out more:
+- [Debugging HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML) by MDN
+- [Validate your HTML code](https://validator.w3.org/#validate_by_input) at w3c
+
 ## Further reading
 
 <div class="iframe video-wrapper">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/CkzbI1Tv_rQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-> [Basics of HTML](https://www.youtube.com/watch?v=CkzbI1Tv_rQ) by Laurel Schwulst (14:23min). In context of this workshop, don’t worry too much about those `<DOCTYPE html>`, `<html>`, `<head>` and `<body>`-stuff.
+> [Basics of HTML](https://www.youtube.com/watch?v=CkzbI1Tv_rQ) by Laurel Schwulst (14:23min). In context of this workshop, don’t worry too much about those `<!DOCTYPE html>`, `<html>`, `<head>` and `<body>`-stuff.
 
 - [HTML reference](https://developer.mozilla.org/en-US/docs/Web/HTML) on Mozilla MDN
 - [htmlreference.io](https://htmlreference.io)
 - [HTML on Devdocs.io](https://devdocs.io/html/)
-- [Validate your HTML code](https://validator.w3.org/#validate_by_input) at w3c
 - [HTML Quizz](https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML) by w3schools
 - [HTML & CSS courses](https://www.codecademy.com/catalog/language/html-css) on CodeAcademy
 - Google `HTML tricks`, `HTML in 5 minutes`, `HTML reference` or `HTML ...`
