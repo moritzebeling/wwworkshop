@@ -6,7 +6,9 @@ title: Assignment 2
 
 HTML can not only be used to structure text, but to structure the 2D space of a browser screen in general.
 
-1. Search for inpiration in the field of geometric art, e.g. "Konkrete Kunst". Many of those artworks constists of geometrical shapes, layouts so to say. Let’s try to do that with HTML and CSS. You can choose to translate an artwork you found or start with a blank page and create your own. To make it simple in the beginning, select a shape that has fewer cells and and that is more rectangular. You can later get more creative and detailed.
+1. Open a new [CodePen](https://codepen.io/pen)
+
+2. Search for inpiration in the field of geometric art, e.g. "Konkrete Kunst". Many of those artworks constists of geometrical shapes, layouts so to say. Let’s try to do that with HTML and CSS. You can choose to translate an artwork you found or start with a blank page and create your own. To make it simple in the beginning, select a shape that has fewer cells and and that is more rectangular. You can later get more creative and detailed.
 
 <div class="grid col4">
     <img src="/static/media/verena-loewensberg-untitled.jpg" alt="Untitled, Verena Loewensberg" />
@@ -17,7 +19,7 @@ HTML can not only be used to structure text, but to structure the 2D space of a 
 
 > Untitled, Verena Loewensberg. Hommage to the square, Josef Albers. Composition 11, Piet Mondrian. 2x2 gleiche Farbgruppen, Richard Paul Lohse
 
-2. As you know by now, HTML elements work like rectangular boxes. Try to utilize them (re)create your artwork.
+3. As you know by now, HTML elements work like rectangular boxes. Try to utilize them (re)create your artwork.
 
 These styling properties might help you:
 
@@ -31,8 +33,11 @@ You can also refer to:
 - Our small CSS reference
 - CSS colors
 - The box model
+- [Geometrical shapes of CSS](https://css-tricks.com/the-shapes-of-css/)
 
 > Please try to use CSS `flex` and `grid` each at least once. If you’re progressing fast, try to make multiple artworks using different techniques. You can also fork an existing pen and turn it into something new.
+
+## Some examples
 
 <iframe height="360" src="/examples/josef-albers-hommage-to-the-div/embed"></iframe>
 

@@ -5,7 +5,7 @@ title: Welcome
 # Welcome
 
 In this workshop we will look at the 2 most basic web technologies: **HTML and CSS**. Instead of building a full website, we will approach the topic by **experimenting with small code snippets** that cover many important techniques of web design.
-The goal is that all participants **collaborate on building an archive** of code snippets that will be continously collected on this website, so that they can be used by the group.
+The goal is that all participants **collaborate on building an archive** of code snippets that will be continously collected on this website, so that they can be used by everyone
 
 ## Setup
 - **Computer** with internet access, webcam, microphone
@@ -16,8 +16,10 @@ The goal is that all participants **collaborate on building an archive** of code
 The workshop will be remote. On monday morning we will meet on:
 https://whereby.com/liebermannkiepereddemann
 
+After the intro we will have small breakout rooms that we can jump between
+
 ## Timetable
-We will meet every day of this week from `11:00` to `15:00`.
+We will meet every day of this week from `~11:00` to `~15:00`. Feel free to take a lunch break inbetween.
 
 <table>
     <tr class="mono">
@@ -29,15 +31,15 @@ We will meet every day of this week from `11:00` to `15:00`.
     </tr>
     <tr>
         <td>Intro</td>
-        <td>Assignment 2</td>
-        <td>Assignment 4</td>
-        <td rowspan="2">Remix</td>
+        <td rowspan="2">Assignment 2</td>
+        <td>Assignment 3</td>
+        <td>Assignment 5</td>
         <td rowspan="2">Wrap up</td>
     </tr>
     <tr>
         <td>Assignment 1</td>
-        <td>Assignment 3</td>
-        <td>Assignment 5</td>
+        <td>Assignment 4</td>
+        <td>Remix</td>
     </tr>
 </table>
 
@@ -45,3 +47,6 @@ We will meet every day of this week from `11:00` to `15:00`.
 
 ## Links
 - [CodePen](https://codepen.io)
+
+## Contact
+- email@moritzebeling.com subject: `wwworkshop`

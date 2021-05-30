@@ -47,6 +47,8 @@ There is another group of [empty elements](https://developer.mozilla.org/en-US/d
 </html>
 ```
 
+> The indentation and all whitespaces between elements are ignored by the browser. But it is always a good practice to organize your code well to make it easier for yourself.
+
 ## Common HTML tags
 There is a wide variety of HTML tags that you can use to structure your content:
 
@@ -122,7 +124,7 @@ Find out more:
 - [Debugging HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML) by MDN
 - [Validate your HTML code](https://validator.w3.org/#validate_by_input) at w3c
 
-## Further reading
+## Further surfing
 
 <div class="iframe video-wrapper">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/CkzbI1Tv_rQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

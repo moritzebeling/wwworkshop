@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+button {
+  padding: 3rem;
+  background-color: yellow;
+  border: none;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  transition-properties: border-radius;
+}
+button:hover {
+  border-radius: 2rem;
+}
+div {
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: background-color 600ms ease;
+}
+button:hover + div {
+  background-color: springgreen;
+}

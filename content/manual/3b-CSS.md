@@ -7,7 +7,7 @@ title: CSS Reference
 **Cascading Style Sheets** is a technology to assign styles to structured content like HTML. This allows you to seperate the appeareance from the actual content.
 
 - [Wikipedia](https://en.wikipedia.org/wiki/CSS)
-- [w3scools](https://www.w3schools.com/css/default.aspcodepen) reference
+- [w3scools](https://www.w3schools.com/css/default.asp) reference
 
 
 ## Syntax
@@ -18,6 +18,8 @@ selector {
     property: value;
 }
 ```
+
+Same as with HTML, all indentation, line breaks and whitespaces are ignored by the browser. It’s solely for you to keep everything tidy.
 
 ## Selectors
 The most important **selectors** are:
@@ -95,7 +97,6 @@ Read more:
 - [Screen colors](https://www.w3schools.com/colors/default.asp) by w3schools
 - [Gradient generator](https://cssgradient.io)
 
-
 ## 🧮 Layout
 There are many ways in CSS to create interesting layouts, while the most important techniques are lited below.
 
@@ -158,15 +159,29 @@ HTML `<table>` elements can also be used to create a 2D layout, however this is 
 
 ## 🎆 Effects
 
-- [Animation](https://css-tricks.com/almanac/properties/a/animation/)
-- [Transform](https://css-tricks.com/almanac/properties/t/transform/)
-- [Transition](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
-- [Filter](https://css-tricks.com/almanac/properties/f/filter/)
-- [box-shadow](https://www.cssmatic.com/box-shadow)
+These are some straight formward effects:
 - [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp)
-- [text-shadow](https://css-tricks.com/almanac/properties/t/text-shadow/)
-- [gradients](https://www.cssmatic.com/gradient-generator)
+- [Gradient generator](https://cssgradient.io)
+- [Text and box shadows](https://www.w3schools.com/css/css3_shadows.asp)
 - [outline](https://developer.mozilla.org/en-US/docs/Web/CSS/outline)
+- [Filter](https://css-tricks.com/almanac/properties/f/filter/)
+- Google for `CSS effects`, `CSS shadow generator`, ...
+
+### Transform
+Transform is a way to change the appeareance of an element without affecting other elements. You can `move` in 3 directions, `scale`, `rotate`, `skew` and apply some 3D perspective while doing so.
+- [2D Transform](https://css-tricks.com/almanac/properties/t/transform/)
+- [3D Transforms](https://www.w3schools.com/css/css3_3dtransforms.asp)
+
+### Transition
+Transitions lets you morph between 2 states, e.g. to animate a text-color on hover.
+- [Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+- [Interactive Guide](https://www.joshwcomeau.com/animation/css-transitions/) by Josh W. Comeau
+
+### Animation
+
+
+- [Animation](https://css-tricks.com/almanac/properties/a/animation/)
+
 
 ## 📝 Webfonts and typography
 
@@ -184,7 +199,7 @@ Find out more:
 - [Validate your HTML code](https://validator.w3.org/#validate_by_input) at w3c
 
 
-## 🔗 Further reading
+## 🔗 Further surfing
 
 <div class="iframe video-wrapper">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/BUZIaTHm_oE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
