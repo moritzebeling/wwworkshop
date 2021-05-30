@@ -12,7 +12,7 @@ We now have heard of HTML and CSS, so let’s start with the first assignment:
 
 <iframe height="360" src="/examples/er-ists-1/embed"></iframe>
 
-> Raw text without HTML structure results in just one long text. See it on [CodePen](https://codepen.io/moritzebeling/pen/ZEeabqG)
+> Raw text without HTML structure results in just one long text. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/ZEeabqG)
 
 > Maybe it’s especially interesting when you choose a poem that already imposes some typography or text formatting.
 
@@ -41,13 +41,15 @@ These tags might help you with this task:
 
 <iframe height="360" src="/examples/basic-html-elements/embed"></iframe>
 
+> Play with it on [CodePen](https://codepen.io/moritzebeling/pen/XWMzYKY)
+
 To find out more, check out these links:
 - Our small [HTML reference](/manual/3a-HTML)
 - [Full list of available tags](https://www.w3schools.com/tags/ref_byfunc.asp) on w3schools
 - [HTML text fundamentals](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals) on MDN
 - Google `HTML secrets`, `learn HTML in 5 minutes`, `HTML text formatting`
 
-> Don’t try to solve this task as quickly as possible, but rather have a look at all the options, experiment a little bit and get a little used to HTML.
+> Don’t try to solve this task as quickly as possible, but rather have a look at all the options, experiment a little bit and get comfortable to HTML.
 
 ## 🎨 CSS
 
@@ -88,4 +90,6 @@ Learn more:
 
 > You don’t have to decide for one final result, but rather feel free to create multiple pens with different stylings.
 
-## Sharing round
+## Sharing our work
+
+Once you’re done, share it with your groupmates and also do not forget to [send it to me](/manual/4a-sharing), so that it can be included on this website.

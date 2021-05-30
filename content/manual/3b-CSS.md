@@ -169,7 +169,7 @@ These are some straight formward effects:
 
 ### Transform
 Transform is a way to change the appeareance of an element without affecting other elements. You can `move` in 3 directions, `scale`, `rotate`, `skew` and apply some 3D perspective while doing so.
-- [2D Transform](https://css-tricks.com/almanac/properties/t/transform/)
+- [2D Transform](https://css-tricks.com/almanac/properties/t/transform/) on CSS Tricks
 - [3D Transforms](https://www.w3schools.com/css/css3_3dtransforms.asp)
 
 ### Transition
@@ -180,7 +180,7 @@ Transitions lets you morph between 2 states, e.g. to animate a text-color on hov
 ### Animation
 
 
-- [Animation](https://css-tricks.com/almanac/properties/a/animation/)
+- [Animation](https://css-tricks.com/almanac/properties/a/animation/) on CSS Tricks
 
 
 ## 📝 Webfonts and typography
@@ -190,13 +190,14 @@ A simple solution for that is [Google Fonts](https://fonts.google.com). Just cho
 
 
 ## Resolving problems
-- Unclosed curly brackets
-- Badly nested elements like `<p>Lorem <em>ipsum</p></em>`
-- Incorrect tag syntax like `<p class="centered>Text</p>`
+- Unclosed curly brackets or incorrect syntax. Remember: `selector { property: value; }`
+- No selector match. Include `border: 5px solid red !important` into your style rule to check if your selector matches the right element
+- Non-existing property or invalid value. Check reference
+- Use your browser beveloper tools: right click on element > inspect
 
 Find out more:
-- [Debugging HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML) by MDN
-- [Validate your HTML code](https://validator.w3.org/#validate_by_input) at w3c
+- [Debugging CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS) by MDN
+- [Validate your CSS code](https://jigsaw.w3.org/css-validator/#validate_by_input) at w3c
 
 
 ## 🔗 Further surfing

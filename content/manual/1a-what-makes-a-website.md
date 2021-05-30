@@ -19,23 +19,25 @@ You can see, that the headline and all the linebreaks are not shown. Therefore w
 
 <iframe height="420" src="/examples/er-ists-2/embed"></iframe>
 
+> Play with it on [CodePen](https://codepen.io/moritzebeling/pen/PopOPyd)
+
 Now the browser knows, what the headline and the paragraphs are and where to put line breaks.
 
-> Right-click on any website and click on "Inspect" or "Show source code" to view the HTML source code of the website you’re currently browsing on.
+> Right-click on any website and click on "Inspect" or "Show source code" to view the HTML source code of that website.
 
 ## 🎨 CSS Cascading Style Sheets
-To define the visual style of the website, we can use CSS. It lets you notate instructions on how the browser should present the different sections of the HTML.
+To define the visual style of the website, we can use CSS. It lets us notate instructions on how the browser should present the different sections of the HTML.
 
 <iframe height="460" src="/examples/er-ists-3/embed?html=false"></iframe>
 
 > Note, that the HTML is the exact same then in the example above.
 
-So HTML brings the structured content and CSS knows how this structure should look like in terms of layout, color or typography.
+So HTML brings the structured content, while CSS knows how this structure should look like in terms of layout, color or typography.
 
 > Go to your browsers developer menu and click "Disable styles" to disable CSS all together and reveal how the current website would look without it.
 
 ## 💫 JS
-The third fundamental web technology is **JavaScript**, which is a programming language that runs inside the browser once a visitor has opened a website. It can be used to change and manipulate both HTML and CSS as well as adding interactivity, animations or time based events.
+The third fundamental web technology is **JavaScript**, which is a programming language that runs inside the browser once a visitor has opened a website. It can be used to change and manipulate both HTML and CSS as well as adding interactivity, animations or time based events. However, JS won’t we the focus of this workshop.
 
 ## TL;DR again pls
 

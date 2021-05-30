@@ -4,8 +4,14 @@ title: Help
 
 # Help
 
-Programming confronts us with a lot of different challenging problems, but also offers us tools to solve them in various creative ways. Since there are countless such problems and countless approaches, paradigms, rules and solutions, it’s nearly impossible to always have them in our head at all times.
-Which is why programming also means searching the web for help, examples and references.
+Programming confronts us with a lot of different challenging problems, but also offers us tools to solve them in various creative ways. Since there are countless such problems and countless ever evolving approaches, paradigms, rules and solutions, it’s nearly impossible to always have them in our head at all times.
+Which is why programming also means searching the web for help, examples and references and asking others to help.
+
+## Read the code
+
+The first thing to do when you run into errors (e.g. after copying some code from the internet) is to read the code. Word by word, line by line. Often you quickly realize that you misspelled something or that the syntax is incorrect.
+
+> Being able to read the code at all requires writing readable code in the first place. Always maintain indentation to visualize the structure. When naming things (like classnames), try to pick descriptive names. It’s a good practice to imagine being a stranger looking at your code for the first time. Can you quickly understand it?
 
 ## Google
 
@@ -24,11 +30,7 @@ Over the time you quickly find out, which websites help you out the most. Among 
 
 But often, even small blog entries discuss common problems, that can be really helpful. And when you want to dive into something new while also relaxing on the couch, there are also lots of helpful videos on YouTube.
 
-## Read the code
-
-The first thing to do when you run into errors (e.g. after copying some code from the internet) is to read the code. Word by word, line by line. Often you quickly realize that you misspelled something or that the syntax is incorrect.
-
-> Being able to read the code at all requires writing readable code in the first place. When naming things, try to pick descriptive names. It’s a good practice to imagining being a stranger looking at your code for the first time. Can you quickly understand it?
+> When it comes to learning HTML and CSS as a beginner, millions of people had the same question before you – the answer is probably somewhere out there. Don’t give up!
 
 ## Read the docs
 

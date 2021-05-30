@@ -23,17 +23,17 @@ HTML can not only be used to structure text, but to structure the 2D space of a 
 
 These styling properties might help you:
 
-- margin, padding, border
-- background-color
-- display: flex
-- display: grid
-- border-radius
+- [`margin`](https://www.w3schools.com/css/css_margin.asp), [`padding`](https://www.w3schools.com/css/css_padding.asp), [`border`](https://www.w3schools.com/css/css_border.asp)
+- [`background-color`](https://www.w3schools.com/css/css_background.asp)
+- [`display: flex`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [`display: grid`]((https://css-tricks.com/snippets/css/complete-guide-grid/))
 
 You can also refer to:
-- Our small CSS reference
-- CSS colors
-- The box model
+- Our small [CSS Reference](/manual/3b-CSS)
+- [CSS colors](https://www.w3schools.com/colors/default.asp)
+- [The box model](https://www.w3schools.com/css/css_boxmodel.asp)
 - [Geometrical shapes of CSS](https://css-tricks.com/the-shapes-of-css/)
+- Google `CSS shapes`, `CSS layout`, `CSS layout generator`, `CSS table`
 
 > Please try to use CSS `flex` and `grid` each at least once. If you’re progressing fast, try to make multiple artworks using different techniques. You can also fork an existing pen and turn it into something new.
 
@@ -42,3 +42,8 @@ You can also refer to:
 <iframe height="360" src="/examples/josef-albers-hommage-to-the-div/embed"></iframe>
 
 > Hommage to the div. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/PopOJeW)
+
+## Sharing our work
+
+Once you’re done, share it with your groupmates and also do not forget to [send it to me](/manual/4a-sharing), so that it can be included on this website.
+This task is very well suited to produce 2 or even more pens.
