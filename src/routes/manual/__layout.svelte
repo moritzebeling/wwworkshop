@@ -8,7 +8,6 @@
 	export async function load({ page, fetch, session, context }) {
 		const url = `/manual.json`;
 		const res = await fetch(url);
-		console.log( page );
 		if (res.ok) {
 			return {
 				props: {
@@ -27,6 +26,15 @@
 	export let key;
 	export let slug;
 	export let posts;
+
+	let currentGroup = 0;
+	function group( g ){
+		if( g > 0 && g !== currentGroup ){
+			currentGroup = g;
+			return true;
+		}
+		return false;
+	}
 </script>
 
 <svelte:head>
@@ -44,7 +52,7 @@
 		<div class="sidebar green text-white">
 			<nav>
 			{#each posts as post}
-				<a aria-current="{$page.path === post.path ? 'page' : ''}" sveltekit:prefetch href={post.path}>{post.title}</a>
+				<a class:divider={group(post.group)} aria-current="{$page.path === post.path ? 'page' : ''}" sveltekit:prefetch href={post.path}>{post.title}</a>
 			{/each}
 			</nav>
 		</div>
@@ -79,13 +87,14 @@
 		@include boxRadius;
 	}
 	footer {
-		margin: 1rem 0.5rem;
+		margin: 0.5rem;
+		margin-top: 0.75rem;
 		color: $midgrey;
 	}
 	aside {
 		order: 2;
 		.sidebar {
-			padding: 1.5rem;
+			padding: 1rem;
 			@include boxRadius;
 			font-weight: 700;
 			position: sticky;
@@ -111,6 +120,11 @@
 				border-radius: 100%;
 				background-color: currentColor;
 			}
+		}
+		&.divider {
+			border-top: 2px solid rgba(255,255,255,0.2);
+			margin-top: 0.5rem;
+			padding-top: 0.5rem;
 		}
 	}
 

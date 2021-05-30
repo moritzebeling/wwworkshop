@@ -7,7 +7,6 @@
 	export async function load({ page, fetch, session, context }) {
 		const url = `/examples/${page.params.slug}.json`;
 		const res = await fetch(url);
-		console.log( page );
 		if (res.ok) {
 			return {
 				props: {

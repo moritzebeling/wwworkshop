@@ -14,7 +14,7 @@
         margin: 0.5rem 0;
     }
 
-    ul, ol, blockquote, iframe, figure, pre {
+    ul, ol, blockquote, iframe, .iframe, figure, pre {
         margin: 1rem 0;
     }
 
@@ -66,7 +66,10 @@
         }
     }
     ol, ul {
-        list-style-position: inside;
+        list-style-position: outside;
+        li {
+            margin-left: 1.5em;
+        }
     }
 
     blockquote {
@@ -132,6 +135,8 @@
         width: 100%;
     }
 
+    img + blockquote,
+    .iframe + blockquote,
     iframe + blockquote {
         color: $midgrey;
         font-size: 0.8em;
@@ -139,6 +144,23 @@
         margin-top: -0.5rem;
         padding-top: 0;
         padding-bottom: 0;
+    }
+
+    .video-wrapper {
+        position: relative;
+        &:before {
+            display: block;
+            content: '';
+            padding-top: 56.25%;
+        }
+        iframe {
+            position: absolute;
+            margin: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     }
 
 }

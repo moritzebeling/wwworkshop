@@ -18,8 +18,12 @@ function readCollection( fileslist ){
   return Promise.all(
     fileslist.map(async file => {
       const content = (await fs.readFile(file)).toString();
-      // return frontmatter dataset together with slug
-      return {...grayMatter(content).data, path: `/manual/${path.parse(file).name}`};
+      const filename = path.parse(file).name;
+      return {
+        ...grayMatter(content).data,
+        group: parseInt( filename.substring(0,1) ),
+        path: `/manual/${filename}`
+      };
     }),
   );
 }

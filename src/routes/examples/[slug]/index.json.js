@@ -13,7 +13,7 @@ marked.setOptions({
     } else {
       return hljs.highlightAuto(code).value
     }
-  },
+  }
 });
 
 function getFile( fileName ){
