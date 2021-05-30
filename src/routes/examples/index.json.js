@@ -41,7 +41,7 @@ function readCollection( fileslist ){
       return {
         ...data,
         path: id,
-        iframe: `${id}/index.htm`,
+        iframe: `${id}/pen.html`,
       };
     }),
   );

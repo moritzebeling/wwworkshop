@@ -53,7 +53,7 @@ export async function get( request ) {
         ...data,
         html: hljs.highlight(html, {language: 'html'}).value,
         css: hljs.highlight(css, {language: 'css'}).value,
-        iframe: `/examples/${slug}/index.htm`,
+        iframe: `/examples/${slug}/pen.html`,
         content: text
       }
     };

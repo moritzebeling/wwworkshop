@@ -16,17 +16,12 @@ export async function get( request ) {
 
   const css = getFile( request.path );
 
-  if( css ){
-    return {
-      headers: {
-				'Cache-Control': `max-age=0, s-max-age=${60*60}`,
-				'Content-Type': 'text/css; charset=utf-8'
-			},
-      body: css
-    };
-  }
-
   return {
-    status: 404
+    headers: {
+      'Cache-Control': `max-age=0, s-max-age=${60*60}`,
+      'Content-Type': 'text/css; charset=utf-8'
+    },
+    body: css
   };
+
 }

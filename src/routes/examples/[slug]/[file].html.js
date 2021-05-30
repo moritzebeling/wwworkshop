@@ -1,20 +1,17 @@
 import path from "path";
 import fs from "fs";
 
-/*
-* Calling this file .html is a real hack to go around netlify index.html redirects
-*/
-
 function getFile( fileName ){
   return fs.readFileSync(
-    path.resolve( `content${fileName}l` ),
+    path.resolve( `content${fileName}` ),
     "utf-8"
   );
 };
 
 export async function get( request ) {
 
-  const html = getFile( request.path );
+  let filename = request.path.replace('pen.html','index.html');
+  const html = getFile( filename );
 
   if( html ){
     return {
