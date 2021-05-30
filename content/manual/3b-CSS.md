@@ -2,7 +2,7 @@
 title: CSS Reference
 ---
 
-# What is CSS?
+# CSS Reference
 
 **Cascading Style Sheets** is a technology to assign styles to structured content like HTML. This allows you to seperate the appeareance from the actual content.
 
@@ -93,10 +93,15 @@ You can define colors in a few different ways, eg:
 
 Read more:
 - [Screen colors](https://www.w3schools.com/colors/default.asp) by w3schools
+- [Gradient generator](https://cssgradient.io)
 
 
 ## 🧮 Layout
+There are many ways in CSS to create interesting layouts, while the most important techniques are lited below.
 
+Leran more:
+- [w3scools CSS Layout](https://www.w3schools.com/css/css_website_layout.asp)
+- [Learn CSS Box Alignment](https://ishadeed.com/article/learn-box-alignment/) by Ahmad Shadeed
 
 ### The Box Model
 When working with properties like `width`, `height`, `border`, `margin` (outside spacing) and `padding`(inside spacing) it is really helpful to understand the box model concept:
@@ -115,7 +120,7 @@ When working with properties like `width`, `height`, `border`, `margin` (outside
 
 
 ### Position
-With `position`, you can position an element relative to the viewport `fixed`, relative to the document `absolute` or relative to some parent that is positioned `relative`.
+With `position`, you can position an element relative to the viewport `fixed`, relative to the document `absolute` or relative to some parent that is positioned `relative`. This is extremly helpful when you want to position elements on top of each other.
 - [CSS-Tricks](https://css-tricks.com/almanac/properties/p/position/)
 - [Learn CSS Positioning](https://ishadeed.com/article/learn-css-positioning/) by Ahmad Shadeed
 
@@ -129,43 +134,39 @@ Using `display: flex;`, you can spread out elements accross one axis.
 - [CSS-Tricks Complete guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Flexbox froggy](https://flexboxfroggy.com) game
 
+<iframe height="360" src="/examples/css-center/embed"></iframe>
+
+> Center a child element using `flex`, `justify-content` for `x`-axis and `align-items` for `y`-axis.
+
 <iframe height="360" src="/examples/css-flex/embed"></iframe>
 
 > Elements with flexible width, centered horizontally. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/GRWOZro)
 
 ### Grid
-With `display: grid;` you can layout out elements accross two axes.
+With `display: grid;` you can lay out elements accross two axes.
 - [CSS-Tricks complete guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Grid Garden](https://cssgridgarden.com) game
 
 <iframe height="360" src="/examples/css-grid/embed"></iframe>
 
-> A `3x2` grid with different cells. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/XWMzday)
+> A `3x2` grid with cells of different sizes. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/XWMzday)
 
-**`<table>`**
+### Tables
+HTML `<table>` elements can also be used to create a 2D layout, however this is kind of doing it, before CSS grid and flex came out. But it’s still relevant to do an actual table of text or data.
+
 - [CSS-Tricks complete guide](https://css-tricks.com/complete-guide-table-element/)
-
-Learn more:
-- [w3scools CSS Layout](https://www.w3schools.com/css/css_website_layout.asp)
-- [Learn CSS Box Alignment](https://ishadeed.com/article/learn-box-alignment/) by Ahmad Shadeed
-
 
 ## 🎆 Effects
 
 - [Animation](https://css-tricks.com/almanac/properties/a/animation/)
-- [Filter](https://css-tricks.com/almanac/properties/f/filter/)
 - [Transform](https://css-tricks.com/almanac/properties/t/transform/)
 - [Transition](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
-
-And of course
-[box-shadow](https://www.cssmatic.com/box-shadow),
-[border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp),
-[text-shadow](https://css-tricks.com/almanac/properties/t/text-shadow/),
-[gradients](https://www.cssmatic.com/gradient-generator),
-[sticky](https://css-tricks.com/position-sticky-2/),
-[outline](https://developer.mozilla.org/en-US/docs/Web/CSS/outline),
-[scroll-behaviour](https://css-tricks.com/almanac/properties/s/scroll-behavior/), ...
-
+- [Filter](https://css-tricks.com/almanac/properties/f/filter/)
+- [box-shadow](https://www.cssmatic.com/box-shadow)
+- [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp)
+- [text-shadow](https://css-tricks.com/almanac/properties/t/text-shadow/)
+- [gradients](https://www.cssmatic.com/gradient-generator)
+- [outline](https://developer.mozilla.org/en-US/docs/Web/CSS/outline)
 
 ## 📝 Webfonts and typography
 

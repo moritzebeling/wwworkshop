@@ -34,8 +34,6 @@ The first thing to do when you run into errors (e.g. after copying some code fro
 
 When working with a more specific language, plugin or library, it’s often very helpful to look for the official documentation. There you (hopefully) will find detailed information on the available options and example usage. The documentation is also often referred to as "API".
 
-- [jQuery](https://api.jquery.com) Documentation
-
 ## Ask a question
 
 If you come accress a problem that you can’t manage to solve yourself, don’t be afraid to ask. The developer community is often happy to help and look at your problem. You can ask a question on [Stackoverflow](https://stackoverflow.com) or another forum, but of course also the poeple around you!
