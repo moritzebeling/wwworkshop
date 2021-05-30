@@ -1,7 +1,6 @@
 <script context="module">
 
-	import { dev } from '$app/env';
-	export const hydrate = dev;
+	export const hydrate = true;
 	export const prerender = true;
 
 	export async function load({ page, fetch, session, context }) {
