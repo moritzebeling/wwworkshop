@@ -7,7 +7,6 @@ div {
 }
 .relative {
   position: relative;
-  background-color: aqua;
   height: 150vh;
 }
 .absolute {
@@ -16,7 +15,7 @@ div {
 }
 .fixed {
   position: fixed;
-  background-color: red;
+  background-color: springgreen;
 }
 .left {
   left: 1rem;
@@ -34,4 +33,7 @@ div {
 .free {
   top: 10rem;
   background-color: yellow;
+}
+.relative .absolute {
+  color: white;
 }

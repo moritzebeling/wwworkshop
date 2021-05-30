@@ -3,20 +3,21 @@
 $white: #f0f0f0;
 $black: #111111;
 $dark: #222222;
-$midgrey: #999;
 $grey: #e1e1e1;
-$blue: #0079ff;
-$green: #00d098;
-$violet: #ab48ff;
-$yellow: #ffe47a;
+$midgrey: #999;
+$light: lightgrey;
+$blue: blue;
+$green: springgreen;
+$yellow: yellow;
 
 $colors: (
 	"white": $white,
 	"black": $black,
 	"grey": $grey,
+	"midgrey": $midgrey,
+	"light": $light,
 	"blue": $blue,
 	"green": $green,
-	"violet": $violet,
 	"yellow": $yellow,
 );
 

@@ -7,11 +7,11 @@ body {
 section {
   padding: 1rem;
   margin: 1rem;
-  background-color: yellow;
+  background-color: springgreen;
   border: 1rem solid blue;
 }
 div, span {
-  background-color: red;
+  background-color: yellow;
 }
 .box {
   height: 100px;

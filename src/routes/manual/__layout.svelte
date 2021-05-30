@@ -49,7 +49,7 @@
 <main>
 
 	<aside>
-		<div class="sidebar green text-white">
+		<div class="sidebar midgrey">
 			<nav>
 			{#each posts as post}
 				<a class:divider={group(post.group)} aria-current="{$page.path === post.path ? 'page' : ''}" sveltekit:prefetch href={post.path}>{post.title}</a>

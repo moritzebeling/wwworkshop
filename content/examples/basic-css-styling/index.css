@@ -1,10 +1,10 @@
 html {
-    background-color: blue;
-    color: red;
+    background-color: yellow;
+    color: blue;
     text-align: center;
 }
 h1 {
-    color: yellow;
+    color: black;
     font-size: 32px;
     font-family: Arial;
     text-transform: uppercase;

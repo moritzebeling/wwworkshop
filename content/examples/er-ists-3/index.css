@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 html {
-    background-color: #00d098;
-    color: #ffe47a;
+    background-color: springgreen;
+    color: blue;
     text-align: center;
-    font-family: 'Pinyon Script', cursive;
     font-size: 20px;
+    font-style: italic;
 }
 html, body {
     height: 100%;
