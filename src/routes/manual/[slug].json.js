@@ -9,7 +9,7 @@ marked.setOptions({
   smartypants: true,
   highlight: function (code, lang, _callback) {
     if (hljs.getLanguage(lang)) {
-      return hljs.highlight(lang, code).value
+      return hljs.highlight(code, {language: lang}).value
     } else {
       return hljs.highlightAuto(code).value
     }

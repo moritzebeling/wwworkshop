@@ -9,7 +9,7 @@ marked.setOptions({
   smartypants: true,
   highlight: function (code, lang, _callback) {
     if (hljs.getLanguage(lang)) {
-      return hljs.highlight(lang, code).value
+      return hljs.highlight(code, {language: lang}).value
     } else {
       return hljs.highlightAuto(code).value
     }
@@ -51,8 +51,8 @@ export async function get( request ) {
     return {
       body: {
         ...data,
-        html: hljs.highlight('html', html).value,
-        css: hljs.highlight('css', css).value,
+        html: hljs.highlight(html, {language: 'html'}).value,
+        css: hljs.highlight(css, {language: 'css'}).value,
         iframe: `/examples/${slug}/index.html`,
         content: text
       }
