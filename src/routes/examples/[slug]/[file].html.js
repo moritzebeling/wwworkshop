@@ -2,15 +2,19 @@ import path from "path";
 import fs from "fs";
 
 function getFile( fileName ){
-  return fs.readFileSync(
-    path.resolve( `content${fileName}` ),
-    "utf-8"
-  );
+  try {
+    return fs.readFileSync(
+      path.resolve( `content${fileName}` ),
+      "utf-8"
+    );
+  } catch ( error ){
+    return '';
+  }
 };
 
 export async function get( request ) {
 
-  let filename = request.path.replace('pen.html','index.html');
+  let filename = request.path.replace('/pen.html','/index.html');
   const html = getFile( filename );
 
   if( html ){
