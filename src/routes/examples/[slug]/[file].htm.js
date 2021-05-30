@@ -1,9 +1,13 @@
 import path from "path";
 import fs from "fs";
 
+/*
+* Calling this file .html is a real hack to go around netlify index.html redirects
+*/
+
 function getFile( fileName ){
   return fs.readFileSync(
-    path.resolve( `content${fileName}` ),
+    path.resolve( `content${fileName}l` ),
     "utf-8"
   );
 };
