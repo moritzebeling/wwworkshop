@@ -1,0 +1,16 @@
+body {
+  background-color: mediumblue;
+  height: 100vh;
+  margin: 0;
+}
+div {
+  background-color: mediumvioletred;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  bottom: 5%;
+  left: 25%;
+}
+div div {
+  background-color: red;
+}

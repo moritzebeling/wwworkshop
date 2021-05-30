@@ -52,7 +52,7 @@
         color: $blue;
         @include transition;
         &:hover {
-            color: $violet;
+            color: $green;
         }
     }
 
@@ -85,7 +85,10 @@
     .grid {
         display: grid;
         gap: 0.5rem;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
+        &.col4 {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
         margin: 1rem 0;
         > div {
             background-color: #fff;
@@ -135,7 +138,9 @@
         width: 100%;
     }
 
+    figcaption,
     img + blockquote,
+    .grid + blockquote,
     .iframe + blockquote,
     iframe + blockquote {
         color: $midgrey;
@@ -144,6 +149,9 @@
         margin-top: -0.5rem;
         padding-top: 0;
         padding-bottom: 0;
+    }
+    figcaption {
+        margin-top: 0.25em;
     }
 
     .video-wrapper {
