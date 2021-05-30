@@ -4,13 +4,13 @@ title: Welcome
 
 # Welcome
 
-In this workshop we will look at the 2 most basic web technologies: **HTML and CSS**. We will not attempt to build a full website, but approach the topic by **experimenting with small code snippets** that cover many important techniques of web design.
+In this workshop we will look at the 2 most basic web technologies: **HTML and CSS**. Instead of building a full website, we will approach the topic by **experimenting with small code snippets** that cover many important techniques of web design.
 The goal is that all participants **collaborate on building an archive** of code snippets that will be continously collected on this website, so that they can be used by the group.
 
-## You will need
-- Computer with internet access, webcam, microphone
-- Modern web browser like Chrome, Safari or Firefox
-- When using Safari, please activate the developer tools (Settings > Advanced > Show developer tools)
+## Setup
+- **Computer** with internet access, webcam, microphone
+- Modern web **browser** like Chrome, Safari or Firefox. When using Safari, please activate the developer tools (Settings > Advanced > Show developer tools).
+- We will mostly work with [CodePen](https://codepen.io), an **online code editor**, that is perfectly suited for our workshop. Please sign up for a **free account**, which is needed to save and share your projects.
 
 ## The classroom
 The workshop will be remote. On monday morning we will meet on:
@@ -28,7 +28,7 @@ We will meet every day of this week from `11:00` to `15:00`.
         <th>4.6.</th>
     </tr>
     <tr>
-        <td>Introduction</td>
+        <td>Intro</td>
         <td>Assignment 2</td>
         <td>Assignment 4</td>
         <td rowspan="2">Remix</td>
@@ -40,3 +40,8 @@ We will meet every day of this week from `11:00` to `15:00`.
         <td>Assignment 5</td>
     </tr>
 </table>
+
+> Asking questions and helping each other is encouraged at all times!
+
+## Links
+- [CodePen](https://codepen.io)
