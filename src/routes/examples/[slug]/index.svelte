@@ -58,6 +58,8 @@
 	</div>
 </main>
 
+<a class="code-link" sveltekit:prefetch href="/examples/{slug}/embed">Embed link</a>
+
 <style lang="scss">
 
 	main {
