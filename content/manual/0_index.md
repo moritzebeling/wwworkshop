@@ -10,6 +10,8 @@ The goal is that all participants **collaborate on building an archive** of code
 ## Setup
 - **Computer** with internet access, webcam, microphone
 - Modern web **browser** like Chrome, Safari or Firefox. When using Safari, please enable the developer tools (Settings > Advanced > Show developer tools).
+- We should create either a Telegram or Signal chat so that we quickly can share stuff
+- Maybe bookmark this very website, so you can quickly find back to it
 - We will mostly work with [CodePen](https://codepen.io), an **online code editor**, that is perfectly suited for our workshop. Please sign up for a **free account**, which is needed to save and share your projects.
 
 ## The classroom
@@ -45,6 +47,7 @@ We will meet every day this week from `11:00` to `15:00`. Feel free to take a lu
 
 ## Links
 - [CodePen](https://codepen.io)
+- [EtherPad](https://pad.hfbk.net/WWWORKSHOP)
 
 ## Contact
 - email@moritzebeling.com subject: `wwworkshop`

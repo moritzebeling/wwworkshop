@@ -1,5 +1,9 @@
 # wwworkshop
 
+This is a website for a HTML & CSS beginners workshop at HFBK Hamburg in spring 2021.
+
+https://wwwowww.netlify.app
+
 ## Content
 
 Add markdown content to `content/`

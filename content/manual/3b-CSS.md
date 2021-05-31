@@ -153,7 +153,7 @@ With `display: grid;` you can lay out elements accross two axes.
 > A `3x2` grid with cells of different sizes. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/XWMzday)
 
 ### Tables
-HTML `<table>` elements can also be used to create a 2D layout, however this is kind of doing it, before CSS grid and flex came out. But it’s still relevant to do an actual table of text or data.
+HTML `<table>` can also be used to create a 2D layout, which was *the* layout paradigm before CSS flex and grid were introduced. But today it’s still relevant to do an actual table of text or data.
 
 - [CSS-Tricks complete guide](https://css-tricks.com/complete-guide-table-element/)
 

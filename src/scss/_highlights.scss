@@ -20,9 +20,9 @@ $violet: springgreen;
 $yellow: yellow;
 
 pre {
-    color: $black;
+    color: $white;
     &.dark {
-        color: $white;
+        color: $black;
     }
 }
 
@@ -63,45 +63,45 @@ pre {
 .hljs-regexp,
 .hljs-meta .hljs-string {
     /* prettylights-syntax-string */
-    color: $black;
+    color: $white;
 }
 
 .hljs-emphasis {
     /* prettylights-syntax-markup-italic */
-    color: $black;
+    color: $white;
     font-style: italic;
 }
 
 .hljs-strong {
     /* prettylights-syntax-markup-bold */
-    color: $black;
+    color: $white;
     font-weight: bold;
 }
 
 .hljs-subst {
     /* prettylights-syntax-storage-modifier-import */
-    color: $black;
+    color: $white;
 }
 
-.dark {
-    .hljs-regexp,
-    .hljs-meta .hljs-string {
-        /* prettylights-syntax-string */
-        color: $white;
-    }
-    .hljs-emphasis {
-        /* prettylights-syntax-markup-italic */
-        color: $white;
-    }
-    .hljs-strong {
-        /* prettylights-syntax-markup-bold */
-        color: $white;
-    }
-    .hljs-subst {
-        /* prettylights-syntax-storage-modifier-import */
-        color: $white;
-    }
-}
+// .dark {
+//     .hljs-regexp,
+//     .hljs-meta .hljs-string {
+//         /* prettylights-syntax-string */
+//         color: $white;
+//     }
+//     .hljs-emphasis {
+//         /* prettylights-syntax-markup-italic */
+//         color: $white;
+//     }
+//     .hljs-strong {
+//         /* prettylights-syntax-markup-bold */
+//         color: $white;
+//     }
+//     .hljs-subst {
+//         /* prettylights-syntax-storage-modifier-import */
+//         color: $white;
+//     }
+// }
 
 .hljs-built_in,
 .hljs-symbol {
