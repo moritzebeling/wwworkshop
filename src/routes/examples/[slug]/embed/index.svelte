@@ -46,6 +46,7 @@
 			<pre class="dark">
 				{@html page.html}
 			</pre>
+			<a class="code-link" sveltekit:prefetch href="/examples/{slug}/pen.html">index.html</a>
 		</section>
 		{/if}
 		{#if page.css && show.css}
@@ -53,6 +54,7 @@
 			<pre class="dark">
 				{@html page.css}
 			</pre>
+			<a class="code-link" sveltekit:prefetch href="/examples/{slug}/index.css">index.css</a>
 		</section>
 		{/if}
 	</aside>
@@ -78,6 +80,10 @@
 		overflow-y: auto;
 		padding: 0.5rem;
 		padding-right: 0.25rem;
+	}
+
+	.code-link {
+		display: none;
 	}
 
 	.preview {
