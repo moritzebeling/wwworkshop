@@ -9,6 +9,7 @@
 		if (res.ok) {
 			return {
 				props: {
+					slug: page.params.slug,
 					page: await res.json(),
 				}
 			};
@@ -23,6 +24,7 @@
 
 <script>
 	export let page;
+	export let slug;
 </script>
 
 <svelte:head>
@@ -40,12 +42,14 @@
 			<pre class="dark">
 				{@html page.html}
 			</pre>
+			<a class="code-link" sveltekit:prefetch href="/examples/{slug}/pen.html">index.html</a>
 		</section>
 		{#if page.css}
 		<section class="editor">
 			<pre class="dark">
 				{@html page.css}
 			</pre>
+			<a class="code-link" sveltekit:prefetch href="/examples/{slug}/index.css">index.css</a>
 		</section>
 		{/if}
 	</aside>
@@ -67,6 +71,10 @@
 		padding: 0.5rem;
 		padding-top: 0;
 		gap: 0.5rem;
+	}
+
+	.code-link {
+		display: none;
 	}
 
 	aside {
