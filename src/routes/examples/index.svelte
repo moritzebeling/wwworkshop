@@ -36,7 +36,7 @@
 				<h3>{item.title}</h3>
 				<a class="button" sveltekit:prefetch href={item.path}>Details</a>
 			</div>
-			<iframe src="{item.iframe}" title="New sketch"></iframe>
+			<iframe src="{item.iframe}" title="New sketch" loading="lazy"></iframe>
 		</section>
 	{/each}
 

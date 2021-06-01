@@ -57,7 +57,7 @@
 		{/if}
 	</aside>
 	<div class="preview">
-		<iframe src="{page.iframe}" title="{page.title}"></iframe>
+		<iframe src="{page.iframe}" title="{page.title}" loading="lazy"></iframe>
 	</div>
 </main>
 
