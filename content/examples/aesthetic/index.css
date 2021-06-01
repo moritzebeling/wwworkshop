@@ -1,0 +1,18 @@
+html {
+  background-color: lightblue;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 22px;
+  font-family: Bau-Bold;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+p {
+  font-size: 12px;
+  letter-spacing: 5px;
+  font-family: Bau-Medium;
+}
