@@ -52,6 +52,9 @@
 			<a class="code-link" sveltekit:prefetch href="/examples/{slug}/index.css">index.css</a>
 		</section>
 		{/if}
+		{#if page.codepen}
+			<a class="codepen" href="{page.codepen}" target="_blank">Play with it on CodePen</a>
+		{/if}
 	</aside>
 	<div class="preview">
 		<iframe src="{page.iframe}" title="{page.title}"></iframe>
@@ -73,6 +76,15 @@
 		padding: 0.5rem;
 		padding-top: 0;
 		gap: 0.5rem;
+	}
+
+	.codepen {
+		color: $midgrey;
+		@include transition( color );
+		margin: 0.5rem;
+		&:hover {
+			color: white;
+		}
 	}
 
 	.code-link {
