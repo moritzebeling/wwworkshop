@@ -1,5 +1,5 @@
 ---
-title: Couch lerning
+title: Couch learning
 ---
 
 Here are some ideas for your luch break or Feierabend:
