@@ -1,0 +1,23 @@
+body {
+  font-family: courier new;
+  background: #b9d3ee;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+h1 {
+  text-decoration: line-through;
+}
+h1 {
+  text-decoration-color: yellow;
+}
+
+div {
+  background-image: url("https://www.ruhrbarone.de/wp-content/uploads/2011/05/Erich+Fried+004bearb1.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  margin: 50px auto;
+  height: 500px
+}

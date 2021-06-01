@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+body {
+    background-image: linear-gradient(DarkTurquoise, Coral);
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 1rem;
+}
+h1 {
+    font-size: 100px;
+    font-family: 'Playfair Display', bold;
+    text-transform: uppercase;
+    letter-spacing: 0.6em;
+    box-shadow: 10px 10px 100px black;
+    border-radius: 30px;
+    font-size: 72px;
+    background: -webkit-linear-gradient(white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.autor {
+  font-size: 10px;
+}
+
+.herz {
+   width: 10px;
+   height: auto;
+}
+
+hr {
+  height: 10px;
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+}

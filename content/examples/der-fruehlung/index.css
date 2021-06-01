@@ -1,0 +1,27 @@
+html {
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: "Odibee Sans", cursive;
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 3px;
+}
+
+body {
+  text-align: center;
+  padding-top: 50px;
+}
+
+hr {
+  height: 1px;
+  background-color: lightblue;
+  margin-left: 200px;
+  margin-right: 200px;
+}

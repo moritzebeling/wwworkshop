@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;1,100;1,200;1,300;1,400&display=swap");
+
+html {
+  background-color: #d2d2fb;
+  color: #ffffff;
+  font-family: "Archivo", sans-serif;
+  font-size: , 5vh;
+  letter-spacing: 0.06em;
+}
+
+.scroll {
+  position: fixed;
+  left: 25vw;
+  top: 8rem;
+}
+
+.poem {
+  width: 7rem;
+  height: 254rem;
+  left: 50vw;
+  position: relative;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 100;
+}
+
+p {
+  width: 7rem;
+  line-height: 2.5rem;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}

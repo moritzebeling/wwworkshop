@@ -1,0 +1,44 @@
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ background: radial-gradient(circle,          rgba(255,0,0,0.3267682072829131) 0%, rgba(12,9,121,1) 77%, rgba(255,0,0,0.5452556022408963) 78%, rgba(117,0,255,1) 80%, rgba(12,9,121,0.8729866946778712) 82%, rgba(117,0,255,1) 83%, rgba(255,40,0,1) 99%);
+  height:100vh;
+  margin: 0;
+}
+
+p{
+
+  font-size: 3vw;
+  color: white;
+  line-height: 2vw;
+  cursor: help;
+}
+
+
+span{
+  transition: all 0.9s ease;
+  font-size:2vw;
+  font-family: 'Odibee Sans',cursive;
+}
+span:hover {
+  text-shadow: 0 0 72px white;
+  color: transparent;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+#name{
+
+  font-size: 0.5vw;
+  color: white;
+  position: fixed;
+
+}
+
+
+
+
+
+
+}
