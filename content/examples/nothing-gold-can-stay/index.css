@@ -1,0 +1,13 @@
+html {
+    background-color: lightyellow;
+    color: blue;
+  text-align: center;
+}
+  h1 {
+    color: orange;
+    font-size: 25px;
+    font-family: Arial;
+    letter-spacing: 0.05em;
+}
+p{background-image:url("https://pic2.zhimg.com/v2-37ad9c41351c903958c72d513ae071e5_1440w.jpg?source=172ae18b")
+}
