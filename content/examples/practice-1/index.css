@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    width: 700px;
+    heigt: 1100px;
+    background-color: black;
+  }
+  main {
+      display: grid;
+    grid-template-columns: repeat(7, 14.28vw);
+    grid-template-rows: repeat(11, 14.28vw);
+
+  }
+  div {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: black;
+
+  }
+  .divver1 {
+    background: rgb(255,76,0);
+    background: linear-gradient(90deg, rgba(255,76,0,1) 0%, rgba(255,162,0,1) 100%);
+  }
+  .divver2 {
+    background: rgb(255,76,0);
+    background: linear-gradient(180deg, rgba(255,76,0,1) 0%, rgba(255,162,0,1) 100%);
+    display: inline-block;
+  }
+  .divver3 {
+    background: rgb(255,76,0);
+    background: linear-gradient(270deg, rgba(255,76,0,1) 0%, rgba(255,162,0,1) 100%);
+   }
+  .divver4 {
+    background: rgb(255,76,0);
+    background: linear-gradient(0deg, rgba(255,76,0,1) 0%, rgba(255,162,0,1) 100%);
+   }
+  .divver5 {
+    background: rgba(255,76,0,1);
+      }
+  .divver6 {
+    background: rgba(255,162,0,1);
+    }
+
+  span

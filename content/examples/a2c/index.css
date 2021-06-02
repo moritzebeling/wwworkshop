@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .linie {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 49.5vw;
+    border: none;
+    width: 10px;
+    height: 100%;
+    background-color: #0000ff;
+  }
+
+  .flex01 {
+    position: relative;
+    background-color: grey;
+    display: flex;
+    height: 90%;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .square01 {
+    width: 49vw;
+    height: 48.5vh;
+    background-color: #fe8455;
+    border-right: 1vw solid #feceaa;
+    border-bottom: 1.5vh solid #feceaa;
+    box-shadow: inset 0 0 20px #ffffff;
+  }
+
+  .square02 {
+    width: 50vw;
+    height: 48.5vh;
+    background-color: #b2bfff;
+    border-bottom: 1.5vh solid #feceaa;
+    box-shadow: inset 0 0 20px #ffffff;
+  }
+
+  .square03 {
+    width: 49vw;
+    height: 50vh;
+    background-color: #b2bfff;
+    border-right: 1vw solid #feceaa;
+    box-shadow: inset 0 0 20px #ffffff;
+  }
+
+  .square04 {
+    width: 50vw;
+    height: 50vh;
+    background-color: #fe8455;
+    box-shadow: inset 0 0 20px #ffffff;
+  }
+
+  .flex02 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .overlay01 {
+    width: 13%;
+    height: 48.5%;
+    background-color: lightblue;
+    box-shadow: inset 0 0 50px #00f;
+    margin-right: 15.5vw;
+    border-radius: 0px 100px 100px 0px;
+  }
+
+  .overlay02 {
+    width: 25%;
+    height: 48.5%;
+    background-color: lightblue;
+    box-shadow: inset 0 0 50px #00f;
+    margin-right: 15vw;
+    border-radius: 100px;
+  }
+
+  .overlay03 {
+    width: 13%;
+    height: 48.5%;
+    background-color: lightblue;
+    box-shadow: inset 0 0 50px #00f;
+    border-radius: 100px 0px 0px 100px;
+  }
+
+  .overlay04 {
+    width: 13%;
+    height: 50%;
+    margin-top: 1.5vh;
+    background-color: lightblue;
+    box-shadow: inset 0 0 50px #00f;
+    margin-right: 15.5vw;
+    border-radius: 0px 100px 100px 0px;
+  }
+
+  .overlay05 {
+    width: 25%;
+    height: 50%;
+    margin-top: 1.5vh;
+    background-color: lightblue;
+    box-shadow: inset 0 0 50px #00f;
+    margin-right: 15vw;
+    border-radius: 100px;
+  }
+
+  .overlay06 {
+    width: 13%;
+    height: 50%;
+    margin-top: 1.5vh;
+    background-color: lightblue;
+    box-shadow: inset 0 0 50px #00f;
+    border-radius: 100px 0px 0px 100px;
+  }

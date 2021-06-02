@@ -34,14 +34,12 @@ We will meet every day this week from `11:00` to `15:00`. Feel free to take a lu
     <tr>
         <td>Intro</td>
         <td rowspan="2">Assignment 2</td>
-        <td>Assignment 3</td>
-        <td>Assignment 5</td>
+        <td rowspan="2">Assignment 3</td>
+        <td rowspan="2">Assignment 4</td>
         <td rowspan="2">Wrap up</td>
     </tr>
     <tr>
         <td>Assignment 1</td>
-        <td>Assignment 4</td>
-        <td>Remix</td>
     </tr>
 </table>
 
