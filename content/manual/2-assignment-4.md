@@ -21,7 +21,7 @@ The easiest way to install it, is to go to `Settings` > `Install` > enter `atom-
 
 # Let’s go
 
-1. Head over to the [Anatomy of a website](3d-anatomy-of-a-website.md) and copy the template for an HTML document into your `index.html`.
+1. Head over to the "Anatomy of a website" and copy the template for an HTML document into your `index.html`.
 
 2. Create a new `styles.css` document and include it into the HTML.
 
