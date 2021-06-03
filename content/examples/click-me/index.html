@@ -1,0 +1,50 @@
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+
+  <div class="background">
+
+    <div>
+
+      <div class="red">
+        <div class="orange">
+          <div class="yellow">
+            <div class="green">
+              <div class="blue">
+                <div class="darkblue">
+                  <div class="purple">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="click" id="el1">
+        C<br />
+        L<br />
+        I<br />
+        C<br />
+        K
+      </div>
+      <div class="me" id="el2">
+        M<br />
+        E
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+    let el1 = document.getElementById('el1');
+    let el2 = document.getElementById('el2');
+    el1.addEventListener('click',( event )=>{
+      el1.classList.add('clicked');
+    });
+    el2.addEventListener('click',( event )=>{
+      el2.classList.add('clicked');
+    });
+  </script>
