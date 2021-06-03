@@ -1,0 +1,103 @@
+body {
+  background-color: #0000ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.circle {
+   border-radius: 50%;
+}
+
+.shadow {
+  position: relative;
+  filter: blur(50px);
+  width: 50vw;
+  height: 50vw;
+  background-color: #ffffff;
+}
+
+.big {
+  position: absolute;
+  filter: blur(50px);
+  width: 70vw;
+  height: 70vw;
+  background-color: #c6c7ff;
+  animation: changeb 6s infinite;
+}
+
+@keyframes changeb {
+  0% {
+    background-color: #c6c7ff;
+  }
+  50% {
+    background-color: #8a00ff;
+  }
+  100% {
+    background-color: #c6c7ff;
+  }
+}
+
+.middle {
+  position: absolute;
+  filter: blur(50px);
+  width: 60vw;
+  height: 60vw;
+  background-color: #a895ff;
+  animation: changem 6s infinite;
+}
+
+@keyframes changem {
+  5% {
+    background-color: #a895ff;
+  }
+  50% {
+    background-color: #9764ff;
+  }
+  100% {
+    background-color: #a895ff;
+  }
+}
+
+.small {
+  position: absolute;
+  filter: blur(50px);
+  width: 50vw;
+  height: 50vw;
+  background-color: #9764ff;
+  animation: changes 6s infinite;
+}
+
+@keyframes changes {
+  10% {
+    background-color: #9764ff;
+  }
+  50% {
+    background-color: #a895ff;
+  }
+  100% {
+    background-color: #9764ff;
+  }
+}
+
+.tiny {
+  position: absolute;
+  filter: blur(50px);
+  width: 40vw;
+  height: 40vw;
+  background-color: #8a00ff;
+  animation: changet 6s infinite;
+}
+
+@keyframes changet {
+  15% {
+    background-color: #8a00ff;
+  }
+  50% {
+    background-color: #c6c7ff;
+  }
+  100% {
+    background-color: #8a00ff;
+  }
+}

@@ -1,0 +1,27 @@
+main {
+    display: grid;
+    grid-template-columns: repeat( 10, 1fr );
+    gap: 5px;
+  }
+
+  div {
+    border: 1px transparent;
+    border-radius: 1rem;
+    padding-top: 100%;
+    background: linear-gradient(148deg, #aaff00, #990079, #006899);
+      background-size: 600% 600%;
+
+      animation: AnimationName 3s ease infinite;
+  }
+
+  @keyframes AnimationName {
+      0%{background-position:7% 0%}
+      50%{background-position:99% 100%}
+      100%{background-position:7% 0%}
+  }
+
+  div:hover {
+    transform: scale(0.5,0.5) rotate(45deg);
+
+
+  }
