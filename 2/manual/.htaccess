@@ -1,0 +1,23 @@
+AddDefaultCharset UTF-8
+DefaultLanguage en
+
+<IfModule mod_rewrite.c>
+
+  RewriteEngine on
+  # RewriteBase /2/manual
+
+  # remove www and add https
+  # RewriteCond %{HTTP_HOST} ^www.example.com$ [NC]
+  # RewriteRule ^(.*)$ https://example.com/$1 [R=301,L]
+
+  # force https
+  # RewriteCond %{HTTPS} off
+  # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^.*$ /2/manual/index.php [L,QSA]
+
+  FallbackResource /index.php
+
+</IfModule>
