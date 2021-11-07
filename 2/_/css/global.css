@@ -1,0 +1,39 @@
+body {
+  background-color: #ddd;
+}
+
+header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100000000000000020;
+}
+
+header nav a {
+  margin-left: 0.5em;
+}
+
+header,
+.border-outside {
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: #ccc;
+  border-left-color: #ccc;
+  border-right-color: #999;
+  border-bottom-color: #999;
+}
+
+iframe,
+.border-inside {
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: #999;
+  border-left-color: #999;
+  border-right-color: #ccc;
+  border-bottom-color: #ccc;
+}
+
+/*# sourceMappingURL=global.css.map */
