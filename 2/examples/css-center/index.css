@@ -1,0 +1,19 @@
+html {
+  background-color: blue;
+  height: 100vh;
+}
+html, section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  width: 200px;
+  height: 200px;
+  background-color: springgreen;
+}
+div {
+  background-color: yellow;
+  color: yellow;
+  padding: 1rem;
+}

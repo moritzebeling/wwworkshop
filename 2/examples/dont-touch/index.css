@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+    background-color: #c4f5ff;
+    }
+  .circle {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    line-height: 400px;
+    font-size: 50px;
+    color: #00945c;
+    text-align: center;
+    background: #dac7ff;
+    font-family: helvetica;
+    }
+
+  div:hover span {display:none;}
+  div:hover:before {content:"꒰˵ˊᯅˋ˵꒱   "}
+  div:hover:before {font-size: 120px}
+
+    .circle:hover {
+    animation: random 1s ease;
+        }
+
+  @keyframes random {
+    0% {
+      transform: translate(-10px,0px);
+    }
+    10% {
+      transform: translate(15px,20px);
+    }
+    20% {
+      transform: translate(20px,-40px);
+    }
+    30% {
+      transform: translate(14px,30px);
+    }
+    40% {
+      transform: translate(-30px,-40px);
+    }
+    50% {
+      transform: translate(10px,25px);
+    }
+    60% {
+      transform: translate(4px,-20px);
+    }
+  }

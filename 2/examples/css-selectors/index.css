@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+article {
+    margin: 0.5rem;
+}
+h1, h2 {
+    font-family: sans-serif;
+}
+h2 {
+    color: blue;
+}
+header h1,
+header h2 {
+    text-transform: uppercase;
+}
+article > h2 {
+    padding-left: 0.5rem;
+    border-left: 15px solid currentColor;
+}
+.special {
+    text-decoration: underline;
+}
+p.special {
+    color: blue;
+}
+header + p,
+p + h2 {
+    margin-top: 1rem;
+}

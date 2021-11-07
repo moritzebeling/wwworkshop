@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lemonchiffon;
+  }
+  main div {
+    height: 50vh;
+    width: 25%;
+  }
+  .rect {
+    width: 100%;
+    background-color: #fff0f5;
+  }
+  .tri {
+    box-sizing: border-box;
+    border-right: 25vw solid lightcyan;
+    border-top: 25vw solid transparent;
+    border-bottom: 25vw solid transparent;
+  }

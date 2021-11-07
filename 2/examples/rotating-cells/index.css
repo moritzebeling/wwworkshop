@@ -1,0 +1,30 @@
+html {
+  margin: 0;
+  height: 100vh;
+  background-color: blue;
+}
+html, main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100vw;
+  height: 100vw;
+}
+div {
+  margin: 3vw;
+  padding: 1vw;
+  background-color: springgreen;
+  animation: rotate 5s infinite linear;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

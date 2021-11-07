@@ -1,0 +1,70 @@
+body {
+    background-color: #ffcdd2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .circle {
+     border-radius: 50%;
+  }
+
+  .shadow {
+    position: relative;
+    filter: blur(50px);
+    width: 70vw;
+    height: 70vw;
+    background-color: #9764ff;
+  }
+
+  .big {
+    position: absolute;
+    width: 70vw;
+    height: 70vw;
+    background-color: #fe6045;
+    transition: background-color 0.5s     ease;
+  }
+
+  .middle {
+    position: absolute;
+    width: 60vw;
+    height: 60vw;
+    background-color: #70deb6;
+    transition: background-color 0.5s   ease;
+  }
+
+  .small {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    background-color: #f3f2e9;
+    transition: background-color 0.5s     ease;
+  }
+
+  .tiny {
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    background-color: #ffbeff;
+    transition: background-color 0.5s     ease;
+
+  }
+
+  .big:hover {
+    background-color: #8a00ff;
+
+  }
+
+  .tiny:hover {
+    background-color: #c6c7ff;
+  }
+
+  .middle:hover {
+    background-color: #9764ff;
+  }
+
+  .small:hover {
+    background-color: #a895ff;
+  }

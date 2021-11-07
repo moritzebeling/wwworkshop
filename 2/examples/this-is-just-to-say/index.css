@@ -1,0 +1,56 @@
+html {
+  background-color: #ba92ff;
+}
+
+body {
+  text-align: center;
+  color: black;
+  font-family: helvetica;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#plum {
+  color: #ba92ff;
+}
+
+.titel {
+  font-size: 0.5rem;
+  text-transform: uppercase;
+}
+
+#autor {
+  font-size: 0.5rem;
+  text-transform: uppercase;
+}
+
+#autor:hover + .bild {
+  opacity: 1;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+
+}
+
+.bild {
+  padding-left: 5vw;
+  padding-right: 5vw;
+position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 500ms ease;
+}

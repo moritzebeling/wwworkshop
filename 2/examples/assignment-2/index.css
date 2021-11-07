@@ -1,0 +1,147 @@
+.body {
+    background-color: white;
+    position: relative;
+    width: 600px;
+    height: 600px;
+  }
+
+  body {
+    background-color: grey;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .smallyellow1 {
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0%;
+    left: 0%;
+  }
+
+  .green1 {
+    background-color: #34d719;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 0%;
+    left: 0%;
+  }
+
+  .green2 {
+    background-color: #34d719;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 0%;
+    right: 0%;
+  }
+
+  .smallyellow2 {
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0%;
+    right: 0%;
+  }
+
+  .green3 {
+    background-color: #34d719;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    bottom: 0%;
+    right: 0%;
+  }
+
+  .smallyellow3 {
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0%;
+    right: 0%;
+  }
+
+  .green4 {
+    background-color: #34d719;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    bottom: 0%;
+    left: 0%;
+  }
+
+  .smallyellow4 {
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0%;
+    left: 0%;
+  }
+
+  .black {
+    background-color: black;
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    bottom: 130px;
+    left: 130px;
+  }
+  .darkblue {
+    background-color: darkblue;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .blue {
+    background-color: blue;
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .lightblue {
+    background-color: lightblue;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    bottom: 20px;
+    left: 20px;
+  }
+  .yellow {
+    background-color: yellow;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .weiss {
+    background-color: white;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .center {
+    background-color: #a3fe65;
+    border-radius: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }

@@ -1,0 +1,73 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:blue;
+    margin: 0;
+  }
+
+  .box {
+    width:150px;
+    height:150px;
+    background-color:lightblue;
+    animation: shake 1000ms infinite ease;
+  }
+
+  @keyframes shake {
+    0%, 80%{
+      transform: translateX(0);
+    }
+    20%, 60%{
+      transform: translateX(40px);
+    }
+    30%, 100%{
+      transform: translateX(-50px);
+    }
+  }
+
+  .cir{
+    border-radius:100%;
+    width:60px;
+    height:60px;
+    background-color:yellow;
+    margin-top:90px;
+    animation: cir 1000ms infinite ease;
+  }
+
+  @keyframes cir {
+    0%, 80%{
+      transform: translate(0,0);
+    }
+    20%, 60%{
+      transform: translate(70px,0);
+    }
+    40% {
+      transform: translate(50px,-180px);
+    }
+    30%, 100%{
+      transform: translate(-1px,0);
+    }
+  }
+
+  .small-cir{
+    border-radius:100%;
+    width:20px;
+    height:20px;
+    background-color:white;
+    margin-top:-20px;
+    animation: s-cir 1000ms infinite ease;
+  }
+
+  @keyframes s-cir {
+    10%, 90%{
+      transform: translate(0,0);
+    }
+    40%{transform: translate(50px,-20px);}
+    30%, 70%{transform: translate(110px,0);}
+  }
+
+  .box:hover,
+  .box:hover div {
+    animation-play-state: paused;
+  }

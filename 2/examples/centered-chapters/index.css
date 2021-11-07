@@ -1,0 +1,19 @@
+body, p, section {
+    margin: 0;
+}
+section {
+    background-color: blue;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    background-color: blue;
+    padding: 10vw;
+    border-radius: 100%;
+}
+section:nth-child(odd),
+section:nth-child(even) p{
+    background-color: yellow;
+}

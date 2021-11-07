@@ -1,0 +1,12 @@
+html {
+  background-color: pink;
+  color: black;
+  text-align: center;
+}
+h1 {
+  color: black;
+  font-size: 22px;
+  font-family: times;
+  text-transform: smallcase;
+  letter-spacing: 0.05em;
+}
