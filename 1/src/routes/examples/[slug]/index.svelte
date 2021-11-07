@@ -1,7 +1,6 @@
 <script context="module">
 
 	export const hydrate = true;
-	export const prerender = true;
 
 	export async function load({ page, fetch, session, context }) {
 		const url = `/examples/${page.params.slug}.json`;
