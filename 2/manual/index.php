@@ -6,7 +6,7 @@ $request = str_replace('/2/manual/','',$request) . '.md';
 require_once '../_/vendor/Parsedown.php';
 $Parsedown = new Parsedown();
 $Parsedown->setBreaksEnabled(true);
-$file = file_exists( $request ) ? file_get_contents( $request ) : file_get_contents( 'index.md' );
+$file = file_exists( $request ) ? file_get_contents( $request ) : file_get_contents( '0_index.md' );
 
 include '../_/header.php';
 
@@ -38,7 +38,7 @@ include '../_/header.php';
                 $path = str_replace('.md','',$path);
                 $title = str_replace('examples/','',$path);
                 ?>
-                <a href="/2/manual/<?= $path ?>"><?= $path ?></a>
+                <a href="/2/manual/<?= $path ?>">/<?= $title ?></a>
             <?php endforeach ?>
         </nav>
     </aside>

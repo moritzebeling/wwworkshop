@@ -15,10 +15,10 @@
 
         <header>
             <nav>
-                <a href="/2">wwworkshop 2</a>
+                <a href="/2">wwworkshop/2</a>
             </nav>
             <nav>
-                <a href="/2">Examples</a>
-                <a href="/2/manual">Manual</a>
+                <a href="/2">/examples</a>
+                <a href="/2/manual">/manual</a>
             </nav>
         </header>
