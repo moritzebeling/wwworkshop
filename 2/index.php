@@ -4,6 +4,7 @@
 
     ul {
         padding: 1rem;
+        padding-top: 0;
     }
     li {
         margin-bottom: 1rem;
@@ -30,10 +31,6 @@
         height: 100%;
         background-color: #eee;
     }
-    h5 {
-        margin-top: 0.3em;
-        padding-left: 1em;
-    }
 
 </style>
 
@@ -48,7 +45,8 @@
                 <iframe src="/2/embed/<?= $path ?>" title="<?= $title ?>"></iframe>
             </div>
             <h5>
-                <a href="/2/<?= $path ?>"><?= $title ?></a>
+                <a href="/2/embed/<?= $path ?>"><?= $title ?></a>
+                <a href="/2/code/<?= $path ?>">Code</a>
             </h5>
         </li>
     <?php endforeach ?>
