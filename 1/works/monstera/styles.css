@@ -1,0 +1,45 @@
+h1 {
+  color: seagreen;
+  font-family: Brush Script MT;
+  font-size: 100px;
+  animation: pulsate 2s infinite ease;
+}
+
+@keyframes pulsate  {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+
+  }
+}
+
+h2 {
+  color: seagreen;
+  font-family: Brush Script MT;
+  font-size: 50px;
+  animation: pulsate 2s infinite ease;
+
+}
+
+h3 {
+  color: seagreen;
+  font-family: Brush Script MT;
+  font-size: 40px;
+  animation: pulsate 2s infinite ease;
+}
+
+body {
+  font-family: monospace;
+  font-size: 20px
+
+}
+
+.Monstera {
+  width: 70%;
+  height: auto;
+}
+ p {
+   color: thistle;
+ }

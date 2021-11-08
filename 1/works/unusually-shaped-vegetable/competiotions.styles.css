@@ -1,0 +1,8 @@
+html,body{
+  background: linear-gradient(0deg, rgba(254,255,170,1) 0%, rgba(252,123,123,1) 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}

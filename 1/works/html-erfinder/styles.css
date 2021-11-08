@@ -1,0 +1,267 @@
+
+.Hintergrund {
+  background-color: white;
+  display: flex;
+  border: 1px black;
+  padding: 200px;
+}
+
+
+
+
+
+.article {
+  padding-top: 100px;
+  padding-right: 300px;
+  padding-bottom: 100px;
+  padding-left: 300px;
+  color: black;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  background: linear-gradient(257deg, #ff0000, #23ff00, #1effed, #f70081, #f79000);
+  background-size: 1000% 1000%;
+  animation: AnimationName 30s ease infinite;
+  border-radius: 10rem;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+
+.body1 {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 40px;
+  padding-bottom: 200px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  border-radius: 3rem;
+  box-shadow: 10px 10px yellow;
+
+}
+
+
+.ENZ{
+    font-family: Georgia, serif;
+    font-size: 100px;
+    letter-spacing: 3.8px;
+    word-spacing: 3.2px;
+    color: white;
+    font-weight: normal;
+    text-decoration: underline solid yellow;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    text-align: center;
+}
+
+.wiki {
+  width: 30%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: white;
+  border-radius: 100rem;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 10px 10px yellow;
+}
+
+
+
+
+
+.heute{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Courier New;
+  text-shadow: 1px black;
+  text-align: center;
+  background-color: white;
+  border-radius: 3rem;
+  box-shadow: 10px 10px yellow;
+  border-width: 2px;
+  border-style: solid;
+
+
+}
+.titel{
+  font-family: Impact;
+  letter-spacing: 40px;
+  font-size: 100px;
+  text-align: center;
+}
+.title {
+  background-color: transparent;
+  font-style: italic;
+  font-size: 200px;
+    animation: sideways1 5s infinite linear;
+  position: absolute;
+  font-family: Impact;
+  font-weight: bold;
+  opacity: 0.7
+ }
+
+ @keyframes sideways1 {
+   from {
+     left: 0;
+     transform: translateX(100px)rotate(0deg);
+     color: red;
+   }
+   to {
+     left: 100%;
+     transform: rotate(45deg);
+     color: yellow;
+   }
+ }
+
+ .title2 {
+   background-color: transparent;
+   font-style: italic;
+   font-size: 200px;
+     animation: sideways2 5s infinite linear alternate;
+   position: absolute;
+   font-family: Impact;
+   font-weight: bold;
+   opacity: 0.7
+  }
+
+  @keyframes sideways2 {
+    from {
+      left: 0;
+      transform: translateX(100px)rotate(0deg);
+      color: red;
+    }
+    to {
+      left: 100%;
+      transform: rotate(45deg);
+      color: yellow;
+    }
+  }
+
+
+  .title3 {
+    background-color: transparent;
+    font-style: oblique;
+    font-size: 100px;
+    animation: sideways3 10s infinite linear alternate;
+    position: absolute;
+    font-family: Impact;
+    font-weight: bold;
+    opacity: 0.7
+   }
+
+   @keyframes sideways3 {
+     from {
+       left: 0;
+       transform: translateX(20px)rotate(0deg);
+       color: green;
+     }
+     to {
+       left: 100%;
+       transform: translate(200px)rotate(45deg);
+     }
+   }
+
+
+.dvdborder {
+  position: absolute;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: linear-gradient(257deg, #ff0000, #23ff00, #1effed, #f70081, #f79000);
+  background-size: 1000% 1000%;
+  animation: dvd 1s ease infinite alternate;
+  border-radius: 10rem;
+  opacity: 0.7;
+  animation: dvdmove 2s infinite linear alternate;
+
+}
+
+@keyframes dvdmove {
+  0% {
+    left: 0;
+    transform: rotate(0deg);
+    color: green;
+  }
+  100% {
+    left: 100%;
+    transform: rotate(45deg);
+  }
+}
+
+
+.dvd {
+  width: 10%;
+  height: auto;
+}
+
+
+
+.erstejahre {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Marker Felt;
+}
+
+.p1 {
+  font-family: impact;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+
+
+.p3 {
+  font-size: 20px;
+  font-family: Chalkduster;
+}
+
+.p3:hover{
+  transform: translate(100px);
+  text-shadow: 2px, 2px;
+}
+
+.p2:hover{
+  transform: translateX(-100px)rotate(-9deg);
+}
+
+.p4{
+  font-family: Trattatello;
+}
+
+.p4:hover {
+  transform: skew(10deg, 30deg);
+}
+
+.portrait {
+  opacity: 0;
+  border-radius: 1400rem;
+  position: absolute;
+  display: flex;
+ justify-content: center;
+}
+
+.portrait:hover{
+  opacity: 1;
+  transition: 1s;
+}
+hr {
+  border-width: 1px;
+  background: white;
+}
+
+
+.p5:hover
+{
+  -moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.jump {
+  opacity: 0;
+  }

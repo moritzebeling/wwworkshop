@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Varela+Round&display=swap');
+
+::selection {
+  color: white;
+  background: springgreen;
+}
+
+html {
+  cursor: url(./assets/bear_cursor.gif), auto;
+  scroll-behavior: smooth;
+  width: 98vw;
+  font-size: 1vw;
+  line-height: 2.5rem;
+  background: linear-gradient(0deg, #f8b7e2, #937aff);
+  background-size: 400% 400%;
+  animation: backgrad 30s ease infinite;
+}
+
+@keyframes backgrad {
+  0% {
+    background-position: 51% 0%
+  }
+
+  50% {
+    background-position: 50% 100%
+  }
+
+  100% {
+    background-position: 51% 0%
+  }
+}
+
+/*
+  background: rgb(183, 169, 244);
+  background: linear-gradient(0deg, rgba(183, 169, 244, 1) 0%, rgba(255, 172, 216, 1) 100%);
+  */
+
+body {
+  margin-left: 3.5rem;
+  margin-top: 3.5rem;
+}
+
+article {
+  display: flex;
+  color: white;
+  text-align: justify;
+}
+
+aside {
+  width: 25%;
+}
+
+nav {
+  position: sticky;
+  top: 10rem;
+  padding-left: 3rem;
+}
+
+main {
+  width: 75%;
+  padding-top: 3rem
+}
+
+.img_header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+
+.animalcrossing {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 6rem;
+}
+
+.nintendog_gif {
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3rem;
+
+
+}
+
+h1 {
+  font-family: 'Crafty Girls', cursive;
+  font-size: 6rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: 'Crafty Girls', cursive;
+  padding-top: 1rem;
+  font-size: 4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h3 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 2rem;
+}
+
+p, ol, ul {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.5rem;
+}
+
+a {
+  font-family: 'Crafty Girls', cursive;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  transition-property: font-size, color;
+  transition-duration: 250ms;
+}
+
+a:hover {
+  cursor: url(./assets/tama_cursor.gif), auto;
+  color: springgreen;
+  font-size: 1.7em;
+}
+
+ul {
+  list-style-image: url(./assets/tama_cursor.gif);
+  line-height: 5rem;
+}
+
+nav li a {
+  display: inline-block;
+  transform: translateY(-0.7em);
+  line-height: 3rem;
+}
+
+em {
+  font-family: 'Crafty Girls', cursive;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+
+
+
+.tamagotchi:hover {
+  cursor: url(./assets/Tamagotchi_Friend_Pink.png), auto;
+}
+
+.digimon:hover {
+  cursor: url(./assets/Tailmon.gif), auto;
+}
+
+.neopet:hover {
+  cursor: url(./assets/neopet.png), auto;
+}
+
+.nintendog:hover {
+  cursor: url(./assets/nintendog.png), auto;
+}
+
+.furby:hover {
+  cursor: url(./assets/furby.gif), auto;
+}
+
+.cyberpet:hover {
+  cursor: url(./assets/cyberpet.png), auto;
+}
+
+.petz {
+  cursor: url(./assets/kittygif.gif), auto;
+}
+
+.dogz {
+  cursor: url(./assets/dogz.gif), auto;
+}
+
+.em {
+  background: linear-gradient(270deg, #ff4600, #fffa00, #0dff00, #00e6ff, #0054ff, #ff00f5, #ff4600);
+  background-size: 1200% auto;
+  animation: swipe 4s ease infinite;
+  color: #00000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes swipe {
+  0%, 100% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 100%
+  }
+}

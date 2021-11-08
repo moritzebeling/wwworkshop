@@ -1,0 +1,26 @@
+h1{
+  font-family: 'Mate SC', serif;
+}
+h2{
+  font-family: 'Mate SC', serif;
+}
+.title{
+  text-align: center;
+  background-color: gray;}
+
+.covid{
+  text-align: center;
+  background-color: gray;
+
+}
+
+*{
+  margin: 10px;
+  color:white;
+   }
+
+body{
+  background-image: url("earth.gif");
+  height: 100vh;
+
+}
