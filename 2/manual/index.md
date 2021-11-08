@@ -1,7 +1,3 @@
----
-title: Welcome
----
-
 # Welcome
 
 In this workshop we will look at the 2 most basic web technologies that (almost) every website is made of: **HTML and CSS**. Instead of building a full website, we will approach the topic by **experimenting with small code snippets** that cover many important techniques of web design.

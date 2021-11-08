@@ -1,7 +1,3 @@
----
-title: HTML Reference
----
-
 # HTML Reference
 
 **Hypertext markup language** is a way to give structure to some text or document. It let’s you define which part of a document is e.g. a headline or a hyperlink, but it can also provide the architecture for complex layouts. HTML is the underlying technology for almost all websites.

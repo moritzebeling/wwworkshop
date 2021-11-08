@@ -1,7 +1,3 @@
----
-title: Our workbench
----
-
 # CodePen, our programming workbench
 
 For this website, we will not work locally with a text editor on our computer, but instead we will use an online tool within the browser called CodePen. Let’s assume that you already signed up for a free account.

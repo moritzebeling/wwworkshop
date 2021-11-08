@@ -1,7 +1,3 @@
----
-title: Couch learning
----
-
 # Couch learning
 
 Here are some ideas for your luch break or Feierabend:

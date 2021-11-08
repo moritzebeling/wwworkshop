@@ -1,7 +1,3 @@
----
-title: Assignment 3
----
-
 # Assignment 3: Transforms, transitions, animations
 
 Until now, HTML elements are very rectangular for us. But luckily there are some things that we can do about it:

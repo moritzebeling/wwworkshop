@@ -1,7 +1,3 @@
----
-title: Sharing & submitting
----
-
 # Sharing and submitting your work
 
 The idea of this workshop is, that everyone shares their work so that we can collect it here on this website. Since we’re all beginners and just here for the fun, it is totally okay to share both unfinished work or simple experiments – as well as perfected snippets.

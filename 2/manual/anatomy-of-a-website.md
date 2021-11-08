@@ -1,7 +1,3 @@
----
-title: Anatomy of a website
----
-
 # Anatomy of a website
 
 ## File structure

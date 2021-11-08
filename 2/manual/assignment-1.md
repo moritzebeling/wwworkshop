@@ -1,7 +1,3 @@
----
-title: Assignment 1
----
-
 # Assignment 1: Text formatting
 
 We now have heard of HTML and CSS, so let’s start with the first assignment:

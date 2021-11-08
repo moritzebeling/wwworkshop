@@ -1,7 +1,3 @@
----
-title: CSS Reference
----
-
 # CSS Reference
 
 **Cascading Style Sheets** is a technology to assign styles to structured content like HTML. This allows you to seperate the appeareance from the actual content.

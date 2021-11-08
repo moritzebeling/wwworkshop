@@ -1,7 +1,3 @@
----
-title: Assignment 4
----
-
 # Assignment 4: Doing a "real" website
 
 By now we have learned that with HTML and CSS we can instruct the browser to render elements on a website. Today we will leave our safespace CodePen and try to do a small "real" website by our own.

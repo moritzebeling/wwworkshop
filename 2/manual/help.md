@@ -1,7 +1,3 @@
----
-title: Help
----
-
 # Help
 
 Programming confronts us with a lot of different challenging problems, but also offers us tools to solve them in various creative ways. Since there are countless such problems and countless ever evolving approaches, paradigms, rules and solutions, it’s nearly impossible to always have them in our head at all times.

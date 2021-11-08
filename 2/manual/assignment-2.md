@@ -1,7 +1,3 @@
----
-title: Assignment 2
----
-
 # Assignment 2: Layouts
 
 HTML can not only be used to structure text, but to structure the 2D space of a browser screen in general.

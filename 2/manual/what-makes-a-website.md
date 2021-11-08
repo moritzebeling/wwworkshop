@@ -1,7 +1,3 @@
----
-title: What makes a Website?
----
-
 # What makes a Website?
 
 A website is basically a collection of files that can be interpreted and rendered by a browser. There are 3 fundamental technologies to make this happen: HTML, CSS and JS.

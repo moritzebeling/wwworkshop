@@ -1,7 +1,3 @@
----
-title: Further surfing
----
-
 # Further surfing
 
 - Have a look at the [code of this website on GitHub](https://github.com/moritzebeling/wwworkshop)
