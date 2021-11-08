@@ -7,13 +7,13 @@ HTML is the basic architecture, every website is made of. The most basic configu
 
 First, let’s look at some text without HTML:
 
-<iframe height="360" src="/examples/er-ists-1/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/er-ists-1"></iframe>
 
 > The source code is on the left, the rendered output on the right.
 
 You can see, that the headline and all the linebreaks are not shown. Therefore we need HTML to structure the text:
 
-<iframe height="420" src="/examples/er-ists-2/embed"></iframe>
+<iframe height="420" src="/2/embed/examples/er-ists-2"></iframe>
 
 > Play with it on [CodePen](https://codepen.io/moritzebeling/pen/PopOPyd)
 
@@ -24,7 +24,7 @@ Now the browser knows, what the headline and the paragraphs are and where to put
 ## 🎨 CSS Cascading Style Sheets
 To define the visual style of the website, we can use CSS. It lets us notate instructions on how the browser should present the different sections of the HTML.
 
-<iframe height="460" src="/examples/er-ists-3/embed?html=false"></iframe>
+<iframe height="460" src="/2/embed/examples/er-ists-3/embed?html=false"></iframe>
 
 > Note, that the HTML is the exact same then in the example above.
 

@@ -6,7 +6,7 @@ We now have heard of HTML and CSS, so let’s start with the first assignment:
 
 2. Go on the internet or your book shelf and search for a small poem you like. Maybe together with some context like title, author, year? Copy and paste that to the HTML editor and clean up the text so that it looks good in the HTML editor.
 
-<iframe height="360" src="/examples/er-ists-1/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/er-ists-1"></iframe>
 
 > Raw text without HTML structure results in just one long text. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/ZEeabqG)
 
@@ -21,7 +21,7 @@ We now have heard of HTML and CSS, so let’s start with the first assignment:
 - Each tag must open `<tag>` and eventually close `</tag>`, however there are selfclosing tags like `<br />` or `<img />` that are not allowed to have any content
 - There are various different tags with different meaning, like `<h1>` for headline or `<p>` for paragraph
 
-<iframe height="360" src="/examples/er-ists-2/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/er-ists-2"></iframe>
 
 > Using HTML, we can structure the content. The browser applies its default stylesheet. See it on [CodePen](https://codepen.io/moritzebeling/pen/PopOPyd)
 
@@ -35,7 +35,7 @@ These tags might help you with this task:
 - `<strong>` [strong](https://www.w3schools.com/tags/tag_strong.asp) (bold)
 - `<hr>` [horizonal rule](https://www.w3schools.com/tags/tag_hr.asp) (line)
 
-<iframe height="360" src="/examples/basic-html-elements/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/basic-html-elements"></iframe>
 
 > Play with it on [CodePen](https://codepen.io/moritzebeling/pen/XWMzYKY)
 
@@ -56,7 +56,7 @@ To find out more, check out these links:
 - Inside `{` that style rule you can list all the single style definitions `}`
 - Each definition is notated as `property: value;`. There is a defined list of avaliable properties and each property has a defined range of optional values.
 
-<iframe height="360" src="/examples/basic-css-styling/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/basic-css-styling"></iframe>
 
 > The `h1` css selector applies the style to the `<h1>` HTML element. Note that `html` and `body` are inserted for us by CodePen, so we do not have to type them in HTML, but can style them with CSS. Also check out how the text color is set individually for the `h1`, while the `p` inherits it from `html`.
 

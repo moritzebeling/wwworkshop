@@ -17,15 +17,15 @@ These links might help you:
 
 ## Some examples
 
-<iframe height="360" src="/examples/hover-me/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/hover-me"></iframe>
 
 > Use `:hover` in combination with `transition`. Note how the background is a sibling element to the button and still can be animated using the `+` combinator. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/RwpjxaY)
 
-<iframe height="360" src="/examples/x-y-bubbles/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/x-y-bubbles"></iframe>
 
 > CSS `animation` in combination with `position`. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/OJpOzgY)
 
-<iframe height="360" src="/examples/rotating-cells/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/rotating-cells"></iframe>
 
 > CSS `animation` in combination with `transform`. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/qBrVVOO)
 

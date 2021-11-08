@@ -1,9 +1,15 @@
 body {
   margin: 0;
+  line-height: 1.4;
 }
 
 figure {
   margin: 0;
+}
+
+::selection {
+  background-color: #00f;
+  color: #fff;
 }
 
 header {
@@ -27,6 +33,42 @@ figcaption {
 .square {
   padding-top: 100%;
   position: relative;
+}
+
+.markdown code {
+  background-color: #eee;
+  padding: 0.1em 0.2em;
+}
+.markdown pre {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem;
+  overflow-x: auto;
+}
+@media (min-width: 600px) {
+  .markdown pre {
+    max-width: 60vw;
+  }
+}
+.markdown pre code {
+  background-color: transparent;
+}
+@media (min-width: 600px) {
+  .markdown iframe {
+    width: 60vw;
+  }
+}
+.markdown table {
+  border: 1px solid currentColor;
+}
+.markdown table td, .markdown table th {
+  border: 1px solid currentColor;
+  padding: 0.2rem 0.5rem;
+}
+@media (min-width: 600px) {
+  .markdown table {
+    max-width: 60vw;
+  }
 }
 
 /*# sourceMappingURL=global.css.map */

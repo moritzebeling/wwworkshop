@@ -35,7 +35,7 @@ You can also refer to:
 
 ## Some examples
 
-<iframe height="360" src="/examples/josef-albers-hommage-to-the-div/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/josef-albers-hommage-to-the-div"></iframe>
 
 > Hommage to the div. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/PopOJeW)
 

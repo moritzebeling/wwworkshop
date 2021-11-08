@@ -16,13 +16,13 @@ include '../_/header.php';
 
     .wrapper {
         display: grid;
-        grid-template-columns: 1fr 3fr;
+        grid-template-columns: 25% 1fr;
         gap: 1rem;
         padding: 1rem;
     }
     aside nav {
         position: sticky;
-        top: 4rem;
+        top: 6rem;
     }
     aside a {
         display: block;
@@ -33,7 +33,7 @@ include '../_/header.php';
 <div class="wrapper">
     <aside>
         <nav>
-            <?php foreach( glob("*") as $path ): ?>
+            <?php foreach( glob("*.md") as $path ): ?>
                 <?php
                 $path = str_replace('.md','',$path);
                 $title = str_replace('examples/','',$path);

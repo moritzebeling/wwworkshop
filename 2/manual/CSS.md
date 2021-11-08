@@ -30,7 +30,7 @@ And then there are **combinators**:
 - `element1 + element2` select elements that directly follow the first
 - `element1, element2` apply the same rules to both elements
 
-<iframe height="360" src="/examples/css-selectors/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/css-selectors"></iframe>
 
 > Using tag name selectors you can define a base style, while later applying more specific styles using class selectors or combinators. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/wvJPGwW)
 
@@ -43,7 +43,7 @@ Learn more:
 ### Style rules and properties
 There are various rules that you can apply to an element to control its appeareance.
 
-<iframe height="360" src="/examples/css-styles/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/css-styles"></iframe>
 
 > Play with it on [CodePen](https://codepen.io/moritzebeling/pen/mdWqPyy)
 
@@ -107,7 +107,7 @@ When working with properties like `width`, `height`, `border`, `margin` (outside
 - An elements dimensions are measured from the outside of its content and inside of its padding, which can be quite counter-intuitive. You can change that behaviour with `box-sizing: border-box;`, so that the dimensions are now measured outside its border and inside its margin
 - The margin of sibling elements will collapse (or overlayed) instead of added
 
-<iframe height="360" src="/examples/the-box-model/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/the-box-model"></iframe>
 
 > Illustration of the box model onion. The last 2 boxes illustrate the difference between `content-box` and `border-box`, they are both `100x100px` in size. Also note the collapsing margins. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/RwpjaYG)
 
@@ -121,7 +121,7 @@ With `position`, you can position an element relative to the viewport `fixed`, r
 - [CSS-Tricks](https://css-tricks.com/almanac/properties/p/position/)
 - [Learn CSS Positioning](https://ishadeed.com/article/learn-css-positioning/) by Ahmad Shadeed
 
-<iframe height="360" src="/examples/css-position/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/css-position"></iframe>
 
 > Scroll down to see the different behaviours. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/XWMzdqO)
 
@@ -131,11 +131,11 @@ Using `display: flex;`, you can spread out elements accross one axis.
 - [CSS-Tricks Complete guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Flexbox froggy](https://flexboxfroggy.com) game
 
-<iframe height="360" src="/examples/css-center/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/css-center"></iframe>
 
 > Center a child element using `flex`, `justify-content` for `x`-axis and `align-items` for `y`-axis.
 
-<iframe height="360" src="/examples/css-flex/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/css-flex"></iframe>
 
 > Elements with flexible width, centered horizontally. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/GRWOZro)
 
@@ -144,7 +144,7 @@ With `display: grid;` you can lay out elements accross two axes.
 - [CSS-Tricks complete guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Grid Garden](https://cssgridgarden.com) game
 
-<iframe height="360" src="/examples/css-grid/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/css-grid"></iframe>
 
 > A `3x2` grid with cells of different sizes. Play with it on [CodePen](https://codepen.io/moritzebeling/pen/XWMzday)
 

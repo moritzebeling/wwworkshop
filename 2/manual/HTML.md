@@ -64,7 +64,7 @@ There is a wide variety of HTML tags that you can use to structure your content:
 
 Many of those elements have a semantic meaning to the browser and also have different default CSS styles.
 
-<iframe height="360" src="/examples/a-few-more-html-elements/embed"></iframe>
+<iframe height="360" src="/2/embed/examples/a-few-more-html-elements"></iframe>
 
 There are also semantic elements like `main`, `header`, `footer`, `section`, `aside`, `figure` which work exactly like `div` elements, but can provide a more semantic structure that `div`s.
 
