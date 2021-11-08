@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.5em;
+  font-weight: normal;
+}
+span {
+  font-family: monospace;
+}
