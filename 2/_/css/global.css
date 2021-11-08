@@ -70,5 +70,22 @@ figcaption {
     max-width: 60vw;
   }
 }
+.markdown blockquote {
+  background-color: #eee;
+  margin: 1rem 0;
+  padding: 1px 1rem;
+  border-left: 2px solid #000;
+}
+.markdown .iframe + blockquote,
+.markdown iframe + blockquote {
+  background: transparent;
+  margin-top: 0;
+  border-left: none;
+  font-style: italic;
+}
+.markdown .iframe + blockquote p,
+.markdown iframe + blockquote p {
+  margin-top: 0;
+}
 
 /*# sourceMappingURL=global.css.map */

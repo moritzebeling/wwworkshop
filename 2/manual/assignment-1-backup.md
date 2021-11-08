@@ -1,6 +1,8 @@
-# Assignment 1: Text formatting with HTML
+# Assignment 1: Text formatting
 
-1. Login to CodePen and open a new [Pen](https://codepen.io/pen)
+We now have heard of HTML and CSS, so let’s start with the first assignment:
+
+1. Open a new [CodePen](https://codepen.io/pen) and log in to your account
 
 2. Go on the internet or your book shelf and search for a small poem you like. Maybe together with some context like title, author, year? Copy and paste that to the HTML editor and clean up the text so that it looks good in the HTML editor.
 

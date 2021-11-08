@@ -1,4 +1,4 @@
-# What makes a Website?
+# What is a Website?
 
 A website is basically a collection of files that can be interpreted and rendered by a browser. There are 3 fundamental technologies to make this happen: HTML, CSS and JS.
 
@@ -7,15 +7,13 @@ HTML is the basic architecture, every website is made of. The most basic configu
 
 First, let’s look at some text without HTML:
 
-<iframe height="360" src="/2/embed/examples/er-ists-1"></iframe>
+<iframe height="360" scrolling="no" title="Untitled" src="https://codepen.io/moritzebeling/embed/mdMLrvK?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 > The source code is on the left, the rendered output on the right.
 
 You can see, that the headline and all the linebreaks are not shown. Therefore we need HTML to structure the text:
 
-<iframe height="420" src="/2/embed/examples/er-ists-2"></iframe>
-
-> Play with it on [CodePen](https://codepen.io/moritzebeling/pen/PopOPyd)
+<iframe height="360" scrolling="no" title="Untitled" src="https://codepen.io/moritzebeling/embed/yLojary?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 Now the browser knows, what the headline and the paragraphs are and where to put line breaks.
 
@@ -24,7 +22,7 @@ Now the browser knows, what the headline and the paragraphs are and where to put
 ## 🎨 CSS Cascading Style Sheets
 To define the visual style of the website, we can use CSS. It lets us notate instructions on how the browser should present the different sections of the HTML.
 
-<iframe height="460" src="/2/embed/examples/er-ists-3/embed?html=false"></iframe>
+<iframe height="360" scrolling="no" title="Untitled" src="https://codepen.io/moritzebeling/embed/xxLjEod?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 > Note, that the HTML is the exact same then in the example above.
 
@@ -42,5 +40,3 @@ The third fundamental web technology is **JavaScript**, which is a programming l
 </div>
 
 > [The 3 amigos HTML, CSS, JS](https://www.youtube.com/watch?v=gT0Lh1eYk78) by Danielle Thé (3:57min)
-
-In this workshop, we will focus on the first 2 amigos: HTML and CSS.
