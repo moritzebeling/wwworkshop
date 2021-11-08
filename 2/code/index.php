@@ -26,7 +26,12 @@ $embed = $request;
                 grid-template-columns: 1fr 1fr;
                 gap: 1rem;
                 height: 100vh;
+                max-height: 100vh;
+                overflow: hidden;
                 padding: 1rem;
+            }
+            main {
+                overflow-y: auto;
             }
             section {
                 margin-bottom: 1rem;

@@ -2,24 +2,20 @@
 
 <style>
 
-    ul {
+    main {
         padding: 1rem;
-        padding-top: 0;
     }
-    li {
+    figure {
         margin-bottom: 1rem;
     }
-    .square {
-        padding-top: 100%;
-        position: relative;
-    }
+
     @media (min-width: 800px){
-        ul {
+        main {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 1rem;
         }
-        li {
+        figure {
             margin-bottom: 0;
         }
     }
@@ -34,22 +30,22 @@
 
 </style>
 
-<ul>
+<main>
     <?php foreach( glob("examples/*/index.html") as $path ): ?>
         <?php
         $path = str_replace('/index.html','',$path);
         $title = str_replace('examples/','',$path);
         ?>
-        <li>
+        <figure>
             <div class="square">
                 <iframe src="/2/embed/<?= $path ?>" title="<?= $title ?>"></iframe>
             </div>
-            <h5>
+            <figcaption>
                 <a href="/2/embed/<?= $path ?>"><?= $title ?></a>
                 <a href="/2/code/<?= $path ?>">Code</a>
-            </h5>
-        </li>
+            </figcaption>
+        </figure>
     <?php endforeach ?>
-</ul>
+</main>
 
 <?php include '_/footer.php' ?>
