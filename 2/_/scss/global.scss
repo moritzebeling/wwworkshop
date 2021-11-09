@@ -51,6 +51,13 @@ figcaption {
             background-color: transparent;
         }
     }
+    img {
+        width: 100%;
+        height: auto;
+        @media (min-width: 600px){
+            width: 60vw;
+        }
+    }
     iframe {
         @media (min-width: 600px){
             width: 60vw;

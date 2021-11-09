@@ -19,6 +19,6 @@
             </nav>
             <nav>
                 <a href="/2">/examples</a>
-                <a href="/2/manual">/manual</a>
+                <a href="/2/manual/0-index.html">/manual</a>
             </nav>
         </header>

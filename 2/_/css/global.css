@@ -53,6 +53,15 @@ figcaption {
 .markdown pre code {
   background-color: transparent;
 }
+.markdown img {
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 600px) {
+  .markdown img {
+    width: 60vw;
+  }
+}
 @media (min-width: 600px) {
   .markdown iframe {
     width: 60vw;
