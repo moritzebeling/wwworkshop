@@ -25,7 +25,7 @@ These styling properties might help you:
 - [`display: grid`](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 You can also refer to:
-- Our small [CSS Reference](/manual/3b-CSS)
+- Our small [CSS Reference](/2/manual/CSS-reference.html)
 - [CSS colors](https://www.w3schools.com/colors/default.asp)
 - [The box model](https://www.w3schools.com/css/css_boxmodel.asp)
 - [Geometrical shapes of CSS](https://css-tricks.com/the-shapes-of-css/)

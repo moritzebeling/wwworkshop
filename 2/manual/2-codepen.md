@@ -6,7 +6,7 @@ For this website, we will not work locally with a text editor on our computer, b
 
 When you start a new pen, it looks something like this:
 
-<img src="/media/codepen-screenshot.png" alt="Screenshot CodePen" />
+<img src="codepen-screenshot.png" alt="Screenshot CodePen" />
 
 > On the left there are 3 different editors for HTML, CSS and JS, those 3 technologies, we discussed earlier. On the right you will get a live rendering of your code.
 

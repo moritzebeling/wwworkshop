@@ -12,7 +12,7 @@ Until now, HTML elements are very rectangular for us. But luckily there are some
 1. We will now use those to make geometrical artworks from A.2 even more fun. You can either fork an existing pen or create a new artwork.
 
 These links might help you:
-- Our small [CSS Reference](/manual/3b-CSS)
+- Our small [CSS Reference](/2/manual/CSS-reference.html)
 - Google `CSS ... generator`, `CSS effects`, `CSS animation`, `CSS ...`
 
 ## Some examples
