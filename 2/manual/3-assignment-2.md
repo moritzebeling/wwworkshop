@@ -7,10 +7,10 @@ HTML can not only be used to structure text, but to structure the 2D space of a 
 2. Search for inpiration in the field of geometric art, e.g. "Konkrete Kunst". Many of those artworks constists of geometrical shapes, layouts so to say. Let’s try to do that with HTML and CSS. You can choose to translate an artwork you found or start with a blank page and create your own. To make it simple in the beginning, select a shape that has fewer cells and and that is more rectangular. You can later get more creative and detailed.
 
 <div class="grid col4">
-    <img src="/media/verena-loewensberg-untitled.jpg" alt="Untitled, Verena Loewensberg" />
-    <img src="/media/josef-albers-square.jpg" alt="Hommage to the square, Josef Albers" />
-    <img src="/media/piet-mondrian-komposition-11.jpg" alt="Composition 11, Piet Mondrian" />
-    <img src="/media/richard-paul-lohse-2x2.jpg" alt="2x2 gleiche Farbgruppen, Richard Paul Lohse" />
+    <img src="verena-loewensberg-untitled.jpg" alt="Untitled, Verena Loewensberg" />
+    <img src="josef-albers-square.jpg" alt="Hommage to the square, Josef Albers" />
+    <img src="piet-mondrian-komposition-11.jpg" alt="Composition 11, Piet Mondrian" />
+    <img src="richard-paul-lohse-2x2.jpg" alt="2x2 gleiche Farbgruppen, Richard Paul Lohse" />
 </div>
 
 > Untitled, Verena Loewensberg. Hommage to the square, Josef Albers. Composition 11, Piet Mondrian. 2x2 gleiche Farbgruppen, Richard Paul Lohse

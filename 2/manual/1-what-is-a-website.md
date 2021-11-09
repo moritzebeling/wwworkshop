@@ -31,7 +31,7 @@ So HTML brings the structured content, while CSS knows how this structure should
 > Go to your browsers developer menu and click "Disable styles" to disable CSS all together and reveal how the current website would look without it.
 
 ## 💫 JS
-The third fundamental web technology is **JavaScript**, which is a programming language that runs inside the browser once a visitor has opened a website. It can be used to change and manipulate both HTML and CSS as well as adding interactivity, animations or time based events. However, JS won’t we the focus of this workshop.
+The third fundamental web technology is **JavaScript**, which is a programming language that runs inside the browser once a visitor has opened a website. It can be used to change and manipulate both HTML and CSS as well as adding interactivity, animations or time based events.
 
 ## TL;DR again pls
 

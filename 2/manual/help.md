@@ -1,11 +1,11 @@
 # Help
 
-Programming confronts us with a lot of different challenging problems, but also offers us tools to solve them in various creative ways. Since there are countless such problems and countless ever evolving approaches, paradigms, rules and solutions, it’s nearly impossible to always have them in our head at all times.
+Programming confronts us with a lot of challenging problems, but also offers us tools to solve them in various creative ways. Since there are countless such problems and countless ever evolving approaches, paradigms, rules and solutions, it’s nearly impossible to always have them in our head at all times.
 Which is why programming also means searching the web for help, examples and references and asking others to help.
 
 ## Read the code
 
-The first thing to do when you run into errors (e.g. after copying some code from the internet) is to read the code. Word by word, line by line. Often you quickly realize that you misspelled something or that the syntax is incorrect.
+The first thing to do when you run into errors (e.g. after copying some code from the internet) is to read the code. **Word by word, line by line.** Often you quickly realize that you misspelled something or that the syntax is incorrect.
 
 > Being able to read the code at all requires writing readable code in the first place. Always maintain indentation to visualize the structure. When naming things (like classnames), try to pick descriptive names. It’s a good practice to imagine being a stranger looking at your code for the first time. Can you quickly understand it?
 
@@ -14,7 +14,7 @@ The first thing to do when you run into errors (e.g. after copying some code fro
 Some programming languages like HTML, CSS and JS are extremely good documented all over the web. This makes it really easy to search for your problem. Always start your query with the language you’re searching for. Then try to formulate your question short and in the most abstract way:
 
 - "How do I make a table" -> `HTML tables`
-- "I want my headline to be red" -> `HTML CSS set text color`
+- "I want my headline to be red" -> `CSS text color`
 - "I want this button to do something" -> `CSS hover effect`
 - "I want to use this cool new font" -> `CSS webfonts`
 
