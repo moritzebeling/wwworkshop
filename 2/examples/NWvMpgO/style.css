@@ -1,0 +1,82 @@
+.div {
+    fontsize: 26px;
+    font-family: times;
+  }
+
+  .div1 {
+    fontsize: 26px;
+    font-family: helvetica;
+  }
+
+  .div2 {
+    weight: 20vw;
+    height: 200vw;
+  }
+
+
+  .relative {
+    position: relative;
+    height: 57vh;
+    position: center;
+    background-color: #E5E9CC;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 100rem;
+    width: 50vw;
+    animation: transform:       rotate(1000deg);
+    align-items: center;
+    text-align: center;
+  }
+
+  .absolute {
+    position: absolute;
+    border: 1px dashed black;
+    padding: 10px;
+  }
+
+  .fixed {
+    position: fixed;
+    background-color: #C0E76E;
+  }
+
+  .left {
+    left: 10rem;
+  }
+
+  .left1 {
+    left: 5rem;
+  }
+
+  .right {
+    right: 12rem;
+    text-align: right;
+  }
+
+  .top {
+    right: 3rem;
+    top: 2rem;
+  }
+
+  .bottom {
+    bottom: 2rem;
+  }
+
+  .free {
+    top: 4rem;
+  }
+
+  .relative .absolute {
+    color: black;
+  }
+
+    @keyframes left {
+      0%, 80%{
+        transform: translateX(0);
+      }
+      20%, 60%{
+        transform: translateX(40px);
+      }
+      30%, 100%{
+        transform: translateX(-50px);
+      }
+    }

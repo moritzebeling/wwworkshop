@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+::selection {
+  color: white;
+  background: black;
+}
+
+html{
+ width: 100vw;
+ height: 100vh;
+ font-size: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+blockquote{
+
+  font-family: 'Zen Antique', serif;
+  font-size: 3rem;
+}
+
+p{
+  padding-left: 10rem;
+}
+
+select{
+  font-family: 'Dancing Script', cursive;
+  font-size:4rem;
+background-color:rgba(0,0,0,0);
+
+
+}
+
+progress{
+  width: 35px;
+  height: 10px;
+  margin-bottom: .3em;
+}
+
+span{
+  margin:-.12em;
+  transition: color 300ms ease-in-out;
+  transition: font-size 300ms ease-in-out;
+ }
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  transition: background-color 500ms ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+span:hover ~ div {
+background-color: black;
+}
+
+
+span:hover {
+  color:var(--color);
+  font-size: 60rem;
+}

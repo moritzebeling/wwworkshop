@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    height: 100vh;
+    /* center child element */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  body {
+    background-color:white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  p {
+    margin: 0rem 4rem;
+    font-family: DRUK wide;
+
+  }
+  p1{
+    font-family: DRUK wide;
+    margin: 0.1rem 2rem;
+
+  }
+  em {
+    color: #bdfd00;
+  }
+  strong {
+    color: #bdfd00;
+  }
+
+  h1 {
+    font-family: DRUK wide;
+    font-size: 8rem;
+    color: #bdfd00;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    line-height: 1;
+
+  }

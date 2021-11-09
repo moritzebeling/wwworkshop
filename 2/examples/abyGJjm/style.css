@@ -1,0 +1,21 @@
+
+
+
+body {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  text-align: center;
+}
+p {
+  margin: 2rem 3rem;
+}
+em {
+  color: blue;
+}
+strong {
+  color: red;
+}

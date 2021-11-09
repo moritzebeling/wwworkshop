@@ -1,0 +1,41 @@
+
+body {
+    background-color: #EED5D2;
+    color: #fff;
+    font-family: lucida console;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  b {
+    font-size: 3rem;
+    color:#7fcc19;
+  }
+
+  h1{
+    font-family: arial;
+    font-size: 6rem;
+    transition: 2s ease;
+  }
+  h1:hover{
+    color:#7fcc19;
+    size:200%;
+    transform: rotate(720deg);
+  }
+
+  h6{
+    font-family: arial;
+  }
+
+  select{
+    width:100%;
+    color:#741b47;
+    background-color: transparent;
+    font-size:1.3rem;
+  }
+
+  img{
+    width:100%;
+  }

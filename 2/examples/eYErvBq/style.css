@@ -1,0 +1,37 @@
+body {
+    background-color: #dbb79d;
+    margin: auto;
+    align-items: center;
+
+  }
+
+  blockquote {
+    text-align: center;
+  }
+
+  code {
+    /* background-color: #000; */
+    color: #000;
+    font-size: 12pt;
+  }
+
+  .old {
+    font-family: ;
+    font-style: italic;
+    font-size: 24pt;
+  }
+
+  .fav {
+    font-family: "Verdana";
+    font-size: 12pt;
+  }
+
+  .td {
+    font-family: "Comic Sans MS", "Comic Sans";
+  }
+
+  .titi {
+    font-size: 72pt;
+    color: #c49c7f;
+
+  }

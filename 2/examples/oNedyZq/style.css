@@ -1,0 +1,19 @@
+body{
+    background: #191970;
+    color: white;
+    font-family: Helvetica;
+  }
+  h1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+  }
+  em{
+    font-size: 4rem;
+    font-family: Georgia
+  }
+  h2{
+    font-size: 1.3rem;
+    font-family: Helvetica;
+  }

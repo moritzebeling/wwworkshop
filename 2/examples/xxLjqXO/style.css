@@ -1,0 +1,54 @@
+body {
+    background-color:black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+
+
+  pre {
+    font-family: 'Rock Salt', cursive;
+    font-size: 25pt;
+    color:white;
+  }
+
+  .works{
+    text-decoration:none;
+  }
+
+  .doesnt {
+    color: red;
+    text-decoration: none;
+  }
+
+  .doesnt:hover{
+    text-decoration: line-through;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🤯</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  }
+
+  .works{
+    color:blue;
+  }
+
+  .works:hover{
+
+    background-image: -webkit-linear-gradient(45deg, #f35626, #feab3a);
+    background-size: 300%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-animation: hue 3s infinite linear;
+     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>👍🏻</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  }
+
+
+  @-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+      -webkit-filter: hue-rotate(-360deg);
+    }
+  }

@@ -1,0 +1,51 @@
+body{
+    background: rgb(66,255,60);
+    }
+    h1{
+    padding: 0;
+    margin:0;
+    top:0;
+    position:fixed;
+    font-family: Krona One;
+    color: rgb(66,255,60);
+    font-size: 11vW;
+    text-align: left;
+    line-height:1.05;
+    letter-spacing:3px;
+
+    }
+
+    @keyframes example {
+      0%   {left:0px; top:0px;}
+      25%  { left:400px; top:0px;}
+      50%  { left:400px; top:400px;}
+      75%  { left:0px; top:400px;}
+      100% {left:0px; top:0px;}
+    }
+    @keyframes exampletwo {
+      0%   {left:0px; top:0px;}
+      25%  { left:0px; top:-300px;}
+      50%  { left:400px; top:-300px;}
+      75%  { left:400px; top:0px;}
+      100% {left:0px; top:0px;}
+    }
+    div {
+      width: 60vW;
+      height: 50vH;
+      position: relative;
+      background: black;
+      opacity: .3;
+      box-shadow: 0px 0px 20px 20px black;
+    }
+
+    .boxone{
+      animation-name: example;
+      animation-duration: 6s;
+      animation-iteration-count: 3;
+    }
+
+    .boxtwo{
+      animation-name: exampletwo;
+      animation-duration: 6s;
+      animation-iteration-count: 3;
+    }

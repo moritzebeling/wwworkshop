@@ -1,0 +1,26 @@
+body {
+  background-color: rgba(83, 55, 147, 1);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'Monofett', cursive;
+}
+
+p{
+  color:rgba(102, 248, 65, 1);
+}
+
+em {
+  color: rgba(245, 40, 145, 1) ;
+}
+
+strong {
+  color: rgba(245, 205, 60, 1);
+}
+
+u {
+  color: rgba(228, 150, 51, 1);
+}

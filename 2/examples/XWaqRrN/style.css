@@ -1,0 +1,25 @@
+body {
+    background-color: powderblue;
+    justify-content: center;
+    align-items: center;
+    font-family: Amatic SC;
+    font-size: 2rem;
+    text-align: center;
+}
+img {
+    animation: pulse 4s linear infinite;
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}

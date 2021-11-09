@@ -76,7 +76,19 @@ $embed = $request;
                     <pre><?= file_get_contents( '../' . $request . '/index.css' ) ?></pre>
                     <h5>index.css</h5>
                 </section>
-                <?php endif ?>
+            <?php endif ?>
+            <?php if( file_exists( '../' . $request . '/style.css' ) ): ?>
+                <section>
+                    <pre><?= file_get_contents( '../' . $request . '/style.css' ) ?></pre>
+                    <h5>style.css</h5>
+                </section>
+            <?php endif ?>
+            <?php if( file_exists( '../' . $request . '/styles.css' ) ): ?>
+                <section>
+                    <pre><?= file_get_contents( '../' . $request . '/styles.css' ) ?></pre>
+                    <h5>styles.css</h5>
+                </section>
+            <?php endif ?>
 
             <?php if( file_exists( '../'.$request . '/index.js' ) ): ?>
                 <section>
