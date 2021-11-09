@@ -1,7 +1,8 @@
 <?php
 
-$request = $_SERVER['REQUEST_URI'];
-$request = str_replace('/2/manual/','',$request) . '.md';
+$request = $_SERVER['REQUEST_URI'] ? $_SERVER['REQUEST_URI'] : '0_index';
+$request = str_replace('/2/manual/','',$request);
+$request = str_replace('.html','.md',$request);
 
 require_once '../_/vendor/Parsedown.php';
 $Parsedown = new Parsedown();
@@ -35,7 +36,7 @@ include '../_/header.php';
         <nav>
             <?php foreach( glob("*.md") as $path ): ?>
                 <?php
-                $path = str_replace('.md','',$path);
+                $path = str_replace('.md','.html',$path);
                 $title = str_replace('examples/','',$path);
                 ?>
                 <a href="/2/manual/<?= $path ?>">/<?= $title ?></a>
