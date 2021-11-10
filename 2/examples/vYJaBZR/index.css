@@ -1,0 +1,37 @@
+body{
+    padding:0;
+    margin:0;
+    height:100vh;
+    width:100vw;
+    background-color:Gainsboro;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  div{
+   height:50vh;
+   width:50vW;
+   position: relative;
+   background-image:radial-gradient( rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+   opacity: .5;
+   border-radius: 50%;
+   animation-name: move;
+   animation-duration: 3s;
+   animation-timing-function: ease-in;
+   animation-iteration-count: 5;
+   animation-direction: alternate;
+  }
+  .one{
+   background-image:radial-gradient(circle, rgba(227,174,238,1) 0%, rgba(76,247,152,1) 100%);;
+   animation-name: swing;
+   animation-duration: 3s;
+   animation-timing-function: ease-in;
+   animation-iteration-count: 5;
+  }
+  @keyframes move{
+  0% {transform: scale(0);top:0vw;}
+  100%{transform:scale(5,5);top:100vw;}
+  }
+  @keyframes swing{
+  0% {transform: scale(0);left:0vW;filter: blur(1px);}
+  100% {transform:scale(5,5);left:100vW;}
+  }

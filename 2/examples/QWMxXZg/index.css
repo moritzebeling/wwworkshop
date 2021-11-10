@@ -1,0 +1,27 @@
+body{
+    background-color: blue;
+    height: 100vh;
+    margin: 0;
+  }
+  html, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    width: 200px;
+    background-color: white;
+    height: 200px;
+    border-radius: 100%;
+  }
+  div:hover {
+        border-radius: 100%;
+        background: blue;
+        transition: all 1.5s;
+      }
+  main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 0vw;
+    height: 0vw;
+  }

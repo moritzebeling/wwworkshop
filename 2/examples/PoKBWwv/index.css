@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(130,111,255);
+  }
+  .box {
+     position: absolute;
+     left: 100vw;
+     top: 50vh;
+     width: 30vw;
+     height: 45vh;
+    border-radius: 50vH;
+    background-image: radial-gradient(circle, rgba(255,255,255,1) 23%, rgba(115,115,115,1) 100%);
+    opacity:.3;
+    box-shadow: 10px 10px 40px;
+    filter: blur(10px);
+   }
+  .second{
+   position: absolute;
+     right: 50vw;
+     bottom: 10vh;
+     width: 30vw;
+     height: 45vh;
+    border-radius: 50vH;
+    background-image: radial-gradient(circle, rgba(255,255,255,1) 18%, rgba(89,41,255,1) 100%);
+    opacity:.3;
+    box-shadow: 10px 10px 40px;
+    filter: blur(10px);
+  }
+  .radial-gradient {
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+
+    /*Fallback if gradeints don't work */
+    background: #ff0000;
+    /*Linear gradient... */
+    background:
+      radial-gradient(
+       at center, #ffddce, #6a4cf7
+      );
+  }

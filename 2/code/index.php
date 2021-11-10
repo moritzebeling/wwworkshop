@@ -20,6 +20,8 @@ $embed = $request;
         <link rel="stylesheet" href="/_/css/reset.css">
         <link rel="stylesheet" href="/2/_/css/global.css">
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
         <style>
             body {
                 display: grid;

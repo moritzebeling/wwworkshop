@@ -1,0 +1,22 @@
+body {
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 85%;
+    width: 85%;
+    transition: background-color 500ms ease;
+  }
+
+  div:hover {
+    background-color: blue;
+  }

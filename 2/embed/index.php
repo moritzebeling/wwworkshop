@@ -31,6 +31,8 @@ $js = $request . '/index.js';
             <link rel="stylesheet" href="/2/<?= $css3 ?>">
         <?php endif ?>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     </head>
     <body>
 

@@ -1,0 +1,32 @@
+html {
+    margin: 0;
+    height: 100vh;
+    background-color: tomato;
+  }
+  html, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    width: 200vw;
+    height: 50vw;
+  }
+  div {
+    margin: 1vw;
+    padding: 1vw;
+    background-color: fuchsia;
+    box-shadow: 20px 200px 20px red;
+    animation: rotate 2s infinite ease-out;
+    animation-direction: alternate;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(90deg);
+    }
+  }

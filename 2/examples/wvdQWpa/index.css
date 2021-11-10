@@ -1,0 +1,129 @@
+html {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    font-size: 1vh;
+    overflow: hidden;
+    cursor: none;
+  }
+
+  .mon1 {
+    height: 40rem;
+    width: 40rem;
+    position: fixed;
+
+    top: 10rem;
+    left: 80rem;
+    transition: transform 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .mon2 {
+    height: 30rem;
+    width: 30rem;
+    position: fixed;
+
+    top: 40rem;
+    left: 60rem;
+    transition: transform 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .mon3 {
+    height: 50rem;
+    width: 50rem;
+    position: fixed;
+
+    top: 35rem;
+    left: 20rem;
+    transition: transform 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .mon1:hover {
+    transform: translateX(3.3rem) translateY(4.5rem) rotate(15deg);
+  }
+
+  .mon2:hover {
+    transform: translateX(3.3rem) translateY(4.5rem) rotate(15deg);
+  }
+
+  .mon3:hover {
+    transform: translateX(6rem) translateY(8.5rem) rotate(25deg);
+  }
+
+  .box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25rem;
+    height: 25rem;
+    transform: rotate(-20deg);
+    pointer-events: none;
+    z-index: 4;
+  }
+  .can {
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+    left: 10rem;
+  }
+
+  .drops {
+    width: 5rem;
+    height: 20rem;
+    transform: rotate(90deg);
+    position: relative;
+    bottom: 15rem;
+    right: 0rem;
+  }
+
+  .notification {
+    display: none;
+    height: 95rem;
+    width: 150rem;
+  }
+
+  .congrats {
+    z-index: 5;
+    position: absolute;
+    left: 40rem;
+    top: 25rem;
+  }
+
+  .sparkle1 {
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    left: 20rem;
+    top: 35rem;
+  }
+
+  .sparkle2 {
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    left: 116rem;
+    top: 35rem;
+  }
+
+  iframe {
+
+  }
+
+  #background {
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/01/04/214741/c853f649ad4b03bd55160c69751343ea.jpg);
+    z-index: 0;
+    width: 90vw;
+    height: 90vh;
+    position:fixed;
+    top:5rem;
+    left:5rem;
+    opacity: 50%;
+    filter: blur(5px);
+  }
+
+  iframe{
+  position:fixed;
+  bottom:0;
+  left:25rem;
+    transform:scale(.75);
+
+  }

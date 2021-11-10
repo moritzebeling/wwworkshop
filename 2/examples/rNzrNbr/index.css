@@ -1,0 +1,15 @@
+.radial-gradient {
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+
+    /*Fallback if gradeints don't work */
+    background: #ff0000;
+    /*Linear gradient... */
+    background:
+      radial-gradient(
+       at center, #ff0000, #0000ff
+      );
+  }

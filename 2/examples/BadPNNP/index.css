@@ -1,0 +1,119 @@
+body {
+    margin: 10px;
+    background-color: lightGrey;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px 40px;
+    row-gap: 40px 40px;
+    column-gap: 40px;
+    margin: 20px;
+    margin-top: 10rem;
+    cursor: url(https://cdn-0.emojis.wiki/emoji-pics/samsung/tornado-samsung.png),
+      pointer;
+  }
+
+  div {
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    filter: invert(100%);
+  }
+
+  .red {
+    font-family: arial;
+    font-color: red;
+    font-size: 5rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 30rem;
+    animation-delay: -2.5s;
+    animation: updown 5s infinite linear;
+  }
+
+  .downup {
+    animation-delay: -2.5s;
+    animation: downup 5s infinite linear;
+  }
+
+  .orange {
+    background-color: #f47b00;
+    width: 400px;
+    height: 200px;
+    border-radius: 6rem;
+  }
+
+  .blue {
+    background-color: blue;
+    width: 400px;
+    height: 500px;
+    border-radius: 4rem;
+  }
+
+  .lime {
+    background-color: lime;
+    width: 100%;
+    height: 450px;
+    border-radius: 6rem;
+  }
+
+  .lime:hover {
+    background-color: orange;
+    cursor: pointer;
+    transform: rotate(200deg);
+    filter: blur(1.5rem);
+  }
+
+  .red:hover {
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    filter: blur(1.5rem);
+  }
+
+  .orange:hover {
+    background-color: lime;
+    cursor: pointer;
+    transform: rotate(200deg);
+    filter: blur(1.5rem);
+  }
+
+  .blue:hover {
+    background-color: red;
+    cursor: pointer;
+    transform: rotate(300deg);
+    filter: blur(1.5rem);
+  }
+
+  section {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 1.5rem;
+    width: 70%;
+    height: 100%;
+    animation-delay: -2.5s;
+    animation: updown 5s infinite linear;
+  }
+
+  @keyframes updown {
+    0%,
+    25%,
+    100% {
+      top: 2rem;
+    }
+    50%,
+    75% {
+      top: 50%;
+    }
+  }
+
+  @keyframes downup {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-200px);
+    }
+  }

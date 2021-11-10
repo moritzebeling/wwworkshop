@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+  }
+
+  main{
+    background-image: linear-gradient(powderblue, hotpink, lavender, magenta, turquoise);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    height: 100vh;
+    animation-name: transform5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+
+
+  .c1{
+    grid-column-end: span 1;
+    animation-name: transform1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  .c2{
+    grid-column-end: span 2;
+    animation-name: transform2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  .c3{
+    grid-column-end: span 3;
+    animation-name: transform3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  .r1{
+    grid-row-end: span 1;
+  }
+
+  .r2{
+    grid-row-end: span 2;
+  }
+
+  .r3{
+    grid-row-end: span 3;
+  }
+
+  div{
+  }
+
+  .col01{
+    background-color: #2f95a3;
+  }
+  .col02{
+    background-color: #f3bb5e;
+  }
+  .col03{
+    background-color: #de695e;
+  }
+
+  .col04{
+    background-color: #ccbf2c;
+  }
+
+  .col05{
+    background-color: #e57035;
+  }
+
+  .col06{
+    background-color: #287265;
+  }
+
+  .col07{
+    background-color: #f4bbb0;
+  }
+
+  .col08{
+    background-color: #fbca2a;
+  }
+
+  .col09{
+    background-color: #de3c27;
+  }
+
+  .col10{
+    background-color: #e7822f;
+  }
+
+  .col11{
+    background-color: #73aea1;
+  }
+
+  .col12{
+    background-color: #756c48;
+  }
+
+  .col13{
+    background-color: #a9b330;
+  }
+
+  .col14{
+    background-color: #a73026;
+  }
+
+  div {
+    border-radius: 1rem;
+    transition-properties: filter border-radius;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+  }
+
+  @keyframes transform1{
+    0% {filter: blur(10px);}
+    33%{filter: blur(0px);}
+    66%{filter: blur(0px);}
+    100%{filter: blur(10px);}
+  }
+
+  @keyframes transform2{
+    0% {opacity: 20%;}
+    33%{opacity: 90%;}
+    66%{opacity: 20%;}
+    100%{opacity: 20%;}
+  }
+
+  @keyframes transform3{
+    0% {filter: hue-rotate(0deg);}
+    33%{filter: hue-rotate(0deg);}
+    66%{filter: hue-rotate(360deg);}
+    100%{filter: hue-rotate(0deg);}
+  }
+
+  div:hover{
+    filter: invert(100%);
+    border-radius: 10rem;
+    opacity: 50%;
+    transform: scale(2.0);
+    background-image: radial-gradient(red, limegreen);
+  }

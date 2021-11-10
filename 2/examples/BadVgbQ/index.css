@@ -1,0 +1,29 @@
+body{
+    width:100vw;
+    height:100vh;
+    margin:0;
+    padding:0;
+    background-color: SpringGreen;
+    display:grid;
+    grid-template-columns: 3fr 3fr     3fr;
+
+
+    box-sizing: border-box;
+  }
+
+  div {
+    border:5px solid red;
+    background-color: magenta;
+    transition: .8s ease-out;
+    transition-property: transform;
+  }
+
+  div:hover{
+   transform: skewX(50deg);
+   transform: skewY(50deg);
+  }
+
+  .one:hover{
+    transform: skewX(-50deg);
+   transform: skewY(-50deg);
+  }
