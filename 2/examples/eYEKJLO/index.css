@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    overflow: hidden;
+    height: 150vh;
+  }
+  div {
+    width: 100vh;
+    background-color: blue;
+  }
+  .a {
+    background-color: red;
+    filter: blur(50px);
+  }
+  .b {
+    background-color: yellow;
+      filter: blur(60px);
+  }
+  .c {
+    background-color: yellow;
+      filter: blur(60px);
+  }
+  .d {
+    background-color: green;
+      filter: blur(60px);
+  }
+  div {
+    width: 50vh;
+    border-radius: 200%;
+      filter: blur(60px);
+  }
+  .a2 {
+    background-color: red;
+  }
+  .b2 {
+    background-color: yellow;
+  }
+  .c2 {
+    background-color: pink;
+  }
+  .d2 {
+    background-color: green;
+  }
+  span {
+    background-color: black;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    bottom: 0%;
+    left: 55%;
+  }
+  span span {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+  }
+  span span span{
+    background-color: black;
+    width: 15%;
+    height: 100%;
+    bottom: 0%;
+    right: 20%;
+    filter: blur(2px);
+  }

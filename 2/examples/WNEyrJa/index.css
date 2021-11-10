@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #000;
+  justify-content: space-between;
+  margin: 0;
+}
+
+div {
+  height: 100px;
+  border: 10px solid blue;
+  margin: 2rem 3rem;
+}
+
+div div {
+  border-radius: 2rem;
+}
+
+.second > div {
+  border-color: yellow;
+}
+
+div + div {
+  margin-top: 6rem;
+  border-color: red;
+  transform: rotate(180deg);
+}

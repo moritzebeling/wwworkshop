@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: LightGray;
+    height: 100vh;
+  }
+  main {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 3fr 1fr 3fr;
+    padding: 0;
+    gap: .5rem;
+  }
+  div {
+    background-image: linear-gradient(to right, MediumSeaGreen, LightGray);
+    transform: skewX(-20deg);
+  }
+  .one {
+    height: 160px;
+    transform: skewY(30deg);
+    background-image: linear-gradient(to left, white, SlateBlue);
+    border-radius: 3rem;
+  }
+
+  .two{
+    height: 4px;
+    width: 300px;
+    transform: rotate(90deg);
+    background-image: linear-gradient(to left, white, lime);
+   }

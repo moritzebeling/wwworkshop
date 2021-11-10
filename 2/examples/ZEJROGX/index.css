@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+
+  main2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  main3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    align-items: stretch;
+  }
+
+  .red {
+    background-color: red;
+    width: 400px;
+    height: 200px;
+  }
+  .red2 {
+    background-color: red;
+    width: 600px;
+    height: 200px;
+  }
+
+  .orange {
+    background-color: #f47b00;
+    width: 400px;
+    height: 200px;
+  }
+
+  .orange2 {
+    background-color: #f47b00;
+    width: 300px;
+    height: 600px;
+  }
+
+  .blue {
+    background-color: blue;
+    width: 400px;
+    height: 800px;
+  }
+
+  .blue2 {
+    background-color: blue;
+    width: 4000px;
+    height: 400px;
+  }
+
+  .lime {
+    background-color: lime;
+    width: 100%;
+    height: 450px;
+  }
+  .lime2 {
+    background-color: lime;
+    width: 4000px;
+    height: 200px;
+  }
+
+  div {
+  background-color: red;
+    width: 300px;
+    height: 100px;
+    border: none;
+  }

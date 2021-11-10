@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blue {
+    background: blue;
+    height: 5px;
+  }
+
+  .one1 {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .one {
+    background-color: black;
+    height: 120px;
+    width: 100px;
+  }
+
+  .two2 {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .two {
+    background-color: black;
+    height: 140px;
+    width: 100px;
+  }
+
+  .three3 {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .three {
+    background-color: black;
+    height: 140px;
+    width: 100px;
+  }
+
+  .one1:hover{
+    background-color: red;
+  }
+
+  .two2:hover{
+    background-color: green;
+  }
+
+  .three3:hover{
+    background-color: red;
+  }

@@ -1,0 +1,50 @@
+html {
+    text-align: center;
+  }
+  body{
+    background-color: black;
+    font-size: 1.5rem;
+    display: flex;
+  }
+  .habe{
+    position: relative;
+    width: 500px;
+    height: 900px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+  }
+  .ich{
+    position: fixed;
+    width: 800px;
+    height: 80px;
+    text-align: center;
+    background-color: white;
+    color: blue;
+  }
+  .viel{
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: blue;
+  }
+  .left {
+    left: 1rem;
+  }
+  .right {
+    right: 1rem;
+    text-align: right;
+  }
+  .top {
+    top: 2rem;
+  }
+  .bottom {
+    bottom: 2rem;
+  }
+  .free {
+    top: 10rem;
+    background-color: yellow;
+  }

@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Kumar+One&display=swap');
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+div{
+
+    height: 50px;
+    position: relative;
+}
+
+
+.q{
+    width: 500px;
+    height: 500px;
+    border: 10ps solid pink;
+    border-radius: 50%;
+    background-color: pink;
+    position: relative;
+    top: 300px;
+    left: 500px;
+    z-index:1;
+}
+
+.w{
+    width: 120px;
+    height: 400px;
+    border: 10ps solid pink;
+    border-radius: 40%;
+    background-color: pink;
+    position: relative;
+    left: 548px;
+    top:-500px;
+    z-index: 1;
+
+
+}
+
+.e{
+    width: 120px;
+    height: 400px;
+    border: 10ps solid pink;
+    border-radius: 40%;
+    background-color: pink;
+    position: relative;
+    left: 801px;
+    top:-900px;
+    z-index: 1 ;
+
+
+}
+
+.r{
+    width: 450px;
+    height: 450px;
+    border: 10ps solid pink;
+    border-radius: 50%;
+    background-color: pink;
+    position: relative;
+    top: -790px;
+
+    left: 500px;
+    z-index:2;
+}
+.t{
+    width: 232px;
+    height: 300px;
+    border: 10ps solid rgb(255, 222, 228);
+    border-radius: 50%;
+    background-color: rgb(255, 222, 228);
+    position: relative;
+    top: -1102px;
+
+    left: 444px;
+    z-index:4;
+
+}
+
+.u{
+    width: 265px;
+    height: 300px;
+    border: 10ps solid rgb(255, 222, 228);
+    border-radius: 50%;
+    background-color: rgb(255, 222, 228);
+    position: relative;
+    top: -1402px;
+
+    left: 624px;
+    z-index:5;
+
+}
+.i{
+    width: 98px ;
+    height: 80px;
+    border: 10ps solid rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: -1693px;
+
+    left: 580px;
+    z-index:6;
+
+}
+.o{
+    width: 105px ;
+    height: 50px;
+    border: 10ps solid rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: -1833px;
+
+    left: 531px;
+    z-index:7;
+
+}
+.p{
+    width: 105px ;
+    height: 50px;
+    border: 10ps solid rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: -1918px;
+
+    left: 531px;
+    z-index:7;
+
+}
+.s{
+    width: 105px ;
+    height: 50px;
+    border: 10ps solid rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: -2003px;
+
+    left: 531px;
+    z-index:7;
+
+}
+
+.d{
+    width: 105px ;
+    height: 50px;
+    border: 10ps solid rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: -2090px;
+
+    left: 531px;
+    z-index:7;
+
+}
+.f{
+    width: 68px ;
+    height: 68px;
+    border: 10ps solid rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: -2135px;
+
+    left: 585px;
+    z-index:8;
+
+}
+.g{
+    width: 50px ;
+    height: 50px;
+    border: 10ps solid rgb(167, 167, 167);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: -2095px;
+
+    left: 552px;
+    z-index:8;
+
+}
+.z{
+    width: 165px ;
+    height: 164px;
+    border: 2px solid rgb(177, 63, 63);
+    border-radius: 50%;
+    background-color: rgb(223, 172, 172);
+    position: relative;
+    top: -2268px;
+
+    left: 724px;
+    z-index:9;
+    filter: blur(2px);
+
+}
+.x{
+    width: 133px ;
+    height: 140px;
+    border: 10ps solid rgb(209, 211, 208);
+    border-radius: 50%;
+    background-color: rgb(196, 219, 203);
+    position: relative;
+    top: -2417px;
+
+    left: 738px;
+    z-index:10;
+    filter: blur(8px);
+
+}
+.c{
+    width: 76px ;
+    height: 75px;
+    border: 10ps solid rgb(67, 64, 231);
+    border-radius: 50%;
+    background-color: rgb(108, 118, 214);
+    position: relative;
+    top: -2523px;
+
+    left: 749px;
+    z-index:11;
+    filter: blur(8px);
+
+}
+.v{
+    width: 60px ;
+    height: 60px;
+    border: 10ps solid rgb(48, 47, 71);
+    border-radius: 50%;
+    background-color: rgb(26, 30, 59);
+    position: relative;
+    top: -2594px;
+
+    left: 760px;
+    z-index:12;
+    filter: blur(4px);
+
+}
+.b{
+    width: 45px ;
+    height: 45px;
+    border: 10ps solid rgb(48, 47, 71);
+    border-radius: 50%;
+    background-color: rgb(33, 4, 138);
+    position: relative;
+    top: -2648px;
+
+    left: 768px;
+    z-index:13;
+    filter: blur(4px);
+
+}
+.n{
+    width: 6px ;
+    height:6px;
+    border: 10ps solid rgb(48, 47, 71);
+    border-radius: 50%;
+    background-color: rgb(189, 204, 218);
+    position: relative;
+    top: -2682px;
+
+    left: 798px;
+    z-index:14;
+    filter: blur(1.5px);
+
+}
+.m{
+    width: 18px ;
+    height:18px;
+    border: 10ps solid rgb(48, 47, 71);
+    border-radius: 50%;
+    background-color: rgb(69, 85, 230);
+    position: relative;
+    top: -2685px;
+
+    left: 780px;
+    z-index:14;
+    filter: blur(6px);
+
+}
+.qq{
+    width: 20px ;
+    height:20px;
+    border: 10ps solid rgb(48, 47, 71);
+    border-radius: 50%;
+    background-color: rgb(239, 247, 255);
+    position: relative;
+    top: -2735px;
+
+    left: 825px;
+    z-index:15;
+    filter: blur(3px);
+
+}
+.ww{
+    width: 50px ;
+    height:24px;
+    border: 10ps solid rgb(48, 47, 71);
+    border-radius: 50%;
+    background-color: rgb(190, 162, 162);
+    position: relative;
+    top: -2669px;
+
+    left: 772px;
+    z-index:15;
+    filter: blur(7px);
+
+}
+.qw{
+    width: 12px ;
+    height:12px;
+    border: 10ps solid rgb(48, 47, 71);
+    border-radius: 50%;
+    background-color: rgb(9, 9, 17);
+    position: relative;
+    top: -2743px;
+
+    left: 784px;
+    z-index:18;
+    filter: blur(2px);
+
+}

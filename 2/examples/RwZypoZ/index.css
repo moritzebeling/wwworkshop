@@ -1,0 +1,77 @@
+body {
+    background-color: lavender;
+    color: midnightblue;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Red Hat Mono, monospace;
+    font-size: 100px
+  }
+
+  p {
+    margin-top: 50px;
+  }
+
+  .headline {
+    font-size: 100%;
+  }
+
+  .subtitle {
+    font-size: 20%;
+    background: #f2f2fc;
+    width: 50vw;
+    padding: 50px;
+    margin: auto;
+    justify-content: center;
+    border-radius: 0px 50px;
+    border: 2px solid white;
+  }
+
+  #body {
+    background: midnightblue;
+    color: #f2f2fc;
+  }
+
+  .list {
+    padding: 60px 0px 0px 0px;
+    font-size: 40%;
+  }
+
+  .list-items {
+    font-size: 100%;
+    padding: 20px 0px 50px 0px;
+    text-transform: uppercase;
+  }
+
+
+  hr /* eraldusjoon */ {
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(118, 118, 197, 0), rgba(199, 199, 255, 0.75), rgba(118, 118, 197, 0));
+  }
+
+  span {
+    font-size: 100%;
+    text-transform: uppercase;
+    transition: color 500ms ease;
+    color: #191970;
+  }
+
+  span:hover {
+    color:var(--color);
+
+  }
+  #circle {
+    display: inline-block;
+    text-align: center;
+    text-color: white;
+    background: #191970;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .meme {
+    margin-top: 100px;
+  }

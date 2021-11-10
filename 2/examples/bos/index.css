@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Kumar+One&display=swap');
+
+body{
+    background-color: rgb(122, 136, 214);
+
+}
+.a{
+   width:900px;
+    height:400px;
+    position: relative;
+}
+/* p{
+    font-size: 50px;
+    width: 675px;
+    height: 330px;
+    position: absolute;
+    left: 350px;
+    top: 100px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}*/
+
+.boss{
+    font-family: 'Creepster', cursive;
+    font-family: 'Kumar One', cursive;
+    background: linear-gradient(to right, rgb(245, 48, 48), rgb(122, 136, 214));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index:2;
+
+    font-size: 50px;
+    width: 675px;
+    height: 330px;
+    position: absolute;
+
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+
+
+
+}
+p{
+    font-family: 'Creepster', cursive;
+    font-family: 'Kumar One', cursive;
+    background: linear-gradient(to right, rgb(245, 48, 48), rgb(122, 136, 214));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 50px;
+    width: 675px;
+    height: 330px;
+    position: absolute;
+    left: 500px;
+    top: 5px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+  z-index: 2; }

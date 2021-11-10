@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: grid;
+    gap: 0.7rem
+  }
+
+  .one{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .one1{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+  }
+
+  .one1:hover{
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    background-size: 300%;
+      -webkit-animation: hue 1s infinite linear;
+  }
+
+  @-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+      -webkit-filter: hue-rotate(-360deg);
+    }

@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    transition: 0.5s ease;
+  }
+  body {
+    height: 100vh;
+    width 100vw;
+    margin: 0;
+    background-color: #d9ead3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  main {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 90vw;
+  }
+  div {
+  }
+  .frame {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 0.15rem solid black;
+  }
+  .red_squares {
+    height: 98%;
+    width: 98%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .red_square {
+    background-color: #990000;
+    opacity: 0.5;
+    border: 0;
+    border-radius: 5rem;
+  }
+  .red_squares2 {
+    position: absolute;
+    justify-content: center;
+    height: 98%;
+    width: 98%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .red_square2 {
+    background-color: transparent;
+    opacity: 0.5;
+    border: 0;
+    border-radius: 5rem;
+  }
+  .red_square2:hover {
+    background-color: #990000;
+  }
+  .white_boxes {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    height: 98%;
+    width: 98%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    padding: 0.5rem;
+    gap: 0.1rem;
+  }
+  .white_box {
+    height: 100%;
+    border: 0.5rem solid white;
+    border-radius: 5rem;
+  }
+  .purple_boxes {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    height: 98%;
+    width: 98%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0.5rem;
+    gap: 0.1rem;
+  }
+  .purple_box {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    height: 100%;
+    border: 0.15rem solid black;
+    border-radius: 10rem;
+  }
