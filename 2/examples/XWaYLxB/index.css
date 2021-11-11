@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightblue;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: relative;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+div.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  opacity: 0.4;
+  height: 70%;
+  width: 90%;
+  border-radius: 0.5rem;
+  transition: 5s ease;
+}
+div.blue {
+  background-color: blue;
+}
+div.red {
+  background-color: red;
+}
+div.violet {
+  background-color: violet;
+}
+div.turquoise-outline {
+  background-color: transparent;
+  outline: solid #003b4a;
+}
+div.square:hover {
+  transform: rotate(180deg);
+  opacity: 0;
+  background-color: blue;
+}

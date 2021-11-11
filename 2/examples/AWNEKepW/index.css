@@ -1,0 +1,45 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  margin: 0;
+}
+div {
+  width: 100vw;
+  height: 100vh;
+}
+div.background {
+  background-color: red;
+  opacity: 0.4;
+  position: absolute;
+}
+div.orange{
+  background-color: darkorange;
+}
+div.opacity1 {
+  opacity: 0.5;
+}
+section div {
+  position: absolute;
+  top: calc( 50% - 12.5vw );
+  width: 25vw;
+  height: 25vw;
+  border-radius: 3rem;
+}
+div.squareleft{
+  left: 3%;
+  animation: leftright 5s infinite linear;
+}
+div.squareright{
+  right: 3%;
+  animation: rightleft 5s infinite linear;
+}
+@keyframes leftright {
+  0%,100%   {left: 3%;}
+  50%  {left: 75%;}
+}
+ @keyframes rightleft {
+  0%,100%   {right: 3%;}
+  50%  {right: 75%;}
+}
