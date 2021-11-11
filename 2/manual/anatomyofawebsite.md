@@ -73,3 +73,7 @@ Paste this at the very end of your HTML `<body>`:
 <!-- <script src="{your-filename}"></script> -->
 <script src="action.js"></script>
 ```
+
+## Download example
+
+<a href="example-website.zip" download>example-website.zip</a>
