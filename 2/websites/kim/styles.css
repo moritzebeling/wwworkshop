@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(87, 110, 255);
+    height: 100vh;
+    width:100vw;
+    box-sizing: border-box;
+    /* cursor:none; */
+}
+@font-face{
+    font-family:'headline';
+    src: url('CirrusCumulus.woff') format('woff');
+}
+img{
+    position: absolute;
+    left: 100vh;
+    right:100vh;
+    width:40vh;
+    height:40vh;
+    pointer-events: none;
+}
+h1{
+    font-family:'headline';
+    color: rgb(0, 0, 0);
+    font-size: 17vh;
+    margin:0;
+    top:0;
+    padding-right:5vw;
+    width:100%;
+    text-align: left;
+    position: fixed;
+}
+a{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size:1.6vh;
+    left:.5vw;
+    top:0;
+    height:100%;
+    z-index: 99999;
+    margin:3vw;
+
+}
+li{
+    list-style-type: none;   
+}
+.textzwei{
+    font-size:1.6vh;   
+}
+.sign{
+    font-family:'headline';
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    position: fixed;
+    font-size:23vh;
+    left:.5vw;
+    top:70vh;
+    height:100%;
+    z-index: 99999;   
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5vh;
+    color: rgb(0, 0, 0);
+    margin:3vw;
+    padding:0;
+}
+#text,#text2,#text3,#text4{
+    display:none;
+}
+overlay{
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    position: absolute;
+    top:0;
+    width:100%;
+}
+
+div,.dots,.tots{
+    height: 20vw;
+    width: 20vW; 
+    animation: scale 5s infinite;
+    animation-direction: alternate-reverse;  
+}
+@keyframes scale {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(.3);
+    }
+  }
+#slots,#pots{
+    height: 20vw;
+    width: 20vW; 
+    animation: scale2 5s infinite;
+    animation-direction: alternate-reverse;
+    animation-delay: 3s;   
+}
+@keyframes scale2 {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(.3);
+    }}
+.dots{
+    filter:blur(3vh); 
+    margin: 8vw;
+}
+.dots div {
+    background-color:seashell;
+    border-radius: 70%;   
+}
+.tots{
+    top:50vh;
+    filter:blur(3vh); 
+    margin: 4vw;
+}
+.tots div {
+    background-color: seashell;
+    border-radius: 70%;   
+}
+#pots{
+    /* top:50vh; */
+    filter:blur(3vh); 
+    margin: 5vw;
+}
+#pots div {
+    background-color:seashell;
+    border-radius: 70%;   
+}
+#slots{
+    top:10vh;
+    left:20vw;
+    filter:blur(3vh); 
+    margin: 2vw;
+}
+#slots div {
+    background-color: seashell;
+    border-radius: 70%;   
+}

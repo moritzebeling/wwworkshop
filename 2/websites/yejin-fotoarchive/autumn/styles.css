@@ -1,0 +1,10 @@
+body {
+  margin:0;
+  padding:0;
+  height: 100vh;
+  background: #dec4ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem
+}

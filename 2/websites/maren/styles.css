@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@200&family=Yuji+Mai&display=swap');
+
+* { 
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+body {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    z-index: -1;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Yuji Mai', serif;
+    font-size: 170px;
+    color: #f47e36;
+    opacity: 1;
+    word-break: break-all;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Yuji Mai', serif;
+    font-size: 200px;
+    color: #f47e36;
+    opacity: 1;
+    word-break: break-all;
+}
+h3 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Yuji Mai', serif;
+    font-size: 100px;
+    color: #fff2cc;
+    opacity: 1;
+    word-break: break-all;
+}
+h3:hover {
+    animation: rotate1 1.5s infinite linear;
+}
+@keyframes rotate1 {
+    0%   {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+  }
+img {
+    max-width: 100vw;
+    height: auto;
+}
+div {
+}
+.backgroundimage {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(#f44336, #e06666);
+}
+.backgroundimage img {
+    opacity: 0.3;
+}
+.screen {
+    /* min-height: 100vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textvoll {
+    text-align: center;
+    font-family: 'Trispace', sans-serif;
+    font-size: 50px;
+    color: #4c1130;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.linkbox {
+    text-align: center;
+    font-family: 'Trispace', sans-serif;
+    font-size: 50px;
+    color: #4c1130;
+}
+.linkbox:hover img {
+    animation: rotate1 1.5s infinite linear;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkbox img {
+    margin: 3rem;
+}
+.adenauerblock {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    max-width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.adenauerblock .right {
+    flex: 0 0 auto;
+}
+.adenauerblock img {
+    display: inline-block;
+    height: 25rem;
+    width: auto;
+}
+.adenauerblock .quote {
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Yuji Mai', serif;
+    font-size: 65px;
+    color: #fff2cc;
+    padding: 1rem;
+}
+.happypeopleeatingsausages {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    max-width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.happypeopleeatingsausages .right {
+    flex: 0 0 auto;
+}
+.happypeopleeatingsausages img {
+    display: inline-block;
+    height: 25rem;
+    width: auto;
+}
+.happypeopleeatingsausages .quote {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Yuji Mai', serif;
+    font-size: 65px;
+    color: #fff2cc;
+    padding: 1rem;
+}
+a {
+    text-decoration: none;
+    /* font-family: 'Yuji Mai', serif; */
+}

@@ -1,0 +1,94 @@
+body {
+  margin: 0px;
+  background-color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=114517),
+  pointer;
+}
+
+
+h1 {
+  font-family: 'Modak', cursive;
+  line-height: 8rem;
+  color: blue;
+  font-size: 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+
+a:hover {
+    color: transparent;
+}
+
+h1:hover {
+color: transparent;
+background-image: linear-gradient( red, orange, yellow, green, cyan, blue, violet);
+cursor: pointer;
+filter: blur(1rem);
+}
+
+h4 {
+  font-family: arial;
+  color: lightGrey;
+  font-size: 1rem;
+  padding-left: 5rem;
+  margin-top: 0.5rem;
+}
+
+p {
+  font-family: arial;
+  color: black;
+  font-size: 3rem;
+  padding-left: 5rem;
+  width: 50rem;
+}
+
+
+.small {
+  font-size: 1rem;
+  color: blue;
+}
+
+span {
+  height: 20rem;
+  width: 100%;
+  background-image: linear-gradient( red, orange, yellow, green, cyan, blue, violet);
+  filter: blur(2rem);
+}
+
+.column {
+ float: right;
+ width: 33.33%;
+ margin-left: 10rem;
+ flex: 33.33%;
+ padding: 3px;
+}
+
+.row::after {
+ clear: both;
+ display: flex;
+}
+
+.row {
+  display: flex;
+}
+
+
+main2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,192 @@
+  body {
+    margin: 10px;
+    background-color: lightGrey;
+    font-size: 2vw;
+    height: 100vh;
+    overflow: hidden;
+    cursor: url(https://cdn-0.emojis.wiki/emoji-pics/lg/dove-lg.png),
+      pointer;
+  }
+  
+  #hidden {
+    position: absolute;
+    left: 50vw;
+    border: 8px solid #CDFFC0;
+    border-radius: 2rem;
+    font-family: roc-grotesk-wide;
+    color: grey;
+    font-size: 0.55em;
+    width: 64vh;
+    padding: 2rem;   
+  }
+
+
+  .text2 {
+    font-family: roc-grotesk-wide;
+    color: grey;
+    font-size: 0.55em;
+    width: 48vh;
+    border-radius: 30rem;
+    animation-delay: -2.5s;
+    animation: updown 5s infinite linear;
+    transition: width 8s, height 2s, background-color 2s, transform 2s;
+    filter: invert(100%);
+  }
+  .text2:hover {
+    width: 200vh;
+    height: 20vh;
+    filter: blur(1.5rem);
+  }
+  .text3 {
+    top: 0%;
+    position: absolute;
+    font-family: roc-grotesk-wide;
+    color: blue;
+    font-size: 5em;
+    line-height: 11.3vh;
+    width: 48vh;
+    border-radius: 30rem;
+    animation-delay: -2.5s;
+    animation: updown 12s infinite linear;
+    transition: width 8s, height 2s, background-color 2s, transform 2s;
+  }
+  
+  .text4 {
+    top: 0%;
+    text-align: right;
+    position: absolute;
+    font-family: roc-grotesk-wide;
+    color: #CDFFC0;
+    font-size: 5em;
+    line-height: 12vh;
+    border-radius: 30rem;
+    animation-delay: -2.5s;
+    animation: downup 5s infinite linear;
+    transition: width 8s, height 2s, background-color 2s, transform 2s;
+  }
+  
+   .text3:hover {
+     color: #CDFFC0;
+     filter: blur(1.5rem);
+  }
+  .text4:hover {
+     color: blue;
+     filter: blur(1.5rem);
+  
+  }
+  
+  .radial-gradient {
+    z-index:-100;
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    
+  background: rgb(255,0,141);
+  background: radial-gradient(circle, rgba(255,0,141,1) 0%, rgba(30,60,249,1) 4%, rgba(223,223,223,1) 7%, rgba(207,207,207,1) 55%, rgba(255,255,255,1) 100%);
+  }
+  
+  
+  
+  div {
+    width: 100vw;
+    height: 100vh;
+  }
+  div.white {
+    background-color: white;
+  }
+  div.green {
+    background-color: #CDFFC0;
+  }
+  div.opacity1 {
+    opacity: 0.5;
+  }
+  div.opacity2 {
+    opacity: 0.2;
+  }
+  div.opacity3 {
+    opacity: 0.2;
+    width: 30rem;
+    height: 70rem;
+    border-radius: 200px;
+    filter: blur(2px);
+    background: #C5FFF6;
+  }
+  section div {
+    position: absolute;
+    top: calc( 40% - 12.5vw );
+    width: 25vw;
+    height: 25vw;
+    border-radius: 3rem;
+    transform: skewX(-20deg);
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 30rem;
+    color: white;
+    
+    
+  }
+  div.object1{
+    left: 30%;
+    animation: updown 7s infinite linear;
+  }
+  div.object2{
+    right: 3%;
+    animation: rightleft 9s infinite linear;
+  }
+  
+  div.object3{
+    left: 20%;
+    animation: updown 6s infinite linear;
+    
+  }
+  
+  div.object6{
+    left: 50%;
+    opacity: 0.3;
+    font-size: 50rem;
+    background: lightgrey;
+    animation: updown 10s infinite linear;
+    
+  }
+  
+  div.object8{
+    left: 30%;
+    top: 90%;
+    animation: downup2 8s infinite linear;
+    transform: skewX(-160deg);
+    
+  }
+  
+  
+  @keyframes updown {
+    0%,100%   {top: 0%;}
+    50%  {top: 62%;}
+  }
+   @keyframes rightleft {
+    0%,100%   {right: 0%;}
+    50%  {right: 40%;}
+     from { 
+              transform: rotate(0deg); 
+          } to { 
+              transform: rotate(360deg); 
+          }
+     
+  }
+  
+  @keyframes downup {
+    0%,100%   {top: 65%;}
+    50%  {top: 0%;}
+  }
+  
+  @keyframes downup2 {
+    0%,100%   {top: 0%;}
+    50%  {top: 35%;}
+     from { 
+              transform: rotate(0deg); 
+          } to { 
+              transform: rotate(-70deg); 
+          }
+  }
+  
+   

@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: lightgray;
+  width: 96vw;
+}
+
+header {
+  /*border: 2px solid blue;*/
+  display: flex;
+  position: relative;
+}
+
+/* PAGE TITLE */
+h1 {
+  font-size: 400%;
+  font-weight: 500;
+  color: white;
+  margin-left: 20px;
+}
+.title-people {
+  /*border: 2px solid yellow;*/
+  text-align: left;
+  width: 50%;
+  bottom: 10px;
+}
+
+/* BUTTON */
+.nav {
+  /*border: 2px solid blue;*/
+  width: 50%;
+}
+a.button-back {
+  position: absolute;
+  bottom: 14px;
+  right: 0;
+  text-align: right;
+}
+.button-back {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: blue;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.button-back:hover {
+  background-color: yellow;
+  transition: background 1s ease;
+}
+
+/* CONTENT */
+#c1 {
+    margin-top: 120px;
+}
+.content {
+  padding: 0px 0px 40px 20px;
+  display: block;
+  font-weight: 200;
+  font-size: 20px;
+}
+iframe {
+  width: 100%;
+  height: 500px;
+}
+.open-spreadsheet {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 5vw;
+  color: blue;
+  margin-left: 20px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 10vw;
+}
+.open-spreadsheet:hover {
+  background-color: yellow;
+  transition: background 1s ease;
+}
+
+/* FORM */
+.content-form {
+  padding: 80px 0px 40px 20px;
+  display: block;
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+}
+.form {
+}
+
+#test-form {
+  margin: 0px 0px 0px 20px;
+
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: auto;
+  display: grid;
+  width: 100%;
+  justify-items: start;
+  align-items: center;
+}
+
+label {
+  line-height: 4rem;
+  padding-right: 20px;
+  grid-column: 1/2;
+  text-align: left;
+  width: 100px;
+  color: blue;
+}
+
+input {
+  width: 50%;
+  height: 30px;
+}
+
+#submit-form {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 5vw;
+    color: blue;
+    margin-top: 40px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 10vw;
+  }
+
+#submit-form:hover {
+    background-color: yellow;
+    transition: background 1s ease;
+  }

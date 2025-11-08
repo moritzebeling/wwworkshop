@@ -1,0 +1,132 @@
+p {
+  display: flex;
+  justify-content: flex-end;
+  font-family: Rubik Beastly;
+  color: rgb(2, 0, 36);
+  font-size: 50px;
+  width: 300px;
+  height: 330px;
+}
+
+h2 {
+  font-family: Bebas Neue;
+  font-size: 50px;
+}
+main {
+  display: flex;
+  flex-direction: flex;
+  flex-wrap: wrap;
+  gap: 40px 40px;
+  row-gap: 40px 40px;
+  column-gap: 70px;
+  margin: 20px;
+}
+.red {
+  background-color: lime;
+  width: 30px;
+  height: 30px;
+  border-radius: 30rem;
+}
+.orange {
+  background-color: springgreen;
+  width: 40px;
+  height: 60px;
+  border-radius: 3rem 1rem 0;
+}
+
+.blue {
+  background-color: lime;
+  width: 50px;
+  height: 70px;
+  border-radius: 2rem 0 3rem 0;
+  filter: blur(0.2em);
+}
+
+main2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px 10px;
+  row-gap: 80px 80px;
+  column-gap: 100px;
+  margin: 20px;
+}
+.orange2 {
+  background-color: #f47b00;
+  width: 30px;
+  height: 25px;
+  border-radius: 2rem;
+}
+.blur1 {
+  background-color: lime;
+  width: 10px;
+  height: 40px;
+  border-radius: 1rem 0 1rem;
+}
+.frog {
+  width: 50px;
+  display: none;
+  z-index: 99;
+}
+.ayeaye {
+  width: 100px;
+  display: none;
+  z-index: 99;
+}
+.red:hover .frog {
+  display: block;
+  position: fixed;
+  width: 8em;
+  height: 5em;
+  left: 1em;
+  top: 6em;
+}
+
+blur1 span .ayeaye {
+  background-color: darkolivegreen;
+  width: 30px;
+  height: 30px;
+  border-radius: 30rem;
+}
+.blur1:hover span {
+  display: block;
+  position: fixed;
+  width: 5em;
+  height: 5em;
+  left: 1em;
+  top: 6em;
+}
+.hyrax {
+  width: 50px;
+  display: none;
+  z-index: 100;
+}
+
+.orange:hover .hyrax {
+  display: block;
+  position: fixed;
+  width: 5em;
+  height: 5em;
+  left: 1em;
+  top: 6em;
+}
+.pango{
+  width: 50px;
+  display: none;
+  z-index: 100;
+}
+.leave5 {
+  background-color: greenyellow;
+  width: 30px;
+  height: 25px;
+  border-radius: 2rem;
+}
+.leave5:hover .pango {
+  display: block;
+  position: fixed;
+  width: 5em;
+  height: 5em;
+  left: 1em;
+  top: 6em;
+}

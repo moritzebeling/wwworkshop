@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>people</title>
+
+        <!-- The head of your HTML document -->
+        <!-- here goes metadata for the browser or search engines -->
+
+        <!-- your css -->
+        <link rel="stylesheet" href="styles-budget.css">
+
+        <!-- if you need jQuery or other libraries -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+		<!-- PAGE HEADER -->
+		<header>
+      <div class="title-people">
+        <h1>budget</h1>
+      </div>
+      <div class="nav">
+        <nav>
+					<a href="index.html" class="button-back">back</a>
+        </nav>
+      </div>
+    </header>
+
+		<!-- PAGE CONTENT -->
+		<div id="c1" class="content">
+			<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdTDxB26RBFZ9MMKCcv37DRhjjYoGG5XB8xMSkUgfxrKuPzSOM8Po3nkTEHIQhCq5KN9RpxuLAwEdV/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+		</div>
+		<a target="_blank" href="https://docs.google.com/spreadsheets/d/11TfXeSg36BvgR1F8DEJIe9wkgoreV2FKtvmDWGwfSSY/edit?usp=sharing" class="open-spreadsheet">open spreadheet</a>
+
+
+		<!-- BUDGET FORM -->
+		<div class="content-form">
+			<h4>submit expenses</h4>
+
+			</div>
+	<div class="form">
+		<form id="test-form">
+
+
+    <label class="form__label">for whom?</label>
+			<input type="text" class="form__field" name="form_field_1" placeholder="who got the money?"/>
+
+    <label class="form__label">for what?</label>
+    <input type="text" class="form__field" name="form_field_2" placeholder="something useful i hope"/>
+
+
+
+    <label class="form__label">how much?</label>
+    <input type="text"  class="form__field" name="form_field_3" placeholder="eur"/>
+
+
+    <label class="form__label">by who?</label>
+    <input type="text" class="form__field" name="form_field_4" placeholder="your name"/>
+
+
+    <button class="open-spreadheet" type="submit"id="submit-form">Submit</button>
+
+
+
+</form>
+</div>
+        <!-- your js always at the end -->
+        <script src="action.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,74 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Epilogue', sans-serif;
+
+}
+
+body {
+  background-color: lightgray;
+  height: 96vh;
+  width: 96vw;
+}
+
+header {
+  /*border: 2px solid blue;*/
+  display: flex;
+  position: relative;
+}
+
+/* PAGE TITLE */
+h1 {
+  font-size: 400%;
+  font-weight: 500;
+  color: white;
+}
+.title-people {
+  /*border: 2px solid yellow;*/
+  text-align: left;
+  width: 50%;
+  bottom: 10px;
+}
+
+/* BUTTON */
+.nav {
+  /*border: 2px solid blue;*/
+  width: 50%;
+}
+a {
+  position: absolute;
+  bottom: 14px;
+  right: 0;
+  text-align: right;
+}
+.button-back {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: blue;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.button-back:hover {
+  background-color: yellow;
+  transition: background 1s ease;
+}
+
+/* CONTENT */
+.content {
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: 1fr [empty] 1fr [image] 1fr [text] 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px 0px;
+  align-items: flex-start;
+}
+
+h2 {
+  font-weight: 400;
+  padding-bottom: 20px;
+}

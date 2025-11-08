@@ -1,0 +1,83 @@
+body {
+  margin:0;
+  padding:0;
+  height: 100vh;
+  background: #dec4ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+main{
+  display: grid;
+  height: 60vh;
+  width: 60vh;
+  margin: 2vh;
+  gap: 2vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-family: 'DM Serif Display', serif;
+  font-size: 30pt;
+}
+
+a{
+  text-decoration: none;
+}
+
+.spring {
+  height: 30vh;
+  width: 30vh;
+}
+
+.spring:hover span {display:none;}
+.spring:hover:before {content:"봄"}
+.spring:hover:before {font-family: 'Nanum Myeongjo', serif;}
+.spring:hover {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🌸</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+
+.summer {
+  height: 30vh;
+  width: 30vh;
+}
+
+.summer:hover span {display:none;}
+.summer:hover:before {content:"여름"}
+.summer:hover:before {font-family: 'Nanum Myeongjo', serif;}
+.summer:hover {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🍉</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+.autumn {
+  height: 30vh;
+  width: 30vh;
+}
+
+.autumn:hover span {display:none;}
+.autumn:hover:before {content:"가을"}
+.autumn:hover:before {font-family: 'Nanum Myeongjo', serif;}
+.autumn:hover {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🍁</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+
+.winter {
+  height: 30vh;
+  width: 30vh;
+}
+
+.winter:hover span {display:none;}
+.winter:hover:before {content:"겨울"}
+.winter:hover:before {font-family: 'Nanum Myeongjo', serif;}
+.winter:hover {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>❄️</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}

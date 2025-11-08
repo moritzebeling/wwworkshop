@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+/* *{outline: 1px solid black;
+} */
+.debug {
+  border-width: 2px;
+  border: 2px solid red;
+}
+
+.debug>* {
+  border: 2px solid blue;
+}
+
+.debug>*>* {
+  border: 2px solid green;
+}
+
+.debug>*>*>* {
+  border: 2px solid yellow;
+}
+html {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1vh;
+	height: 520vh;
+  width: 180vw;
+}
+
+body {
+  font-size: 2rem;
+
+}
+
+.background {
+  width: 60vw;
+  height: 60vh;
+  position: fixed;
+  z-index: -2;
+  left: 70%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.frame{
+	width:70rem;
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+
+}
+
+.headline {
+  width: 60rem;
+  height: 30rem;
+  outline: 1px solid black;
+	margin-top: 3rem;
+	padding:1rem;
+
+}
+
+.pos1{
+	position: absolute;
+  top: 25%;
+  left: 40%;
+}
+
+.content {
+  width: 30rem;
+  height: 30rem;
+  outline: 1px solid black;
+	margin-top: 3rem;
+	padding:1rem;
+}
+.pos2{
+	position: absolute;
+  top: 35%;
+  left: 95%;
+}
+
+.history {
+  width: 60rem;
+  height: 75rem;
+  outline: 1px solid black;
+	margin-top: 3rem;
+	padding:1rem;
+}
+
+.pos3{
+position: absolute;
+top: 70%;
+left: 50%;
+}
+
+
+.y1980 {
+  width: 60rem;
+  height: 21rem;
+  outline: 1px solid black;
+	margin-top: 3rem;
+	padding:1rem;
+}
+
+.pos4{
+	position: absolute;
+  top: 100%;
+  left: 100%;
+}
+
+.ismell{
+  width: 60rem;
+  height: 45rem;
+  margin-top: 3rem;
+  padding: 1rem;
+  outline: 1px solid black;
+}
+
+.pic{  width: 60rem;
+}
+
+.pos9{
+  position: absolute;
+  top: 25%;
+  left: 130%;
+}
+
+.y1990 {
+  width: 60rem;
+  height: 134rem;
+  outline: 1px solid black;
+	margin-top: 3rem;
+	padding:1rem;
+}
+
+.pos5{
+	position: absolute;
+  top: 150%;
+  left: 130%;
+}
+
+.y2010 {
+  width: 70rem;
+  height: 120rem;
+    outline: 1px solid black;
+		margin-top: 3rem;
+		padding:1rem;
+}
+
+.pos6{
+	position: absolute;
+  top: 180%;
+  left: 40%;
+}
+
+.y2020 {
+  width: 60rem;
+  height: 44rem;
+  outline: 1px solid black;
+	margin-top: 3rem;
+	padding:1rem;
+}
+
+.pos7{  position: absolute;
+  top: 170%;
+  left: 80%;
+}
+
+.current {
+  width: 60rem;
+  height: 20rem;
+  outline: 1px solid black;
+	margin-top: 3rem;
+	padding:1rem;
+}
+
+.pos8{
+	position: absolute;
+  top: 257%;
+  left: 90%;
+}
+
+a{
+  font-size: 2rem;
+  color: black;
+  text-decoration: none;
+  position: fixed;
+  z-index: 2;
+  top: 5%;
+  left: 90%;
+
+}
+
+audio {
+display: none;
+}
+
+button {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: none;
+  z-index: 6;
+}
+
+button h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 8rem;
+  color: Black;
+}
+
+.draggable:hover{
+  cursor: grab;
+}

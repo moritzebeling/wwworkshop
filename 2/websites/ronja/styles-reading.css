@@ -1,0 +1,99 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: lightgray;
+  height: 96vh;
+  width: 96vw;
+}
+
+header {
+  /*border: 2px solid blue;*/
+  display: flex;
+  position: relative;
+}
+
+/* PAGE TITLE */
+h1 {
+  font-size: 400%;
+  font-weight: 500;
+  color: white;
+}
+.title-people {
+  /*border: 2px solid yellow;*/
+  text-align: left;
+  width: 50%;
+  bottom: 10px;
+}
+
+/* BUTTON */
+.nav {
+  /*border: 2px solid blue;*/
+  width: 50%;
+}
+a.button-back {
+  position: absolute;
+  bottom: 14px;
+  right: 0;
+  text-align: right;
+}
+.button-back {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: blue;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.button-back:hover {
+  background-color: yellow;
+  transition: background 1s ease;
+}
+
+/* CONTENT */
+#c1 {
+    margin-top: 120px;
+}
+
+.content {
+  padding: 0px 0px 40px 20px;
+  display: block;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type:circle;
+  padding-left: 2rem;
+}
+
+li {
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 140%;
+  padding-bottom: 20px;
+}
+
+a.list {
+  font-weight: 400;
+  color: blue;
+  text-decoration: none;
+}
+
+.list:hover {
+  background-color: yellow;
+  transition: background 1s ease;
+
+}

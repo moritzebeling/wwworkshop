@@ -1,0 +1,96 @@
+body{
+  background-color: white;
+  width: 100vh;
+  height: 80vh;
+  margin: 0;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+    z-index: 2;
+    font-family: Arial;
+    font-size: 10rem;
+    font-weight: 100;
+    color: white;
+    position: absolute;
+    line-height: 0.8;
+    margin-top: 0rem;  
+  }
+h3{
+  z-index: 2;
+  font-family: Arial;
+  font-size: 5rem;
+  font-weight: 100;
+  color: white;
+  margin-left: 1100px;
+  position: absolute;
+  line-height: 0.8;
+  margin-top: 0rem; 
+}
+h4{
+  z-index: 2;
+  font-family: Arial;
+  font-size: 5rem;
+  font-weight: 100;
+  color: white;
+  margin-left: 1100px;
+  position: absolute;
+  line-height: 0.8;
+  margin-top: 30rem; 
+}
+div {
+z-index: 1;
+width: 600px;
+height: 500px;
+position: relative;
+background: blue;
+opacity: 0.85;
+box-shadow: 0px 0px 30px 20px blue;
+position: fixed;
+justify-content: center;
+align-items: center;
+line-height: 0.8;
+}
+
+.backgroundneu {
+  position:fixed;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
+  background: radial-gradient(red, blue);
+}
+
+@keyframes Axo {
+  0%, 25%, 100% {top: 0;}
+  50%, 75% {top: 50%;}
+}
+@keyframes Axotwo {
+  0%, 75% {left: 0;}
+  25%, 100% {left: 80%;}
+}
+@keyframes Axodrei {
+  0%, 90% {left: 0; top:50%}
+  100%, 25% {left: 80%; top:50%}
+}
+
+.box1{
+animation-name: Axo;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+    } 
+.box2{
+animation-name: Axotwo;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+.box3{
+  animation-name: Axodrei;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  }
